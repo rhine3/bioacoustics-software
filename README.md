@@ -8,9 +8,13 @@ This list is not necessarily a recommendation or a guarantee of quality of parti
 
 You should always judge the performance of an analysis method by its performance on *your* dataset. Analysis methods are often published along with metrics to describe their performance, such as accuracy, precision, and recall. However, different recording conditions or different distributions of sounds present in your dataset can result in starkly different performance of the same method.
 
-This list is also available in the form of a (work-in-progress) spreadsheet [here](https://docs.google.com/spreadsheets/d/1Ba1MY4o5Sm1f08IekJcbxAtSjkDN71Z1RZ42kzrofJ0/edit#gid=0).
-
 If your software meets the criteria above, please contribute to the list! Open an issue on this repository or contact me at `tessa.rhinehart at pitt.edu`!
+
+## Spreadsheet format
+The most up-to-date descriptions of software are available in the spreadsheet [here](https://docs.google.com/spreadsheets/d/1Ba1MY4o5Sm1f08IekJcbxAtSjkDN71Z1RZ42kzrofJ0/edit#gid=0).
+
+## List format
+For a more complete and detailed listing, see the spreadsheet above.
 
 **Audiomoth-specific**: user-generated tools for AudioMoths
 * [fieldtools](https://github.com/nilomr/fieldtools) (free) - plan deployments copy/format large numbers of SD cards simultaneously
@@ -50,6 +54,35 @@ If your software meets the criteria above, please contribute to the list! Open a
 * [Triton](https://www.cetus.ucsd.edu/technologies_triton.html) (free) - condense/annotate very long recordings using Long Term Spectral Averages
 * [Vesper](https://github.com/HaroldMills/Vesper) (free, in development) - web-based application for avian nocturnal flight call analysis; also implements BirdVoxDetect, BirdVoxClassify, and others (see below)
 * [warbleR](https://marce10.github.io/warbleR/) (free) - highly multipurpose R package
+
+**Measuring acoustic parameters**: acoustic metrics for soundscapes or individual sounds
+* [Acoustic_Indices](https://github.com/patriceguyot/Acoustic_Indices) (free) - Python package for calculating acoustic indices
+* [ARTWARP](https://synergy.st-andrews.ac.uk/soundanalysis/) (free) - MATLAB package to estimate frequency sweeps and cluster-classify tonal sounds
+* [audioset_soundscape_feats_sethi2019](https://github.com/sarabsethi/audioset_soundscape_feats_sethi2019/tree/master/calc_audioset_feats) - GitHub repo for using machine learned features for soundscape analyses (see [original paper](https://doi.org/10.1073/pnas.2004702117))
+* [AVA](https://autoencoded-vocal-analysis.readthedocs.io/en/latest/index.html) (free) - Python package; train generative models of vocalizations
+* [Avisoft-SASLab Pro](http://www.avisoft.com/sound-analysis/) (paid) - "sound parameter measurement" and noise level measurement
+* [hardRain](https://github.com/Cdevenish/hardRain) (free) - R software for detecting sounds of rain
+* [Koe Bioacoustics Software](https://koe.io.ac.nz/) (free) - assess song sequence structure
+* [Luscinia](https://rflachlan.github.io/Luscinia/) (free) - wide variety of acoustic signal analyses
+* [PAMpal](https://github.com/TaikiSan21/PAMpal) (free) - compute acoustic features of PAMguard detections
+* [Parselmouth](https://github.com/YannickJadoul/Parselmouth) (free) - Python library for interacting with Praat acoustic parameter measurement functionality
+* [prinia-project](https://github.com/shivChitinous/prinia-project) (free) - analysis of note complexity, repetition rate, and signal partitioning
+* [Raven Lite](https://ravensoundsoftware.com/software/raven-lite/) (free) - basic measurements of acoustic properties through GUI annotation
+* [Raven Pro](https://ravensoundsoftware.com/software/raven-pro) (paid) - advanced measurements of acoustic properties
+* [scikit-maad](https://github.com/scikit-maad/scikit-maad) (free) - Python package that can compute ecoacoustic alpha indices
+* [soundecology](https://cran.r-project.org/web/packages/soundecology/vignettes/intro.html) (free) - calculate soundscape-wide acoustic indices
+* [**warbleR**](https://marce10.github.io/warbleR/) (free) - offers variety of measurements acoustic signal structure and timing
+
+**Acoustic localization**: software for estimation of animal position using recordings from time-synchronized recorders, including functionality for recorder synchronization, time delay of arrival (TDOA) calculation, coordinate position estimation, direction-of-arrival (DOA) estimation, and improving signal to noise ratio via beamforming
+* [AviSoft SASLab Pro](http://www.avisoft.com/sound-analysis/) (paid) - finds TDOAs via cross-correlation
+* [CARACAL](https://github.com/OpenWild/caracal) (free) - sound detection, DOA localization, and sound source separation
+* [HARKBird](https://sites.google.com/view/alcore-suzuki/home/harkbird) (free) - source separation and DOA localization
+* [Ishmael](http://bioacoustics.us/ishmael.html) (free) - coordinate localization and beamforming
+* [PAMGuard](https://www.pamguard.org/) (free)
+* [OpenSoundscape](https://github.com/kitzeslab/opensoundscape) (free) - TDOA calculation and coordinate position estimation
+* [scipy.signal.correlate](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.correlate.html) (free) - Python function for signal cross-correlation (can be used to estimate TDOAs)
+* [SDEer](http://dx.doi.org/10.6084/m9.figshare.3792780) (free) - sound detection, recording synchronization, DOA estimation
+* [Sound Finder](https://doi.org/10.1080/09524622.2013.827588) (free) - excel and R software for position estimation using pre-calculated TDOAs
 
 **Detection**: locating potential sounds of interest in recordings. Methods include supervised machine learning, amplitude-based detection, and clustering to group sounds into similar-sounding clusters (e.g. unsupervised machine learning)
 * [Anabat Insight](https://www.titley-scientific.com/us/anabat-insight.html) (free and paid versions) - bat call detection and custom filtering in full-spectrum and zero-crossing recordings
@@ -102,32 +135,3 @@ If your software meets the criteria above, please contribute to the list! Open a
 * [SonoBat](https://sonobat.com/) (paid) - classification of bat calls
 * [Tadarida-C](https://github.com/YvesBas/Tadarida-C) (free) - discriminant analysis-based classification; part of 3-part "Tadarida" software; includes implementation of classifier for bat sonotypes of the world (described [here](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13721?campaign=wolearlyview))
 * [vak](https://github.com/NickleDave/vak) (free) - wrapper around Pytorch originally created to benchmark classifiers of individual birdsong syllables
-
-**Measuring acoustic parameters**: acoustic metrics for soundscapes or individual sounds
-* [Acoustic_Indices](https://github.com/patriceguyot/Acoustic_Indices) (free) - Python package for calculating acoustic indices
-* [ARTWARP](https://synergy.st-andrews.ac.uk/soundanalysis/) (free) - MATLAB package to estimate frequency sweeps and cluster-classify tonal sounds
-* [audioset_soundscape_feats_sethi2019](https://github.com/sarabsethi/audioset_soundscape_feats_sethi2019/tree/master/calc_audioset_feats) - GitHub repo for using machine learned features for soundscape analyses (see [original paper](https://doi.org/10.1073/pnas.2004702117))
-* [AVA](https://autoencoded-vocal-analysis.readthedocs.io/en/latest/index.html) (free) - Python package; train generative models of vocalizations
-* [Avisoft-SASLab Pro](http://www.avisoft.com/sound-analysis/) (paid) - "sound parameter measurement" and noise level measurement
-* [hardRain](https://github.com/Cdevenish/hardRain) (free) - R software for detecting sounds of rain
-* [Koe Bioacoustics Software](https://koe.io.ac.nz/) (free) - assess song sequence structure
-* [Luscinia](https://rflachlan.github.io/Luscinia/) (free) - wide variety of acoustic signal analyses
-* [PAMpal](https://github.com/TaikiSan21/PAMpal) (free) - compute acoustic features of PAMguard detections
-* [Parselmouth](https://github.com/YannickJadoul/Parselmouth) (free) - Python library for interacting with Praat acoustic parameter measurement functionality
-* [prinia-project](https://github.com/shivChitinous/prinia-project) (free) - analysis of note complexity, repetition rate, and signal partitioning
-* [Raven Lite](https://ravensoundsoftware.com/software/raven-lite/) (free) - basic measurements of acoustic properties through GUI annotation
-* [Raven Pro](https://ravensoundsoftware.com/software/raven-pro) (paid) - advanced measurements of acoustic properties
-* [scikit-maad](https://github.com/scikit-maad/scikit-maad) (free) - Python package that can compute ecoacoustic alpha indices
-* [soundecology](https://cran.r-project.org/web/packages/soundecology/vignettes/intro.html) (free) - calculate soundscape-wide acoustic indices
-* [**warbleR**](https://marce10.github.io/warbleR/) (free) - offers variety of measurements acoustic signal structure and timing
-
-**Acoustic localization**: software for estimation of animal position using recordings from time-synchronized recorders, including functionality for recorder synchronization, time delay of arrival (TDOA) calculation, coordinate position estimation, direction-of-arrival (DOA) estimation, and improving signal to noise ratio via beamforming
-* [AviSoft SASLab Pro](http://www.avisoft.com/sound-analysis/) (paid) - finds TDOAs via cross-correlation
-* [CARACAL](https://github.com/OpenWild/caracal) (free) - sound detection, DOA localization, and sound source separation
-* [HARKBird](https://sites.google.com/view/alcore-suzuki/home/harkbird) (free) - source separation and DOA localization
-* [Ishmael](http://bioacoustics.us/ishmael.html) (free) - coordinate localization and beamforming
-* [PAMGuard](https://www.pamguard.org/) (free)
-* [OpenSoundscape](https://github.com/kitzeslab/opensoundscape) (free) - TDOA calculation and coordinate position estimation
-* [scipy.signal.correlate](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.correlate.html) (free) - Python function for signal cross-correlation (can be used to estimate TDOAs)
-* [SDEer](http://dx.doi.org/10.6084/m9.figshare.3792780) (free) - sound detection, recording synchronization, DOA estimation
-* [Sound Finder](https://doi.org/10.1080/09524622.2013.827588) (free) - excel and R software for position estimation using pre-calculated TDOAs
