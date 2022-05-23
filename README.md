@@ -50,7 +50,6 @@ If your software meets the criteria above, please contribute to the list! Open a
 * [Triton](https://www.cetus.ucsd.edu/technologies_triton.html) (free) - condense/annotate very long recordings using Long Term Spectral Averages
 * [Vesper](https://github.com/HaroldMills/Vesper) (free, in development) - web-based application for avian nocturnal flight call analysis; also implements BirdVoxDetect, BirdVoxClassify, and others (see below)
 * [warbleR](https://marce10.github.io/warbleR/) (free) - highly multipurpose R package
-* [XBAT](https://code.google.com/archive/p/xbat-devel/) (free) - annotation
 
 **Detection**: locating potential sounds of interest in recordings. Methods include supervised machine learning, amplitude-based detection, and clustering to group sounds into similar-sounding clusters (e.g. unsupervised machine learning)
 * [Anabat Insight](https://www.titley-scientific.com/us/anabat-insight.html) (free and paid versions) - bat call detection and custom filtering in full-spectrum and zero-crossing recordings
@@ -67,7 +66,8 @@ If your software meets the criteria above, please contribute to the list! Open a
 * [Ishmael](http://bioacoustics.us/ishmael.html) (free) - automated detection, geared towards marine wildlife
 * [**Kaleidoscope**](https://www.wildlifeacoustics.com/products/kaleidoscope-pro) (paid, 15-day free trial) - capable of clustering and amplitude-based detection
 * [monitoR](http://www.uvm.edu/rsenr/vtcfwru/R/?Page=monitoR/monitoR.htm) (free) - R package for automated detection via template matching 
-* [PAMguard](https://www.pamguard.org/) - detect vocalizations and clicks; geared toward cetacean monitoring
+* [PAMguard](https://www.pamguard.org/) (free) - detect vocalizations and clicks; geared toward cetacean monitoring
+* [ohun](https://marce10.github.io/ohun/index.html) - automated detection of acoustic signals with tools for diagnosing detector effectiveness
 * [**Raven Pro**](https://ravensoundsoftware.com/software/raven-pro) (paid; free or reduced price options) - configurable band-limited energy detection (amplitude-based)
 * [scikit-maad](https://github.com/scikit-maad/scikit-maad) (free) - Python package including clustering functionality
 * [SDEer](http://dx.doi.org/10.6084/m9.figshare.3792780) (free) - several detection algorithms
@@ -75,7 +75,6 @@ If your software meets the criteria above, please contribute to the list! Open a
 * [SoundSort](https://github.com/macster110/aipam) (free) - capable of clustering similar pre-detected clips
 * [Tadarida-D](https://github.com/YvesBas/Tadarida-D) (free) - detection and feature extraction for 3-part "Tadarida" software
 * [warbleR](https://marce10.github.io/warbleR/) (free)
-* [XBAT](https://code.google.com/archive/p/xbat-devel/) (free) - automated detection with manual review ability
 
 **Classification**: predict the identity of sounds captured in recordings, e.g. training a convolutional neural network to identify bird species in a recording
 * [Anabat Insight](https://www.titley-scientific.com/us/anabat-insight.html) (free and paid versions) - contains open-source BatClassify classifier and can be used with other algorithms
