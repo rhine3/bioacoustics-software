@@ -1,8 +1,8 @@
 # Bioacoustics software
 
-A variety of free and paid software is available for bioacoustic analyses. Software packages vary from complete graphical interfaces, to command-line interfaces, to utility libraries that can be used to create analysis pipelines in Python, R, or other programming languages. 
+A variety of free and paid software is available for bioacoustic analyses. Software packages vary from complete graphical interfaces, to command-line interfaces, to utility libraries that can be used to create analysis pipelines in Python, R, or other programming languages.
 
-The inclusion criteria for this list are (1) that the software is targeted to or widely used by bioacoustics researchers, and (2) that the software either is stable, is currently in active development, or was recently released. 
+The inclusion criteria for this list are (1) that the software is targeted to or widely used by bioacoustics researchers, and (2) that the software either is stable, is currently in active development, or was recently released.
 
 This list is not necessarily a recommendation or a guarantee of quality of particular software packages or analysis techniques, but I have indicated in **bold** which software I've seen used most frequently. I haven't used all of the software below. Some I use frequently and can't live without, whereas some I haven't found to be useful or accurate for my applications.
 
@@ -25,7 +25,7 @@ For a more complete and detailed listing, see the spreadsheet above.
 * [**Audacity**](https://www.audacityteam.org/) (free) - simple, lightweight listening and spectrogram viewing, comparison, and manipulation
 * [**librosa**](https://librosa.org/librosa/) (free) - Python package with audio loading, spectrogram creation utilities, and per-channel energy normalization
 * [GoldWave](https://www.goldwave.com/) (free) - view and manipulate audio
-* [Reaper](https://www.reaper.fm/) (free) - spectrogram visualization; enables Python and C/C++ coding within 
+* [Reaper](https://www.reaper.fm/) (free) - spectrogram visualization; enables Python and C/C++ coding within
 * [**scipy.signal**](https://docs.scipy.org/doc/scipy/reference/signal.html) (free) - Python library including spectrogram creation and cross-correlation functions
 * [SonicVisualizer](https://www.sonicvisualiser.org/) (free) - spectrogram visualization
 * [Soundata](https://soundata.readthedocs.io/en/latest/) (free) - Python library for loading and working with audio data
@@ -98,7 +98,7 @@ For a more complete and detailed listing, see the spreadsheet above.
 * [gibbonR](https://github.com/DenaJGibbon/gibbonR-package) (free) - R package with automated detection and segmentation algorithms
 * [Ishmael](http://bioacoustics.us/ishmael.html) (free) - automated detection, geared towards marine wildlife
 * [**Kaleidoscope**](https://www.wildlifeacoustics.com/products/kaleidoscope-pro) (paid, 15-day free trial) - capable of clustering and amplitude-based detection
-* [monitoR](http://www.uvm.edu/rsenr/vtcfwru/R/?Page=monitoR/monitoR.htm) (free) - R package for automated detection via template matching 
+* [monitoR](http://www.uvm.edu/rsenr/vtcfwru/R/?Page=monitoR/monitoR.htm) (free) - R package for automated detection via template matching
 * [PAMguard](https://www.pamguard.org/) (free) - detect vocalizations and clicks; geared toward cetacean monitoring
 * [ohun](https://marce10.github.io/ohun/index.html) - automated detection of acoustic signals with tools for diagnosing detector effectiveness
 * [**Raven Pro**](https://ravensoundsoftware.com/software/raven-pro) (paid; free or reduced price options) - configurable band-limited energy detection (amplitude-based)
@@ -107,6 +107,7 @@ For a more complete and detailed listing, see the spreadsheet above.
 * [seewave](http://rug.mnhn.fr/seewave/) (free) - compute cross-correlation and signal envelopes
 * [SoundSort](https://github.com/macster110/aipam) (free) - capable of clustering similar pre-detected clips
 * [Tadarida-D](https://github.com/YvesBas/Tadarida-D) (free) - detection and feature extraction for 3-part "Tadarida" software
+* [TweetyNet](https://github.com/yardencsGitHub/tweetynet) (free) Neural network for sound event detection, developed to annotate birdsong syllables
 * [warbleR](https://marce10.github.io/warbleR/) (free)
 
 **Classification**: predict the identity of sounds captured in recordings, e.g. training a convolutional neural network to identify bird species in a recording
