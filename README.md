@@ -59,7 +59,6 @@ For a more complete and detailed listing, see the spreadsheet above.
 * [Acoustic_Indices](https://github.com/patriceguyot/Acoustic_Indices) (free) - Python package for calculating acoustic indices
 * [ARTWARP](https://synergy.st-andrews.ac.uk/soundanalysis/) (free) - MATLAB package to estimate frequency sweeps and cluster-classify tonal sounds
 * [audioset_soundscape_feats_sethi2019](https://github.com/sarabsethi/audioset_soundscape_feats_sethi2019/tree/master/calc_audioset_feats) - GitHub repo for using machine learned features for soundscape analyses (see [original paper](https://doi.org/10.1073/pnas.2004702117))
-* [AVA](https://autoencoded-vocal-analysis.readthedocs.io/en/latest/index.html) (free) - Python package; train generative models of vocalizations
 * [Avisoft-SASLab Pro](http://www.avisoft.com/sound-analysis/) (paid) - "sound parameter measurement" and noise level measurement
 * [hardRain](https://github.com/Cdevenish/hardRain) (free) - R software for detecting sounds of rain
 * [Koe Bioacoustics Software](https://koe.io.ac.nz/) (free) - assess song sequence structure
@@ -136,3 +135,7 @@ For a more complete and detailed listing, see the spreadsheet above.
 * [SonoBat](https://sonobat.com/) (paid) - classification of bat calls
 * [Tadarida-C](https://github.com/YvesBas/Tadarida-C) (free) - discriminant analysis-based classification; part of 3-part "Tadarida" software; includes implementation of classifier for bat sonotypes of the world (described [here](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13721?campaign=wolearlyview))
 * [vak](https://github.com/vocalpy/vak) (free) - wrapper around Pytorch originally created to benchmark classifiers of individual birdsong syllables
+
+**Clustering/dimensionality reduction methods**: group sounds into clusters without user-defined categories, or embed acoustic features into a lower-dimensional space for Analysis
+* [AVGN](https://github.com/timsainb/avgn_paper) (free) - Python package; latent and generative models of animal vocalizations
+* [AVA](https://autoencoded-vocal-analysis.readthedocs.io/en/latest/index.html) (free) - Python package; train generative models of vocalizations
