@@ -36,7 +36,7 @@ For a more complete and detailed listing, see the spreadsheet above.
 * [AviaNZ](http://www.avianz.net/index.php) (free) - graphical user interface for organizing and analyzing recordings
 * [BatExplorer](https://www.batlogger.com/en/products/batexplorer/) (free and paid versions) - organize and annotate bat recordings
 * [BatScope](https://www.wsl.ch/en/services-and-products/software-websites-and-apps/batscope-4.html) (free) - manage, sort, view, and play databases of recordings, geared toward bats
-* [crowsetta](https://github.com/NickleDave/crowsetta) (free) - package for working with and translating between annotation formats
+* [crowsetta](https://github.com/vocalpy/crowsetta) (free) - package for working with and translating between annotation formats
 * [DetEdit](https://github.com/MarineBioAcousticsRC/DetEdit) (free) - visualize and annotate detections
 * [GlassOFire](http://www.oldbird.org/glassofire.htm) (free) - Windows software for avian nocturnal flight call review and sorting
 * [INSTINCT](https://github.com/DanWoodrich/INSTINCT) (free) - Bioacoustic pipelining software
@@ -125,7 +125,7 @@ For a more complete and detailed listing, see the spreadsheet above.
 * [BirdNET](https://github.com/kahst/BirdNET) (free) - pre-created neural network classifiers for common birds of North America and Europe
 * [BirdVoxClassify](https://github.com/BirdVox/birdvoxclassify) (free) - pre-created nocturnal flight call classifiers for a limited number of North American bird species
 * [gibbonR](https://github.com/DenaJGibbon/gibbonR-package) (free) - R package that enables user to train neural networks, GMMs, and others
-* [hybrid-vocal-classifier](https://github.com/NickleDave/hybrid-vocal-classifier) (free) - automated labeling geared towards individual syllable identification
+* [hybrid-vocal-classifier](https://github.com/vocalpy/hybrid-vocal-classifier) (free) - automated labeling geared towards individual syllable identification
 * [Kaleidoscope](https://www.wildlifeacoustics.com/products/kaleidoscope-pro) (paid, 15-day free trial) - pre-created bat classification
 * [Ketos](https://meridian.cs.dal.ca/2015/04/12/ketos/) (free) - Python package for acoustic data analysis with neural networks, geared toward underwater acoustics
 * [Koe Bioacoustics Software](https://koe.io.ac.nz/) (free) - clustering with human annotation
@@ -135,4 +135,4 @@ For a more complete and detailed listing, see the spreadsheet above.
 * [scikit-maad](https://github.com/scikit-maad/scikit-maad) (free) - Python library enabling creation of own classifiers using scikit learn
 * [SonoBat](https://sonobat.com/) (paid) - classification of bat calls
 * [Tadarida-C](https://github.com/YvesBas/Tadarida-C) (free) - discriminant analysis-based classification; part of 3-part "Tadarida" software; includes implementation of classifier for bat sonotypes of the world (described [here](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13721?campaign=wolearlyview))
-* [vak](https://github.com/NickleDave/vak) (free) - wrapper around Pytorch originally created to benchmark classifiers of individual birdsong syllables
+* [vak](https://github.com/vocalpy/vak) (free) - wrapper around Pytorch originally created to benchmark classifiers of individual birdsong syllables
