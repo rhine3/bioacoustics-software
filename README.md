@@ -1,8 +1,8 @@
 # Bioacoustics software
 
-A variety of free and paid software is available for bioacoustic analyses. Software packages vary from complete graphical interfaces, to command-line interfaces, to utility libraries that can be used to create analysis pipelines in Python, R, or other programming languages. 
+A variety of free and paid software is available for bioacoustic analyses. Software packages vary from complete graphical interfaces, to command-line interfaces, to utility libraries that can be used to create analysis pipelines in Python, R, or other programming languages.
 
-The inclusion criteria for this list are (1) that the software is targeted to or widely used by bioacoustics researchers, and (2) that the software either is stable, is currently in active development, or was recently released. 
+The inclusion criteria for this list are (1) that the software is targeted to or widely used by bioacoustics researchers, and (2) that the software either is stable, is currently in active development, or was recently released.
 
 This list is not necessarily a recommendation or a guarantee of quality of particular software packages or analysis techniques, but I have indicated in **bold** which software I've seen used most frequently. I haven't used all of the software below. Some I use frequently and can't live without, whereas some I haven't found to be useful or accurate for my applications.
 
@@ -25,7 +25,7 @@ For a more complete and detailed listing, see the spreadsheet above.
 * [**Audacity**](https://www.audacityteam.org/) (free) - simple, lightweight listening and spectrogram viewing, comparison, and manipulation
 * [**librosa**](https://librosa.org/librosa/) (free) - Python package with audio loading, spectrogram creation utilities, and per-channel energy normalization
 * [GoldWave](https://www.goldwave.com/) (free) - view and manipulate audio
-* [Reaper](https://www.reaper.fm/) (free) - spectrogram visualization; enables Python and C/C++ coding within 
+* [Reaper](https://www.reaper.fm/) (free) - spectrogram visualization; enables Python and C/C++ coding within
 * [**scipy.signal**](https://docs.scipy.org/doc/scipy/reference/signal.html) (free) - Python library including spectrogram creation and cross-correlation functions
 * [SonicVisualizer](https://www.sonicvisualiser.org/) (free) - spectrogram visualization
 * [Soundata](https://soundata.readthedocs.io/en/latest/) (free) - Python library for loading and working with audio data
@@ -36,7 +36,7 @@ For a more complete and detailed listing, see the spreadsheet above.
 * [AviaNZ](http://www.avianz.net/index.php) (free) - graphical user interface for organizing and analyzing recordings
 * [BatExplorer](https://www.batlogger.com/en/products/batexplorer/) (free and paid versions) - organize and annotate bat recordings
 * [BatScope](https://www.wsl.ch/en/services-and-products/software-websites-and-apps/batscope-4.html) (free) - manage, sort, view, and play databases of recordings, geared toward bats
-* [crowsetta](https://github.com/NickleDave/crowsetta) (free) - package for working with and translating between annotation formats
+* [crowsetta](https://github.com/vocalpy/crowsetta) (free) - package for working with and translating between annotation formats
 * [DetEdit](https://github.com/MarineBioAcousticsRC/DetEdit) (free) - visualize and annotate detections
 * [GlassOFire](http://www.oldbird.org/glassofire.htm) (free) - Windows software for avian nocturnal flight call review and sorting
 * [INSTINCT](https://github.com/DanWoodrich/INSTINCT) (free) - Bioacoustic pipelining software
@@ -59,7 +59,6 @@ For a more complete and detailed listing, see the spreadsheet above.
 * [Acoustic_Indices](https://github.com/patriceguyot/Acoustic_Indices) (free) - Python package for calculating acoustic indices
 * [ARTWARP](https://synergy.st-andrews.ac.uk/soundanalysis/) (free) - MATLAB package to estimate frequency sweeps and cluster-classify tonal sounds
 * [audioset_soundscape_feats_sethi2019](https://github.com/sarabsethi/audioset_soundscape_feats_sethi2019/tree/master/calc_audioset_feats) - GitHub repo for using machine learned features for soundscape analyses (see [original paper](https://doi.org/10.1073/pnas.2004702117))
-* [AVA](https://autoencoded-vocal-analysis.readthedocs.io/en/latest/index.html) (free) - Python package; train generative models of vocalizations
 * [Avisoft-SASLab Pro](http://www.avisoft.com/sound-analysis/) (paid) - "sound parameter measurement" and noise level measurement
 * [hardRain](https://github.com/Cdevenish/hardRain) (free) - R software for detecting sounds of rain
 * [Koe Bioacoustics Software](https://koe.io.ac.nz/) (free) - assess song sequence structure
@@ -98,7 +97,7 @@ For a more complete and detailed listing, see the spreadsheet above.
 * [gibbonR](https://github.com/DenaJGibbon/gibbonR-package) (free) - R package with automated detection and segmentation algorithms
 * [Ishmael](http://bioacoustics.us/ishmael.html) (free) - automated detection, geared towards marine wildlife
 * [**Kaleidoscope**](https://www.wildlifeacoustics.com/products/kaleidoscope-pro) (paid, 15-day free trial) - capable of clustering and amplitude-based detection
-* [monitoR](http://www.uvm.edu/rsenr/vtcfwru/R/?Page=monitoR/monitoR.htm) (free) - R package for automated detection via template matching 
+* [monitoR](http://www.uvm.edu/rsenr/vtcfwru/R/?Page=monitoR/monitoR.htm) (free) - R package for automated detection via template matching
 * [PAMguard](https://www.pamguard.org/) (free) - detect vocalizations and clicks; geared toward cetacean monitoring
 * [ohun](https://marce10.github.io/ohun/index.html) - automated detection of acoustic signals with tools for diagnosing detector effectiveness
 * [**Raven Pro**](https://ravensoundsoftware.com/software/raven-pro) (paid; free or reduced price options) - configurable band-limited energy detection (amplitude-based)
@@ -107,6 +106,7 @@ For a more complete and detailed listing, see the spreadsheet above.
 * [seewave](http://rug.mnhn.fr/seewave/) (free) - compute cross-correlation and signal envelopes
 * [SoundSort](https://github.com/macster110/aipam) (free) - capable of clustering similar pre-detected clips
 * [Tadarida-D](https://github.com/YvesBas/Tadarida-D) (free) - detection and feature extraction for 3-part "Tadarida" software
+* [TweetyNet](https://github.com/yardencsGitHub/tweetynet) (free) Neural network for sound event detection, developed to annotate birdsong syllables
 * [warbleR](https://marce10.github.io/warbleR/) (free)
 
 **Classification**: predict the identity of sounds captured in recordings, e.g. training a convolutional neural network to identify bird species in a recording
@@ -124,7 +124,7 @@ For a more complete and detailed listing, see the spreadsheet above.
 * [BirdNET](https://github.com/kahst/BirdNET) (free) - pre-created neural network classifiers for common birds of North America and Europe
 * [BirdVoxClassify](https://github.com/BirdVox/birdvoxclassify) (free) - pre-created nocturnal flight call classifiers for a limited number of North American bird species
 * [gibbonR](https://github.com/DenaJGibbon/gibbonR-package) (free) - R package that enables user to train neural networks, GMMs, and others
-* [hybrid-vocal-classifier](https://github.com/NickleDave/hybrid-vocal-classifier) (free) - automated labeling geared towards individual syllable identification
+* [hybrid-vocal-classifier](https://github.com/vocalpy/hybrid-vocal-classifier) (free) - automated labeling geared towards individual syllable identification
 * [Kaleidoscope](https://www.wildlifeacoustics.com/products/kaleidoscope-pro) (paid, 15-day free trial) - pre-created bat classification
 * [Ketos](https://meridian.cs.dal.ca/2015/04/12/ketos/) (free) - Python package for acoustic data analysis with neural networks, geared toward underwater acoustics
 * [Koe Bioacoustics Software](https://koe.io.ac.nz/) (free) - clustering with human annotation
@@ -134,4 +134,8 @@ For a more complete and detailed listing, see the spreadsheet above.
 * [scikit-maad](https://github.com/scikit-maad/scikit-maad) (free) - Python library enabling creation of own classifiers using scikit learn
 * [SonoBat](https://sonobat.com/) (paid) - classification of bat calls
 * [Tadarida-C](https://github.com/YvesBas/Tadarida-C) (free) - discriminant analysis-based classification; part of 3-part "Tadarida" software; includes implementation of classifier for bat sonotypes of the world (described [here](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13721?campaign=wolearlyview))
-* [vak](https://github.com/NickleDave/vak) (free) - wrapper around Pytorch originally created to benchmark classifiers of individual birdsong syllables
+* [vak](https://github.com/vocalpy/vak) (free) - wrapper around Pytorch originally created to benchmark classifiers of individual birdsong syllables
+
+**Clustering/dimensionality reduction methods**: group sounds into clusters without user-defined categories, or embed acoustic features into a lower-dimensional space for Analysis
+* [AVGN](https://github.com/timsainb/avgn_paper) (free) - Python package; latent and generative models of animal vocalizations
+* [AVA](https://autoencoded-vocal-analysis.readthedocs.io/en/latest/index.html) (free) - Python package; train generative models of vocalizations
