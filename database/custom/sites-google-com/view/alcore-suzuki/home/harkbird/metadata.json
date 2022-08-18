@@ -1,0 +1,26 @@
+{
+    "parser": "custom",
+    "uid": "custom/sites-google-com/view/alcore-suzuki/home/harkbird",
+    "url": "https://sites.google.com/view/alcore-suzuki/home/harkbird",
+    "data": {
+        "title": "HARKBird",
+        "url": "https://sites.google.com/view/alcore-suzuki/home/harkbird",
+        "description": "acoustic localization software",
+        "paid, free, open": "free",
+        "code available": "Y",
+        "licence": "CC BY-SA",
+        "taxonomic or sound type specialization, if any": "DOA arrays",
+        "specific hardware": "",
+        "type": "Python",
+        "data exploration": "",
+        "organization and annotation": "",
+        "sound processing features": "",
+        "acoustic parameter measurement": "",
+        "localization": "direction-of-arrival arrays",
+        "detector features": "",
+        "classifier features": "",
+        "metadata standard [wip category]": "",
+        "comments": "",
+        "timestamp": "2022-08-23 22:54:14.789080"
+    }
+}

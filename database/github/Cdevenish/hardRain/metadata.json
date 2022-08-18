@@ -1,0 +1,51 @@
+{
+    "parser": "github",
+    "uid": "github/Cdevenish/hardRain",
+    "url": "https://github.com/Cdevenish/hardRain",
+    "data": {
+        "title": "hardRain",
+        "url": "https://github.com/Cdevenish/hardRain",
+        "description": "R package for identifying rain in audio files",
+        "paid, free, open": "free",
+        "code available": "Y",
+        "licence": "GPL v3",
+        "taxonomic or sound type specialization, if any": "rain",
+        "specific hardware": "",
+        "type": "R",
+        "data exploration": "",
+        "organization and annotation": "",
+        "sound processing features": "",
+        "acoustic parameter measurement": "",
+        "localization": "",
+        "detector features": "detect rain in audio recordings",
+        "classifier features": "",
+        "metadata standard [wip category]": "",
+        "comments": "",
+        "name": "hardRain",
+        "full_name": "Cdevenish/hardRain",
+        "html_url": "https://github.com/Cdevenish/hardRain",
+        "created_at": "2019-07-24T10:40:27Z",
+        "updated_at": "2022-07-03T16:15:12Z",
+        "clone_url": "https://github.com/Cdevenish/hardRain.git",
+        "size": 25645,
+        "stargazers_count": 4,
+        "watchers_count": 4,
+        "language": "R",
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0",
+            "node_id": "MDc6TGljZW5zZTk="
+        },
+        "subscribers_count": 2,
+        "owner": {
+            "html_url": "https://github.com/Cdevenish",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7408581?v=4",
+            "login": "Cdevenish",
+            "type": "User"
+        },
+        "timestamp": "2022-08-23 22:54:14.786335",
+        "avatar": "https://avatars.githubusercontent.com/u/7408581?v=4"
+    }
+}

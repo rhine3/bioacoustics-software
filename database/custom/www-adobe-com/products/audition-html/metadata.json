@@ -1,0 +1,28 @@
+{
+    "parser": "custom",
+    "uid": "custom/www-adobe-com/products/audition-html",
+    "url": "https://www.adobe.com/products/audition.html",
+    "data": {
+        "title": "Adobe audition",
+        "url": "https://www.adobe.com/products/audition.html",
+        "description": "geared toward sound editing",
+        "tags": [
+            "editing"
+        ],
+        "paid, free, open": "paid",
+        "code available": "N",
+        "license": "",
+        "taxonomic or sound type specialization, if any": "",
+        "type": "desktop GUI",
+        "data exploration": "general-purpose audio review",
+        "organization and annotation": "",
+        "sound processing features": "edit audio",
+        "acoustic parameter measurement": "",
+        "localization": "",
+        "detector features": "",
+        "classifier features": "",
+        "metadata standard": "",
+        "comments": "",
+        "timestamp": "2022-08-18 14:26:05.708248"
+    }
+}

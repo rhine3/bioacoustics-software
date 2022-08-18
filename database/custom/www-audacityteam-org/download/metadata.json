@@ -1,0 +1,28 @@
+{
+    "parser": "custom",
+    "uid": "custom/www-audacityteam-org/download",
+    "url": "https://www.audacityteam.org/download/",
+    "data": {
+        "title": "Audacity",
+        "url": "https://www.audacityteam.org/download/",
+        "description": "simple, lightweight listening and spectrogram viewing, comparison, and manipulation",
+        "tags": [
+            "audio"
+        ],
+        "paid, free, open": "free",
+        "code available": "Y",
+        "license": "GPL v3",
+        "taxonomic or sound type specialization, if any": "",
+        "type": "desktop GUI",
+        "data exploration": "simple but powerful software for viewing one or many recording waveforms or spectrograms at once",
+        "organization and annotation": "",
+        "sound processing features": "full suite of sound editing features",
+        "acoustic parameter measurement": "",
+        "localization": "",
+        "detector features": "",
+        "classifier features": "",
+        "metadata standard": "",
+        "comments": "",
+        "timestamp": "2022-08-18 14:26:06.356283"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "parser": "custom",
+    "uid": "custom/datadryad-org/stash/dataset/doi-10-5061/dryad-221mq23",
+    "url": "https://datadryad.org/stash/dataset/doi:10.5061/dryad.221mq23",
+    "data": {
+        "title": "Animal Sound Identifier",
+        "url": "https://datadryad.org/stash/dataset/doi:10.5061/dryad.221mq23",
+        "description": "classify animals using training data directly from field recordings, without reference libraries",
+        "tags": [
+            "classify"
+        ],
+        "paid, free, open": "free",
+        "code available": "Y",
+        "license": "cc0",
+        "taxonomic or sound type specialization, if any": "",
+        "type": "MATLAB",
+        "data exploration": "",
+        "organization and annotation": "",
+        "sound processing features": "",
+        "acoustic parameter measurement": "",
+        "localization": "",
+        "detector features": "",
+        "classifier features": "create cross-correlation classifiers; semi-active learning approach to create classifiers with little initial training data",
+        "metadata standard": "",
+        "comments": "Related paper - https://onlinelibrary.wiley.com/doi/full/10.1111/ele.13092",
+        "timestamp": "2022-08-18 14:26:05.713125"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "parser": "custom",
+    "uid": "custom/arbimon-rfcx-org",
+    "url": "https://arbimon.rfcx.org/",
+    "data": {
+        "title": "Rainforest Connection Arbimon",
+        "url": "https://arbimon.rfcx.org/",
+        "description": "web-based interface geared toward analyzing autonomous wildlife survey data",
+        "tags": [
+            "web"
+        ],
+        "paid, free, open": "free for certain number of recordings",
+        "code available": "N",
+        "license": "",
+        "taxonomic or sound type specialization, if any": "",
+        "type": "web GUI, phone app",
+        "data exploration": "listening and review interface for autonomous recordings; create listening playlists",
+        "organization and annotation": "web-based annotation GUI; phone app for managing recorder deployment; web uploader that supports many common recorder timestamp formats",
+        "sound processing features": "",
+        "acoustic parameter measurement": "aggregate recordings at different temporal and spatial scales",
+        "localization": "",
+        "detector features": "template-matching detection",
+        "classifier features": "",
+        "metadata standard": "",
+        "comments": "free storage",
+        "timestamp": "2022-08-18 14:26:06.351778"
+    }
+}

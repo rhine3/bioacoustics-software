@@ -1,0 +1,26 @@
+{
+    "parser": "custom",
+    "uid": "custom/www-oldbird-org/glassofire-htm",
+    "url": "http://www.oldbird.org/glassofire.htm",
+    "data": {
+        "title": "GlassOFire",
+        "url": "http://www.oldbird.org/glassofire.htm",
+        "description": "Windows software for avian nocturnal flight call review and sorting",
+        "paid, free, open": "free",
+        "code available": "N",
+        "licence": "",
+        "taxonomic or sound type specialization, if any": "avian nocturnal flight calls",
+        "specific hardware": "",
+        "type": "desktop GUI",
+        "data exploration": "",
+        "organization and annotation": "GUI for reviewing and organizing  avian nocturnal flight call detections",
+        "sound processing features": "",
+        "acoustic parameter measurement": "",
+        "localization": "",
+        "detector features": "",
+        "classifier features": "",
+        "metadata standard [wip category]": "",
+        "comments": "",
+        "timestamp": "2022-08-23 22:54:14.508617"
+    }
+}
