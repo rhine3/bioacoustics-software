@@ -1,11 +1,11 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: "Research Software"
-description: "Research Software Database"
+title: "Bioacoustics Software"
+description: "Bioacoustics Software Database"
 
 # Change this to your GitHub URL (e.g., github.com/rseng/software -> /software
-baseurl: "/software" #important: start with /
+baseurl: "/bioacoustics-software" #important: start with /
 url: ""
 
 # Number of tags to show in cloud
@@ -45,7 +45,7 @@ collections:
   software:
     output: true
     permalink: /repository/:path/
-    
+
 future: true
 
 defaults:
@@ -94,7 +94,7 @@ exclude:
   - _templates
   - vendor
   - README.md
-  - tests 
+  - tests
 
 # asciinema defaults
 asciicast:
