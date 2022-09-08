@@ -1,0 +1,16 @@
+---
+parser: "custom"
+uid: "custom/www-wsl-ch/en/services-and-products/software-websites-and-apps/batscope-4-html"
+url: "https://www.wsl.ch/en/services-and-products/software-websites-and-apps/batscope-4.html"
+timestamp: "2022-08-23 22:54:11.593971"
+description: "manage, sort, view, and play databases of recordings"
+repo_url: "https://www.wsl.ch/en/services-and-products/software-websites-and-apps/batscope-4.html"
+title: "BatScope"
+paid, free, open: "free"
+code available: "N"
+taxonomic or sound type specialization, if any: "bats"
+type: "desktop GUI"
+organization and annotation: "view and play"
+classifier features: "pretrained classifiers of multiple types (SVM, neural network, etc.) for Swiss bat species"
+date: "2022-09-07 22:18:44.464727"
+---

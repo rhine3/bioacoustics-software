@@ -1,0 +1,18 @@
+---
+parser: "custom"
+uid: "custom/www-avianz-net/index-php"
+url: "http://www.avianz.net/index.php"
+timestamp: "2022-08-23 22:54:10.869520"
+description: "graphical user interface for organizing, analyzing, and classifying recordings"
+repo_url: "http://www.avianz.net/index.php"
+title: "AviaNZ"
+paid, free, open: "free"
+code available: "Y"
+licence: "GPL v3"
+type: "desktop GUI"
+data exploration: "open sound files, listen to and visualize audio"
+organization and annotation: "manual annotation and segmentation"
+detector features: "wavelet detector"
+classifier features: "create CNN classifiers to finetune classify wavelet detections; pretrained classifiers for several species"
+date: "2022-09-07 22:18:44.463352"
+---

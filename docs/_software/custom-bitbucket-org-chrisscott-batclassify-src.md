@@ -1,0 +1,16 @@
+---
+parser: "custom"
+uid: "custom/bitbucket-org/chrisscott/batclassify/src"
+url: "https://bitbucket.org/chrisscott/batclassify/src"
+timestamp: "2022-08-23 22:54:11.248006"
+description: "segmentation and classification of ultrasonic sounds"
+repo_url: "https://bitbucket.org/chrisscott/batclassify/src"
+title: "BatClassify"
+paid, free, open: "free"
+code available: "Y"
+licence: "GPL v3"
+taxonomic or sound type specialization, if any: "UK bat species"
+type: "desktop GUI"
+classifier features: "pretrained bat classifiers"
+date: "2022-09-07 22:18:44.461995"
+---

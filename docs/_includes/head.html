@@ -1,0 +1,42 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="{{ "/assets/ico/favicon.ico" | prepend: site.baseurl }}">
+
+    <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="{{ "/assets/tipuesearch/css/normalize.css" | relative_url }}">
+    <link href="{{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{{ "/assets/css/style.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css'>
+
+    <link href="{{ "/assets/css/toastr.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/asciinema-player.css" />
+    <link rel="stylesheet" href="{{ "/assets/css/syntax.css" | prepend: site.baseurl }}">
+
+    <!-- Search -->
+
+    {% if page.tipue_search_active or layout.tipue_search_active %}
+    <link rel="stylesheet" href="{{ "/assets/tipuesearch/css/tipuesearch.css" | relative_url }}">
+    {% endif %}
+
+    <script src='https://code.jquery.com/jquery-3.5.1.js'></script>
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>

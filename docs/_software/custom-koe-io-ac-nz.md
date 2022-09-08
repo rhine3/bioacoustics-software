@@ -1,0 +1,18 @@
+---
+parser: "custom"
+uid: "custom/koe-io-ac-nz"
+url: "https://koe.io.ac.nz/"
+timestamp: "2022-08-24 09:33:52.203619"
+description: "web-based acoustic data management and detection platform"
+repo_url: "https://koe.io.ac.nz/"
+title: "Koe Bioacoustics Software"
+paid, free, open: "free"
+code available: "Y"
+licence: "GPL v3"
+taxonomic or sound type specialization, if any: "acoustic units, especially in birds"
+type: "web GUI"
+organization and annotation: "visually review and annotate detections"
+acoustic parameter measurement: "assess song sequence structure"
+detector features: "use ordination plots to cluster and annotate groups of sound units"
+date: "2022-09-07 22:18:44.464482"
+---

@@ -1,0 +1,15 @@
+---
+layout: null
+permalink: /api/data.json
+---
+{% capture newline %}\n{% endcapture %}[{% for lib in site.software %}
+    {
+        "uid": "{{ lib.uid }}",
+        "parser": "{{ lib.parser }}",
+        "url": "{{ lib.repo_url }}",
+        "rel": "{{ site.url }}{{ site.baseurl }}{{ lib.url }}",
+        "avatar": "{{ lib.avatar }}",
+        "description": "{{ lib.description | replace: newline, ' ' }}",
+        "topics": [{% for topic in lib.topics %}"{{ topic }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}]
+    }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+]

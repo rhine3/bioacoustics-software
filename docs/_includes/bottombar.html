@@ -1,0 +1,37 @@
+<div class="row" style="margin-top:100px">
+<div class="col-lg-4">
+    <h4>Categories</h4>
+    <div class="hline"></div>
+    {% for category in site.categories %}
+        <p>
+            <a href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}">
+                <i class="fa fa-angle-right"></i> {{ category | first | capitalize }}</a>
+                <span class="badge badge-theme pull-right">{{ category | last | size }}</span>
+        </p>
+    {% endfor %}
+
+</div>
+<div class="col-lg-4">
+
+    <h4>Recent Posts</h4>
+    <div class="hline"></div>
+        <ul class="popular-posts">
+            {% for post in site.posts limit:4 %}
+                <li>
+                    <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} {{ post.url }}</a></p>
+                <em>Posted on {{ post.date | date_to_string }}</em>
+            </li>
+            {% endfor %}
+        </ul>
+
+</div>
+<div class="col-lg-4">
+    <h4>Popular Tags</h4>
+    <div class="hline"></div>
+    <p>
+    {% for category in site.categories %}
+            <a class="btn btn-theme" href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}" role="button">{{ category | first | capitalize }} ({{ category | last | size }})</a>
+        {% endfor %}
+    </p>
+</div>
+</div>

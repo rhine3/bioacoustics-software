@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<!--<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/software.css">-->
+<link rel='stylesheet' href='https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap4.min.css'>
+
+
+<style>
+#software_filter, #software_length, #software_info {
+ color: #333;
+}
+td, th {
+  color: #333;
+}
+.tag {
+  margin-right: 2px !important;
+}
+</style>
+
+<div class="container">
+<a type="button" class="btn reset btn-theme filter-reset" onclick="$('#software').DataTable().search('').draw()" style='float:right;padding-bottom:5px' href="#">reset</a></li>
+
+<table id="software"  class="table table-bordered" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th>Repository</th>
+            <th>Description</th>
+            <th>Topics</th>
+        </tr>
+  </thead>      
+</table>
+</div>
+
+
+<script>
+$(document).ready(function () {
+
+$.getJSON("{{ site.baseurl }}/api/data.json", function(data) {
+console.log(data)
+$('#software').DataTable({
+  data: data,
+  pageLength: 50,
+  columns: [
+    { data: "uid",
+      render: function ( data, type, row ) { return "<a href='" + row['url'] + "' target='_blank'>" + data +"</a>";},
+    },
+    { data: "description"},
+    { data: "topics", 
+      render: function ( data, type, row ) { 
+         var topics = ""
+         if(data.length > 0) {
+           $.each(data, function(i, e){
+              topics += "<button onclick=$('#software').DataTable().search('"+ e +"').draw(); class='tag button btn btn-primary btn-xs'>" + e + "</button>";
+           })
+         }
+         return topics
+      },
+    },
+  ]
+});
+});
+
+// Ensure search is aligned to the right!
+$('#software_filter').parent().attr("class", "col-md-12")
+})
+</script>

@@ -1,0 +1,110 @@
+### GENERAL SETTINGS ###
+
+# Site settings
+title: "Research Software"
+description: "Research Software Database"
+
+# Change this to your GitHub URL (e.g., github.com/rseng/software -> /software
+baseurl: "/software" #important: start with /
+url: ""
+
+# Number of tags to show in cloud
+min_tag_count: 1
+
+# Change color above this upper range
+tag_threshold: 10
+
+# Customize template
+logo: assets/img/logo/logo-transparent.svg
+url: "https://rseng.github.io/rse"
+repo: "https://github.com/rseng/rse"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#159958"
+  primary_rgb: "21,153,88" #rgb of the primary. Needed in some places for the transparency effect.
+  secondary: "#F7F7F7"
+  link: "#159958"
+  link_hover: "#01b2fe"
+  footer_heading: "#777"
+  footer_content: "#bfc9d3"
+
+# Making projects separate from posts
+collections:
+  software:
+    output: true
+    permalink: /repository/:path/
+    
+future: true
+
+defaults:
+  -
+    scope:
+      path: "_software"
+    values:
+      layout: entry
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+    future: true
+
+    scope:
+      path: "pages"
+      type: "pages"
+    values:
+      layout: "base"
+
+
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+# Add more here!
+social:
+  - title: twitter
+    url: https://twitter.com/vsoch
+
+twitter: vsoch
+
+
+# Search settings
+tipue_search:
+  include:
+    pages: false
+    collections: [software]
+  exclude:
+    files: [index.md, search.html, software.html]
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - _templates
+  - vendor
+  - README.md
+  - tests 
+
+# asciinema defaults
+asciicast:
+    cols: "115"
+    rows: "25"
+    speed: "2.0"
+    theme: "asciinema"
+
+# asciinema
+# tango
+# solarized-dark
+# solarized-light
+# monokai

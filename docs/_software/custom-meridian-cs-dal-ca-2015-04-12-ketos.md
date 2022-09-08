@@ -1,0 +1,16 @@
+---
+parser: "custom"
+uid: "custom/meridian-cs-dal-ca/2015/04/12/ketos"
+url: "https://meridian.cs.dal.ca/2015/04/12/ketos/"
+timestamp: "2022-08-24 09:33:52.201486"
+description: "acoustic data analysis with neural networks"
+repo_url: "https://meridian.cs.dal.ca/2015/04/12/ketos/"
+title: "KETOS"
+paid, free, open: "free"
+code available: "Y"
+licence: "GPL v3"
+taxonomic or sound type specialization, if any: "underwater acoustics"
+type: "Python"
+classifier features: "create neural network classifiers"
+date: "2022-09-07 22:18:44.466577"
+---

@@ -1,0 +1,260 @@
+---
+layout: about
+title: ""
+permalink: /docs/
+---
+
+<style>
+ul {
+  color:#999
+}
+ul>li {
+  color:#999
+}
+.row {
+  margin: 30px;
+}
+.font-bold {
+    font-weight: 600;
+}
+.c-white, h3 {
+    color: #FFFFFF;
+}
+
+.panel {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: #949ba2;
+    border-radius: 3px;
+}
+
+.panel .panel-body {
+    padding: 5px 15px 15px 15px;
+}
+
+.panel.panel-filled .panel-body {
+    padding-top: 10px;
+}
+
+.panel .panel-footer {
+    background-color: transparent;
+    border: none;
+}
+
+.panel > .panel-heading {
+    color: #ffffff;
+}
+
+.panel-tools {
+    display: inline-block;
+    float: right;
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+}
+
+.panel-tools a {
+    margin-left: 2px;
+    color: #949ba2;
+    cursor: pointer;
+}
+
+.panel-tools a:hover {
+    color: #ffffff;
+}
+
+.panel.panel-c-white {
+    border-left: 3px solid #949ba2;
+}
+
+.panel.panel-c-accent {
+    border-left: 3px solid #f6a821;
+}
+
+.panel.panel-c-primary {
+    border-left: 3px solid #0F83C9;
+}
+
+.panel.panel-c-warning {
+    border-left: 3px solid #f7af3e;
+}
+
+.panel.panel-c-info {
+    border-left: 3px solid #56C0E0;
+}
+
+.panel.panel-c-success {
+    border-left: 3px solid #1bbf89;
+}
+
+.panel.panel-c-danger {
+    border-left: 3px solid #DB524B;
+}
+
+.panel.panel-b-accent {
+    background-color: #f6a821;
+    color: #ffffff;
+}
+
+.panel.panel-b-white {
+    background-color: white;
+    color: #61686f;
+}
+
+.panel.panel-b-white .panel-heading {
+    color: #61686f;
+}
+
+.panel.panel-b-white .panel-footer {
+    color: #61686f;
+}
+
+.panel.panel-filled {
+    background-color: rgba(68, 70, 79, 0.5);
+}
+
+.question a {
+    color: #949ba2;
+}
+
+.question a:hover {
+    text-decoration: none;
+}
+
+.question a:focus {
+    text-decoration: none;
+}
+
+.question:hover {
+    background-color: rgba(68, 70, 79, 0.7);
+}
+
+.question.active {
+    border-left: 5px solid #49a977;
+}
+
+.question.active .panel-body {
+    padding-left: 13px;
+}
+</style>
+
+<div class="container mtb">
+
+<div class="row" style="margin-top:100px">
+  <div class="col-md-3">
+    <div class="panel-group">
+
+      <ul class="list-unstyled">
+        <li class="panel panel-filled question active">
+          <a href="#answer1" data-toggle="tab" aria-expanded="true">
+            <div class="panel-body">
+              <p class="font-bold c-white">What is a SCI-F App?</p>
+            </div>
+          </a>
+        </li>
+        <li class="panel panel-filled question">
+          <a href="#answer2" data-toggle="tab" aria-expanded="false">
+            <div class="panel-body">
+              <p class="font-bold c-white">What can SCI-F Apps Do?</p>
+            </div>
+          </a>
+        </li>
+        <li class="panel panel-filled question">
+          <a href="#answer3" data-toggle="tab" aria-expanded="false">
+            <div class="panel-body">
+              <p class="font-bold c-white">How do I get started?</p>
+              </p>
+            </div>
+          </a>
+        </li>
+        <li class="panel panel-filled question">
+          <a href="#answer4" data-toggle="tab" aria-expanded="false">
+            <div class="panel-body">
+              <p class="font-bold c-white">Don't we already have Open Containers?</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+  <div class="col-md-9">
+
+    <div class="panel">
+      <div class="panel-body">
+        <div class="tab-content">
+          <div id="answer1" class="tab-pane active">
+            <h4>What is a SCI-F App?</h4>
+            <p>
+            <p>The Scientific Filesystem is a definition for modular organization
+              of containers to make contents programmatically accessible, and less of black boxes.
+              SCI-F is being
+              developed to encourage modular organization of executables and files
+              within reproducible containers.
+            <p>It makes it possible to approach an unknown container, and easily know how to use it.</p>
+            <p>For more detail,see (and comment) on our specification <a href="https://vsoch.github.io/scif">here</a>  </p>
+          </div>
+
+          <div id="answer2" class="tab-pane">
+            <h4>What can SCI-F Apps Do?</h4>
+              <p>SCI-F apps provide modular metrics, tests, and applications within a container.</p>
+              <p>A container typically has a primary function, which we call a runscript,
+              and apps serve as helpers, additional functions, or metric tests for
+              the container. A SCI-F app can serve any of the following:</p>
+
+                <ul>
+                  <li>Programmatically accessible entrypoints for multiple applications <a href="http://sci-f.org/apps/examples/applications/hello-world">[example]</a>.</li>
+                  <li>Wrappers to run a container in different contexts <a href="http://www.github.com/sci-f/jobmaker.scif">[example]</a>.</li>   
+                  <li>Evaluation of metrics or additional tests/checks for a container. <a href="http://sci-f.org/apps/examples/metrics/metrics.scif">[example]</a>.</li>
+                  <li>Entrypoints to run components of scientific pipelines, and easily swap them out. <a href="#">[example-coming-soon]</a>.</li>
+                </ul>
+            <p>
+                A SCI-F app can also be fun. Some of the examples above include `custom` metrics to print a fortune along with a colored cow, or a stream of multicolored pokemon ascii. 
+            </p>
+
+          </div>
+          <div id="answer3" class="tab-pane">
+            <h4>How Do I get Started and Contribute?
+                                    </h4>
+            <p>SCI-F support will be released with Singularity Version 2.4, however
+              the features are included in the development branch. If you install from development:</p>
+              
+{% highlight bash %}
+git clone -b development https://www.github.com/singularityware/singularity.git
+cd singularity
+./autogen.sh
+./configure --prefix=/usr/local
+make
+sudo make install 
+{% endhighlight %}
+              
+              <p>then you can build a container as your normally would, with any of the app
+              specifications included. You can view the <a target="_blank" href="https://github.com/singularityware/singularityware.github.io/blob/docs/2.4/pages/docs/user-docs/docs-apps.md">version 2.4 docs</a> for details about the SCI-F definition for Singulairty. Have an app you want to share? There will be easy instructions for adding it here soon. Can you write a text file? it's that easy.
+            </p>
+
+          </div>
+          <div id="answer4" class="tab-pane">
+            <h4>Don't we already have open containers?</h4>
+                 <p>SCI-F is not a standard or format for a container itself, it simply pertains 
+                 to the organization of the content.</p>    
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+     <p style="text-align:right">Still have a question? Please <a href="https://www.github.com/sci-f/apps" target="_blank"> reach out!</a> Contributions are greatly appreciated.  with 
+      <i style="color:mediumvioletred" class="fa fa-heart"></i> open source</p>.
+    </div>
+</div>
+
+</div>

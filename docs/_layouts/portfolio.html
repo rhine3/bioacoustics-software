@@ -1,0 +1,30 @@
+---
+layout: baseindex
+---
+
+{{ content }}
+
+{% assign everything = site.taxonomy | concat: site.criteria %}
+{% assign n = everything | size %}
+{% assign elements = everything | sample: n %}
+
+<div id="portfoliowrap">
+    <div class="portfolio-centered">
+        {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
+        <div class="recentitems portfolio">
+            {% for tag in elements %}
+                <div class="portfolio-item graphic-design" style="background-color:{% include colors.html %}">
+                    <div class="he-wrap tpl6">
+                    {% if tag.uid contains "taxonomy" %}<img style="max-height:180px; padding-top:20px; padding-bottom:20px;" src="{{ "/assets/img/taxonomy.png" | prepend: site.baseurl }}" alt="">{% else %}<img style="max-height:180px; padding-top:30px; padding-bottom:30px;" src="{{ "/assets/img/criteria.png" | prepend: site.baseurl }}" alt="">{% endif %}
+                        <div class="he-view">
+                            <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" style="color:white; font-size:20px" data-animate="fadeInDown">{{ tag.uid }}</h3>
+                                <a href="{{ site.baseurl }}/{{ tag.url }}" class="dmbutton a2" style="margin:0px;" data-animate="fadeInUp"><i class="fa fa-link"></i></a>
+                            </div><!-- he bg -->
+                        </div><!-- he view -->
+                    </div><!-- he wrap -->
+                </div><!-- end col-12 -->
+            {% endfor %}
+        </div><!-- portfolio -->
+    </div><!-- portfolio container -->
+</div><!--/Portfoliowrap -->

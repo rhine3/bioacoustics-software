@@ -1,0 +1,16 @@
+---
+parser: "custom"
+uid: "custom/autoencoded-vocal-analysis-readthedocs-io/en/latest/index-html"
+url: "https://autoencoded-vocal-analysis.readthedocs.io/en/latest/index.html"
+timestamp: "2022-08-23 22:54:10.522652"
+description: "segment vocalizations and train generative models of vocalizations"
+repo_url: "https://autoencoded-vocal-analysis.readthedocs.io/en/latest/index.html"
+title: "AVA"
+paid, free, open: "free"
+code available: "Y"
+licence: "MIT"
+type: "Python"
+acoustic parameter measurement: "infer latent descriptions of animal vocalizations using variational autoencoders"
+detector features: "audio segmentation"
+date: "2022-09-07 22:18:44.462908"
+---
