@@ -32,7 +32,7 @@
         "stargazers_count": 37,
         "watchers_count": 37,
         "language": "Python",
-        "open_issues_count": 83,
+        "open_issues_count": 84,
         "license": {
             "key": "bsd-3-clause",
             "name": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -62,7 +62,7 @@
             "animal-communication",
             "spectrograms"
         ],
-        "timestamp": "2022-09-07 21:38:53.284869",
+        "timestamp": "2022-09-22 21:55:32.373477",
         "avatar": "https://avatars.githubusercontent.com/u/99543036?v=4"
     }
 }

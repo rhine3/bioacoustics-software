@@ -25,12 +25,12 @@
         "full_name": "YannickJadoul/Parselmouth",
         "html_url": "https://github.com/YannickJadoul/Parselmouth",
         "created_at": "2017-06-06T15:57:13Z",
-        "updated_at": "2022-09-02T03:05:53Z",
+        "updated_at": "2022-09-22T19:23:31Z",
         "clone_url": "https://github.com/YannickJadoul/Parselmouth.git",
         "homepage": "https://parselmouth.readthedocs.io/",
         "size": 52842,
-        "stargazers_count": 684,
-        "watchers_count": 684,
+        "stargazers_count": 699,
+        "watchers_count": 699,
         "language": "C++",
         "open_issues_count": 12,
         "license": {
@@ -47,7 +47,7 @@
             "login": "YannickJadoul",
             "type": "User"
         },
-        "timestamp": "2022-09-07 21:38:49.395377",
+        "timestamp": "2022-09-22 21:55:29.733256",
         "avatar": "https://avatars.githubusercontent.com/u/8025744?v=4"
     }
 }

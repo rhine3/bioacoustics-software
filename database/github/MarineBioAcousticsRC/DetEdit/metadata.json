@@ -25,12 +25,12 @@
         "full_name": "MarineBioAcousticsRC/DetEdit",
         "html_url": "https://github.com/MarineBioAcousticsRC/DetEdit",
         "created_at": "2016-02-11T22:26:13Z",
-        "updated_at": "2022-03-29T03:03:44Z",
+        "updated_at": "2022-09-19T21:05:20Z",
         "clone_url": "https://github.com/MarineBioAcousticsRC/DetEdit.git",
         "homepage": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007598",
         "size": 220536,
-        "stargazers_count": 22,
-        "watchers_count": 22,
+        "stargazers_count": 23,
+        "watchers_count": 23,
         "language": "MATLAB",
         "open_issues_count": 5,
         "license": {
@@ -57,7 +57,7 @@
             "species-classification",
             "mbarc"
         ],
-        "timestamp": "2022-08-23 22:54:13.403288",
+        "timestamp": "2022-09-22 21:55:25.879689",
         "avatar": "https://avatars.githubusercontent.com/u/17186765?v=4"
     }
 }

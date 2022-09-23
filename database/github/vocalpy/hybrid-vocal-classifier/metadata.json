@@ -25,12 +25,12 @@
         "full_name": "vocalpy/hybrid-vocal-classifier",
         "html_url": "https://github.com/vocalpy/hybrid-vocal-classifier",
         "created_at": "2017-01-05T06:03:07Z",
-        "updated_at": "2022-06-25T15:09:28Z",
+        "updated_at": "2022-08-31T11:06:39Z",
         "clone_url": "https://github.com/vocalpy/hybrid-vocal-classifier.git",
         "homepage": "http://hybrid-vocal-classifier.readthedocs.io",
         "size": 444992,
-        "stargazers_count": 21,
-        "watchers_count": 21,
+        "stargazers_count": 22,
+        "watchers_count": 22,
         "language": "Python",
         "open_issues_count": 43,
         "license": {
@@ -55,7 +55,7 @@
             "keras",
             "tensorflow"
         ],
-        "timestamp": "2022-08-24 09:33:51.584931",
+        "timestamp": "2022-09-22 21:55:27.841894",
         "avatar": "https://avatars.githubusercontent.com/u/99543036?v=4"
     }
 }

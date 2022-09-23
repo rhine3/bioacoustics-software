@@ -1,0 +1,26 @@
+{
+    "parser": "custom",
+    "uid": "custom/sdeer",
+    "url": "http://dx.doi.org/10.6084/m9.figshare.3792780",
+    "data": {
+        "title": "SDEer",
+        "url": "http://dx.doi.org/10.6084/m9.figshare.3792780",
+        "description": "direction-of-arrival estimation",
+        "paid, free, open": "free",
+        "code available": "Y",
+        "licence": "CC-BY",
+        "taxonomic or sound type specialization, if any": "",
+        "specific hardware": "",
+        "type": "MATLAB",
+        "data exploration": "",
+        "organization and annotation": "manual annotation for acoustic localization",
+        "sound processing features": "",
+        "acoustic parameter measurement": "",
+        "localization": "recording synchronization and DOA estimation",
+        "detector features": "several detection algorithms",
+        "classifier features": "",
+        "metadata standard [wip category]": "",
+        "comments": "",
+        "timestamp": "2022-09-22 21:55:30.510048"
+    }
+}

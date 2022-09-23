@@ -6,20 +6,11 @@
         "title": "ANIMAL-SPOT",
         "url": "https://github.com/ChristianBergler/ANIMAL-SPOT",
         "description": "An Animal Independent Deep Learning Framework for Bioacoustic Signal Segmentation and Classification Including a Detailed User-Guide",
-        "tags": [
-            "classify",
-            "python"
-        ],
         "paid, free, open": "free",
         "code available": "Y",
-        "license": {
-            "key": "gpl-3.0",
-            "name": "GNU General Public License v3.0",
-            "spdx_id": "GPL-3.0",
-            "url": "https://api.github.com/licenses/gpl-3.0",
-            "node_id": "MDc6TGljZW5zZTk="
-        },
+        "licence": "GPL v3",
         "taxonomic or sound type specialization, if any": "",
+        "specific hardware": "",
         "type": "Python",
         "data exploration": "",
         "organization and annotation": "",
@@ -28,7 +19,7 @@
         "localization": "",
         "detector features": "",
         "classifier features": "create ResNet18 CNN classifiers",
-        "metadata standard": "",
+        "metadata standard [wip category]": "",
         "comments": "",
         "name": "ANIMAL-SPOT",
         "full_name": "ChristianBergler/ANIMAL-SPOT",
@@ -39,6 +30,13 @@
         "size": 23167,
         "stargazers_count": 10,
         "watchers_count": 10,
+        "license": {
+            "key": "gpl-3.0",
+            "name": "GNU General Public License v3.0",
+            "spdx_id": "GPL-3.0",
+            "url": "https://api.github.com/licenses/gpl-3.0",
+            "node_id": "MDc6TGljZW5zZTk="
+        },
         "subscribers_count": 4,
         "owner": {
             "html_url": "https://github.com/ChristianBergler",
@@ -46,7 +44,7 @@
             "login": "ChristianBergler",
             "type": "User"
         },
-        "timestamp": "2022-08-18 14:26:06.349256",
+        "timestamp": "2022-09-22 21:55:20.063151",
         "avatar": "https://avatars.githubusercontent.com/u/58565581?v=4"
     }
 }

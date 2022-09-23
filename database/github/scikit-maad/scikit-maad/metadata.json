@@ -25,12 +25,12 @@
         "full_name": "scikit-maad/scikit-maad",
         "html_url": "https://github.com/scikit-maad/scikit-maad",
         "created_at": "2018-09-10T11:04:27Z",
-        "updated_at": "2022-09-02T12:35:19Z",
+        "updated_at": "2022-09-19T14:58:32Z",
         "clone_url": "https://github.com/scikit-maad/scikit-maad.git",
         "homepage": "https://scikit-maad.github.io/",
         "size": 174540,
-        "stargazers_count": 35,
-        "watchers_count": 35,
+        "stargazers_count": 36,
+        "watchers_count": 36,
         "language": "Python",
         "open_issues_count": 4,
         "license": {
@@ -55,7 +55,7 @@
             "pattern-recognition",
             "acoustic-indices"
         ],
-        "timestamp": "2022-09-07 21:38:50.581550",
+        "timestamp": "2022-09-22 21:55:30.505737",
         "avatar": "https://avatars.githubusercontent.com/u/43136563?v=4"
     }
 }

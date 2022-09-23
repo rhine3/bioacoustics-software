@@ -1,0 +1,26 @@
+{
+    "parser": "custom",
+    "uid": "custom/warbler",
+    "url": "https://cran.r-project.org/web/packages/warbleR/index.html",
+    "data": {
+        "title": "warbleR",
+        "url": "https://cran.r-project.org/web/packages/warbleR/index.html",
+        "description": "highly multipurpose bioacoustics software",
+        "paid, free, open": "free",
+        "code available": "Y",
+        "licence": "GPL v3",
+        "taxonomic or sound type specialization, if any": "",
+        "specific hardware": "",
+        "type": "R",
+        "data exploration": "explore and organize multiple sound files",
+        "organization and annotation": "consolidate databases and annotation table",
+        "sound processing features": "manipulate sound files",
+        "acoustic parameter measurement": "variety of measurements acoustic signal structure and timing",
+        "localization": "",
+        "detector features": "detect signals automatically in frequency and time",
+        "classifier features": "",
+        "metadata standard [wip category]": "",
+        "comments": "See also: Ohun https://marce10.github.io/ohun/index.html",
+        "timestamp": "2022-09-22 21:55:32.506277"
+    }
+}
