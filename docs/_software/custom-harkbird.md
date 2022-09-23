@@ -1,8 +1,8 @@
 ---
 parser: "custom"
-uid: "custom/sites-google-com/view/alcore-suzuki/home/harkbird"
+uid: "custom/harkbird"
 url: "https://sites.google.com/view/alcore-suzuki/home/harkbird"
-timestamp: "2022-08-23 22:54:14.789080"
+timestamp: "2022-09-22 21:55:27.451931"
 description: "acoustic localization software"
 repo_url: "https://sites.google.com/view/alcore-suzuki/home/harkbird"
 title: "HARKBird"
@@ -12,5 +12,5 @@ licence: "CC BY-SA"
 taxonomic or sound type specialization, if any: "DOA arrays"
 type: "Python"
 localization: "direction-of-arrival arrays"
-date: "2022-09-07 22:18:44.464264"
+date: "2022-09-22 22:09:46.406742"
 ---

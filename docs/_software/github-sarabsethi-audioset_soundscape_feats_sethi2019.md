@@ -2,7 +2,7 @@
 parser: "github"
 uid: "github/sarabsethi/audioset_soundscape_feats_sethi2019"
 url: "https://github.com/sarabsethi/audioset_soundscape_feats_sethi2019"
-timestamp: "2022-08-23 22:54:10.520006"
+timestamp: "2022-09-22 21:55:20.784131"
 description: "Reproducability code for Characterizing soundscapes across diverse ecosystems using a universal acoustic feature set (Sethi et. al. 2020, PNAS)"
 avatar: "https://avatars.githubusercontent.com/u/4243524?v=4"
 repo_url: "https://github.com/sarabsethi/audioset_soundscape_feats_sethi2019"
@@ -25,5 +25,5 @@ watchers_count: 9
 language: "Python"
 subscribers_count: 3
 owner: {"html_url": "https://github.com/sarabsethi", "avatar_url": "https://avatars.githubusercontent.com/u/4243524?v=4", "login": "sarabsethi", "type": "User"}
-date: "2022-09-07 22:18:44.461066"
+date: "2022-09-22 22:09:46.405736"
 ---

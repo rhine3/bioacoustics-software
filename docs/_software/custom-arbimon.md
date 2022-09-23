@@ -1,12 +1,11 @@
 ---
 parser: "custom"
-uid: "custom/arbimon-rfcx-org"
+uid: "custom/arbimon"
 url: "https://arbimon.rfcx.org/"
-timestamp: "2022-08-18 14:26:06.351778"
+timestamp: "2022-09-22 21:55:20.065695"
 description: "web-based interface geared toward analyzing autonomous wildlife survey data"
 repo_url: "https://arbimon.rfcx.org/"
-title: "Rainforest Connection Arbimon"
-tags: ["web"]
+title: "ARBIMON"
 paid, free, open: "free for certain number of recordings"
 code available: "N"
 type: "web GUI, phone app"
@@ -15,5 +14,5 @@ organization and annotation: "web-based annotation GUI; phone app for managing r
 acoustic parameter measurement: "aggregate recordings at different temporal and spatial scales"
 detector features: "template-matching detection"
 comments: "free storage"
-date: "2022-09-07 22:18:44.465900"
+date: "2022-09-22 22:09:46.412248"
 ---

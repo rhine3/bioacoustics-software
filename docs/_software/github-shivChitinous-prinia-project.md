@@ -2,7 +2,7 @@
 parser: "github"
 uid: "github/shivChitinous/prinia-project"
 url: "https://github.com/shivChitinous/prinia-project"
-timestamp: "2022-09-07 21:38:50.168599"
+timestamp: "2022-09-22 21:55:30.109645"
 description: "methods to analyse multi-species bioacoustic datasets"
 avatar: "https://avatars.githubusercontent.com/u/58934863?v=4"
 repo_url: "https://github.com/shivChitinous/prinia-project"
@@ -25,5 +25,5 @@ language: "HTML"
 subscribers_count: 1
 owner: {"html_url": "https://github.com/shivChitinous", "avatar_url": "https://avatars.githubusercontent.com/u/58934863?v=4", "login": "shivChitinous", "type": "User"}
 topics: ["behavioural-ecology", "animal-behavior", "bioacoustics"]
-date: "2022-09-07 22:18:44.458237"
+date: "2022-09-22 22:09:46.402910"
 ---

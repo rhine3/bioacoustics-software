@@ -1,8 +1,8 @@
 ---
 parser: "custom"
-uid: "custom/www-batlogger-com/en/products/batexplorer"
+uid: "custom/batexplorer"
 url: "https://www.batlogger.com/en/products/batexplorer/"
-timestamp: "2022-08-23 22:54:11.591426"
+timestamp: "2022-09-22 21:55:22.527657"
 description: "organize, annotate, detect, and classify bat call recordings"
 repo_url: "https://www.batlogger.com/en/products/batexplorer/"
 title: "BatExplorer"
@@ -15,5 +15,5 @@ organization and annotation: "organize bat call projects"
 sound processing features: "listen to time-stretched ultrasonic recordings"
 detector features: "automatic detection"
 classifier features: "pretrained classifier for UK & European bat species"
-date: "2022-09-07 22:18:44.466128"
+date: "2022-09-22 22:09:46.407360"
 ---

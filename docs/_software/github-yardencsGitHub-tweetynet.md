@@ -2,7 +2,7 @@
 parser: "github"
 uid: "github/yardencsGitHub/tweetynet"
 url: "https://github.com/yardencsGitHub/tweetynet"
-timestamp: "2022-09-07 21:38:52.674961"
+timestamp: "2022-09-22 21:55:31.997455"
 description: "Hybrid convolutional-recurrent neural networks for segmentation of birdsong and classification of elements"
 avatar: "https://avatars.githubusercontent.com/u/17324841?v=4"
 repo_url: "https://github.com/yardencsGitHub/tweetynet"
@@ -27,5 +27,5 @@ open_issues_count: 2
 license: {"key": "bsd-3-clause", "name": "BSD 3-Clause \"New\" or \"Revised\" License", "spdx_id": "BSD-3-Clause", "url": "https://api.github.com/licenses/bsd-3-clause", "node_id": "MDc6TGljZW5zZTU="}
 subscribers_count: 6
 owner: {"html_url": "https://github.com/yardencsGitHub", "avatar_url": "https://avatars.githubusercontent.com/u/17324841?v=4", "login": "yardencsGitHub", "type": "User"}
-date: "2022-09-07 22:18:44.453864"
+date: "2022-09-22 22:09:46.398035"
 ---

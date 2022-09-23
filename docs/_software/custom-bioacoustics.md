@@ -1,8 +1,8 @@
 ---
 parser: "custom"
-uid: "custom/cran-r-project-org/web/packages/bioacoustics/index-html"
+uid: "custom/bioacoustics"
 url: "https://cran.r-project.org/web/packages/bioacoustics/index.html"
-timestamp: "2022-08-23 22:54:11.596035"
+timestamp: "2022-09-22 21:55:22.532050"
 description: "sound filtering, automated detection, and extraction of acoustic features"
 repo_url: "https://cran.r-project.org/web/packages/bioacoustics/index.html"
 title: "bioacoustics"
@@ -14,5 +14,5 @@ data exploration: "read, display, and write audio files, including zero-crossing
 organization and annotation: "convert MP3, WAV, and WAC files"
 sound processing features: "filter noisy files"
 acoustic parameter measurement: "extract acoustic features for further analysis"
-date: "2022-09-07 22:18:44.463814"
+date: "2022-09-22 22:09:46.410840"
 ---

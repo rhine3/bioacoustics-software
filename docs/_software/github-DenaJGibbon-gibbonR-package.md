@@ -2,7 +2,7 @@
 parser: "github"
 uid: "github/DenaJGibbon/gibbonR-package"
 url: "https://github.com/DenaJGibbon/gibbonR"
-timestamp: "2022-08-23 22:54:14.506209"
+timestamp: "2022-09-22 21:55:27.111440"
 description: "An R package for the detection and classification of acoustic signals using machine learning"
 avatar: "https://avatars.githubusercontent.com/u/26265144?v=4"
 repo_url: "https://github.com/DenaJGibbon/gibbonR"
@@ -26,5 +26,5 @@ language: "R"
 open_issues_count: 2
 subscribers_count: 8
 owner: {"html_url": "https://github.com/DenaJGibbon", "avatar_url": "https://avatars.githubusercontent.com/u/26265144?v=4", "login": "DenaJGibbon", "type": "User"}
-date: "2022-09-07 22:18:44.457971"
+date: "2022-09-22 22:09:46.402660"
 ---

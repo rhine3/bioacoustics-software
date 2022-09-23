@@ -2,7 +2,7 @@
 parser: "github"
 uid: "github/macster110/aipam"
 url: "https://github.com/macster110/aipam"
-timestamp: "2022-09-07 21:38:51.109258"
+timestamp: "2022-09-22 21:55:30.874763"
 description: "Platform for visualisation of sound clips and results from machine learning algorithms"
 avatar: "https://avatars.githubusercontent.com/u/21099776?v=4"
 repo_url: "https://github.com/macster110/aipam"
@@ -26,5 +26,5 @@ language: "Java"
 license: {"key": "gpl-3.0", "name": "GNU General Public License v3.0", "spdx_id": "GPL-3.0", "url": "https://api.github.com/licenses/gpl-3.0", "node_id": "MDc6TGljZW5zZTk="}
 subscribers_count: 3
 owner: {"html_url": "https://github.com/macster110", "avatar_url": "https://avatars.githubusercontent.com/u/21099776?v=4", "login": "macster110", "type": "User"}
-date: "2022-09-07 22:18:44.457700"
+date: "2022-09-22 22:09:46.402404"
 ---

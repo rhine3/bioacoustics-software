@@ -2,7 +2,7 @@
 parser: "github"
 uid: "github/OpenWild/caracal"
 url: "https://github.com/OpenWild/caracal"
-timestamp: "2022-08-23 22:54:12.643974"
+timestamp: "2022-09-22 21:55:24.574364"
 description: "CARACAL: Automated BioAcoustic Processing Pipeline"
 avatar: "https://avatars.githubusercontent.com/u/48096879?v=4"
 repo_url: "https://github.com/OpenWild/caracal"
@@ -29,5 +29,5 @@ language: "Jupyter Notebook"
 license: {"key": "mit", "name": "MIT License", "spdx_id": "MIT", "url": "https://api.github.com/licenses/mit", "node_id": "MDc6TGljZW5zZTEz"}
 subscribers_count: 1
 owner: {"html_url": "https://github.com/OpenWild", "avatar_url": "https://avatars.githubusercontent.com/u/48096879?v=4", "login": "OpenWild", "type": "User"}
-date: "2022-09-07 22:18:44.455972"
+date: "2022-09-22 22:09:46.400544"
 ---

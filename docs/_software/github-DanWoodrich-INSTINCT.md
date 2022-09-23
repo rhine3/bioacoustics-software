@@ -2,7 +2,7 @@
 parser: "github"
 uid: "github/DanWoodrich/INSTINCT"
 url: "https://github.com/DanWoodrich/INSTINCT"
-timestamp: "2022-08-24 09:33:52.194569"
+timestamp: "2022-09-22 21:55:28.205609"
 description: "INSTINCT is a command line application that enables users to create workflows for the purpose of acoustic signal annotation, detection and analysis. "
 avatar: "https://avatars.githubusercontent.com/u/16928375?v=4"
 repo_url: "https://github.com/DanWoodrich/INSTINCT"
@@ -25,5 +25,5 @@ language: "Python"
 license: {"key": "mit", "name": "MIT License", "spdx_id": "MIT", "url": "https://api.github.com/licenses/mit", "node_id": "MDc6TGljZW5zZTEz"}
 subscribers_count: 2
 owner: {"html_url": "https://github.com/DanWoodrich", "avatar_url": "https://avatars.githubusercontent.com/u/16928375?v=4", "login": "DanWoodrich", "type": "User"}
-date: "2022-09-07 22:18:44.456253"
+date: "2022-09-22 22:09:46.401066"
 ---

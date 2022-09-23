@@ -2,7 +2,7 @@
 parser: "github"
 uid: "github/vocalpy/crowsetta"
 url: "https://github.com/vocalpy/crowsetta"
-timestamp: "2022-08-23 22:54:13.042493"
+timestamp: "2022-09-22 21:55:25.400076"
 description: "A tool to work with any format for annotating vocalizations"
 avatar: "https://avatars.githubusercontent.com/u/99543036?v=4"
 repo_url: "https://github.com/vocalpy/crowsetta"
@@ -28,5 +28,5 @@ license: {"key": "bsd-3-clause", "name": "BSD 3-Clause \"New\" or \"Revised\" Li
 subscribers_count: 1
 owner: {"html_url": "https://github.com/vocalpy", "avatar_url": "https://avatars.githubusercontent.com/u/99543036?v=4", "login": "vocalpy", "type": "Organization"}
 topics: ["dataset", "annotation", "csv", "python", "python3", "annotation-format", "birdsong", "animal-communication", "animal-vocalizations", "bioacoustics", "bioacoustic-analysis"]
-date: "2022-09-07 22:18:44.455691"
+date: "2022-09-22 22:09:46.400275"
 ---

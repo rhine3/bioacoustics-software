@@ -1,8 +1,8 @@
 ---
 parser: "custom"
-uid: "custom/www-avisoft-com/sound-analysis"
+uid: "custom/avisoft-saslab-pro"
 url: "http://www.avisoft.com/sound-analysis/"
-timestamp: "2022-08-23 22:54:10.871672"
+timestamp: "2022-09-22 21:55:21.155346"
 description: "automated detection and cross-correlation classification"
 repo_url: "http://www.avisoft.com/sound-analysis/"
 title: "Avisoft-SASLab Pro"
@@ -13,5 +13,5 @@ acoustic parameter measurement: "sound parameter measurement and noise level mea
 localization: "finds TDOAs via cross-correlation"
 detector features: "event detection using template cross-correlation"
 classifier features: "create classifiers using template cross-correlation"
-date: "2022-09-07 22:18:44.463130"
+date: "2022-09-22 22:09:46.407564"
 ---

@@ -2,7 +2,7 @@
 parser: "github"
 uid: "github/BirdVox/birdvoxclassify"
 url: "https://github.com/BirdVox/birdvoxclassify"
-timestamp: "2022-08-23 22:54:11.944059"
+timestamp: "2022-09-22 21:55:23.230952"
 description: "A pre-trained deep learning system for classifying bird flight calls in audio clips"
 avatar: "https://avatars.githubusercontent.com/u/25643193?v=4"
 repo_url: "https://github.com/BirdVox/birdvoxclassify"
@@ -26,5 +26,5 @@ language: "Python"
 license: {"key": "mit", "name": "MIT License", "spdx_id": "MIT", "url": "https://api.github.com/licenses/mit", "node_id": "MDc6TGljZW5zZTEz"}
 subscribers_count: 6
 owner: {"html_url": "https://github.com/BirdVox", "avatar_url": "https://avatars.githubusercontent.com/u/25643193?v=4", "login": "BirdVox", "type": "Organization"}
-date: "2022-09-07 22:18:44.456531"
+date: "2022-09-22 22:09:46.401326"
 ---

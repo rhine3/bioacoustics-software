@@ -1,12 +1,11 @@
 ---
 parser: "custom"
-uid: "custom/www-titley-scientific-com/us/anabat-insight-html"
+uid: "custom/anabat-insight"
 url: "https://www.titley-scientific.com/us/anabat-insight.html"
-timestamp: "2022-08-18 14:26:05.710635"
+timestamp: "2022-09-22 21:55:19.686535"
 description: "recording organization, review, and classification"
 repo_url: "https://www.titley-scientific.com/us/anabat-insight.html"
-title: "Anabat insight"
-tags: ["record", "review", "classify"]
+title: "Anabat Insight"
 paid, free, open: "free and paid versions"
 code available: "N"
 type: "desktop GUI"
@@ -16,6 +15,6 @@ sound processing features: "filter and process files with time expansion, pitch 
 acoustic parameter measurement: "calculate pulse and pass acoustic parameters, e.g. max frequency"
 detector features: "bat call detection and custom filtering in full-spectrum and zero-crossing recordings"
 classifier features: "create decision tree classifiers and support third-party ID algorithms"
-metadata standard: "GUANO"
-date: "2022-09-07 22:18:44.465452"
+metadata standard [wip category]: "GUANO"
+date: "2022-09-22 22:09:46.412453"
 ---

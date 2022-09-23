@@ -1,8 +1,8 @@
 ---
 parser: "custom"
-uid: "custom/koe-io-ac-nz"
+uid: "custom/koe-bioacoustics-software"
 url: "https://koe.io.ac.nz/"
-timestamp: "2022-08-24 09:33:52.203619"
+timestamp: "2022-09-22 21:55:28.214990"
 description: "web-based acoustic data management and detection platform"
 repo_url: "https://koe.io.ac.nz/"
 title: "Koe Bioacoustics Software"
@@ -14,5 +14,5 @@ type: "web GUI"
 organization and annotation: "visually review and annotate detections"
 acoustic parameter measurement: "assess song sequence structure"
 detector features: "use ordination plots to cluster and annotate groups of sound units"
-date: "2022-09-07 22:18:44.464482"
+date: "2022-09-22 22:09:46.411244"
 ---

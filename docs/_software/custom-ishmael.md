@@ -1,8 +1,8 @@
 ---
 parser: "custom"
-uid: "custom/bioacoustics-us/ishmael-html"
+uid: "custom/ishmael"
 url: "http://bioacoustics.us/ishmael.html"
-timestamp: "2022-08-24 09:33:52.196970"
+timestamp: "2022-09-22 21:55:28.208299"
 description: "marine sound detection and localization"
 repo_url: "http://bioacoustics.us/ishmael.html"
 title: "Ishmael"
@@ -15,5 +15,5 @@ organization and annotation: "annotation"
 localization: "localization and beamforming"
 detector features: "energy sum detection, spectrogram correlation, repetitive call trains, whistle and moan detections, ROCCA click and whistle ID"
 comments: "See documentation: http://bioacoustics.us/docs/Ishmael_3.0_Tutorial.pdf"
-date: "2022-09-07 22:18:44.466351"
+date: "2022-09-22 22:09:46.412853"
 ---

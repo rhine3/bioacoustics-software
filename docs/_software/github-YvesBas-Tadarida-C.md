@@ -2,7 +2,7 @@
 parser: "github"
 uid: "github/YvesBas/Tadarida-C"
 url: "https://github.com/YvesBas/Tadarida-C"
-timestamp: "2022-09-07 21:38:52.327027"
+timestamp: "2022-09-22 21:55:31.623353"
 description: "A Toolbox for Animal Detection on Acoustic Recordings Integrating Discriminant Analysis - Classification part"
 avatar: "https://avatars.githubusercontent.com/u/11536833?v=4"
 repo_url: "https://github.com/YvesBas/Tadarida-C"
@@ -31,5 +31,5 @@ open_issues_count: 1
 license: {"key": "gpl-3.0", "name": "GNU General Public License v3.0", "spdx_id": "GPL-3.0", "url": "https://api.github.com/licenses/gpl-3.0", "node_id": "MDc6TGljZW5zZTk="}
 subscribers_count: 11
 owner: {"html_url": "https://github.com/YvesBas", "avatar_url": "https://avatars.githubusercontent.com/u/11536833?v=4", "login": "YvesBas", "type": "User"}
-date: "2022-09-07 22:18:44.457423"
+date: "2022-09-22 22:09:46.402146"
 ---

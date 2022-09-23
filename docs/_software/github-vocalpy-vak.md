@@ -2,7 +2,7 @@
 parser: "github"
 uid: "github/vocalpy/vak"
 url: "https://github.com/vocalpy/vak"
-timestamp: "2022-09-07 21:38:53.284869"
+timestamp: "2022-09-22 21:55:32.373477"
 description: "a neural network toolbox for animal vocalizations and bioacoustics"
 avatar: "https://avatars.githubusercontent.com/u/99543036?v=4"
 repo_url: "https://github.com/vocalpy/vak"
@@ -24,10 +24,10 @@ size: 204884
 stargazers_count: 37
 watchers_count: 37
 language: "Python"
-open_issues_count: 83
+open_issues_count: 84
 license: {"key": "bsd-3-clause", "name": "BSD 3-Clause \"New\" or \"Revised\" License", "spdx_id": "BSD-3-Clause", "url": "https://api.github.com/licenses/bsd-3-clause", "node_id": "MDc6TGljZW5zZTU="}
 subscribers_count: 2
 owner: {"html_url": "https://github.com/vocalpy", "avatar_url": "https://avatars.githubusercontent.com/u/99543036?v=4", "login": "vocalpy", "type": "Organization"}
 topics: ["python", "python3", "vocalizations", "speech-processing", "birdsong", "torch", "torchvision", "pytorch", "bioacoustics", "bioacoustic-analysis", "animal-vocalizations", "animal-communication", "spectrograms"]
-date: "2022-09-07 22:18:44.455387"
+date: "2022-09-22 22:09:46.399992"
 ---

@@ -2,7 +2,7 @@
 parser: "github"
 uid: "github/rhine3/specky"
 url: "https://github.com/rhine3/specky"
-timestamp: "2022-09-07 21:38:51.814135"
+timestamp: "2022-09-22 21:55:31.241978"
 description: "Spectrogram viewing tool"
 avatar: "https://avatars.githubusercontent.com/u/27306428?v=4"
 repo_url: "https://github.com/rhine3/specky"
@@ -26,5 +26,5 @@ language: "Python"
 open_issues_count: 8
 subscribers_count: 2
 owner: {"html_url": "https://github.com/rhine3", "avatar_url": "https://avatars.githubusercontent.com/u/27306428?v=4", "login": "rhine3", "type": "User"}
-date: "2022-09-07 22:18:44.458506"
+date: "2022-09-22 22:09:46.403164"
 ---

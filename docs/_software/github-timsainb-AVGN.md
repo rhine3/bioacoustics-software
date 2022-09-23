@@ -2,7 +2,7 @@
 parser: "github"
 uid: "github/timsainb/AVGN"
 url: "https://github.com/timsainb/AVGN"
-timestamp: "2022-08-23 22:54:10.866941"
+timestamp: "2022-09-22 21:55:21.150613"
 description: "A generative network for animal vocalizations. For dimensionality reduction, sequencing, clustering, corpus-building, and generating novel 'stimulus spaces'. All with notebook examples using freely available datasets. "
 avatar: "https://avatars.githubusercontent.com/u/1279238?v=4"
 repo_url: "https://github.com/timsainb/AVGN"
@@ -26,5 +26,5 @@ license: {"key": "mit", "name": "MIT License", "spdx_id": "MIT", "url": "https:/
 subscribers_count: 7
 owner: {"html_url": "https://github.com/timsainb", "avatar_url": "https://avatars.githubusercontent.com/u/1279238?v=4", "login": "timsainb", "type": "User"}
 topics: ["syllables", "birdsong", "notebook", "cassins-vireo", "bengalese-finches", "vocalization", "segmentation"]
-date: "2022-09-07 22:18:44.461677"
+date: "2022-09-22 22:09:46.406297"
 ---
