@@ -1,0 +1,16 @@
+---
+parser: "custom"
+uid: "custom/birdnet"
+url: "https://birdnet.cornell.edu/"
+timestamp: "2022-09-22 21:55:22.534114"
+description: "pretrained classifier for birds"
+repo_url: "https://birdnet.cornell.edu/"
+title: "BirdNET"
+paid, free, open: "free"
+code available: "Y"
+licence: "CC-BY-NC-SA"
+taxonomic or sound type specialization, if any: "3000 birds"
+type: "command line, app"
+classifier features: "pretrained convolutional neural network classifier for 3000 bird species"
+date: "2022-09-22 22:09:46.414438"
+---

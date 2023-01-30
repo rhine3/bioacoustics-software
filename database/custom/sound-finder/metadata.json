@@ -1,0 +1,26 @@
+{
+    "parser": "custom",
+    "uid": "custom/sound-finder",
+    "url": "https://doi.org/10.1080/09524622.2013.827588",
+    "data": {
+        "title": "Sound Finder",
+        "url": "https://doi.org/10.1080/09524622.2013.827588",
+        "description": "position estimation",
+        "paid, free, open": "free",
+        "code available": "Y",
+        "licence": "",
+        "taxonomic or sound type specialization, if any": "",
+        "specific hardware": "",
+        "type": "R, Excel",
+        "data exploration": "",
+        "organization and annotation": "",
+        "sound processing features": "",
+        "acoustic parameter measurement": "",
+        "localization": "position estimation using GPS algorithm that takes pre-calculated TDOAs as inputs",
+        "detector features": "",
+        "classifier features": "",
+        "metadata standard [wip category]": "",
+        "comments": "",
+        "timestamp": "2022-09-22 21:55:30.515426"
+    }
+}

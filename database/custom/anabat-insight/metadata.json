@@ -1,0 +1,26 @@
+{
+    "parser": "custom",
+    "uid": "custom/anabat-insight",
+    "url": "https://www.titley-scientific.com/us/anabat-insight.html",
+    "data": {
+        "title": "Anabat Insight",
+        "url": "https://www.titley-scientific.com/us/anabat-insight.html",
+        "description": "recording organization, review, and classification",
+        "paid, free, open": "free and paid versions",
+        "code available": "N",
+        "licence": "",
+        "taxonomic or sound type specialization, if any": "",
+        "specific hardware": "",
+        "type": "desktop GUI",
+        "data exploration": "browse and view files as spectrograms",
+        "organization and annotation": "view labels on built-in maps",
+        "sound processing features": "filter and process files with time expansion, pitch shift, etc.",
+        "acoustic parameter measurement": "calculate pulse and pass acoustic parameters, e.g. max frequency",
+        "localization": "",
+        "detector features": "bat call detection and custom filtering in full-spectrum and zero-crossing recordings",
+        "classifier features": "create decision tree classifiers and support third-party ID algorithms",
+        "metadata standard [wip category]": "GUANO",
+        "comments": "",
+        "timestamp": "2022-09-22 21:55:19.686535"
+    }
+}

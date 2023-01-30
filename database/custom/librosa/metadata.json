@@ -1,0 +1,26 @@
+{
+    "parser": "custom",
+    "uid": "custom/librosa",
+    "url": "https://librosa.org/librosa/",
+    "data": {
+        "title": "librosa",
+        "url": "https://librosa.org/librosa/",
+        "description": "general-purpose sound analysis scripting toolkit",
+        "paid, free, open": "free",
+        "code available": "Y",
+        "licence": "ISC",
+        "taxonomic or sound type specialization, if any": "",
+        "specific hardware": "",
+        "type": "Python",
+        "data exploration": "all-purpose audio scripting features including loading, spectrogram generation",
+        "organization and annotation": "",
+        "sound processing features": "",
+        "acoustic parameter measurement": "extract features like beat, tempo",
+        "localization": "",
+        "detector features": "temporal segmentation",
+        "classifier features": "",
+        "metadata standard [wip category]": "",
+        "comments": "",
+        "timestamp": "2022-09-22 21:55:28.376965"
+    }
+}

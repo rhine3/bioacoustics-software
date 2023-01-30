@@ -1,0 +1,17 @@
+---
+parser: "custom"
+uid: "custom/praat"
+url: "https://www.fon.hum.uva.nl/praat/"
+timestamp: "2022-09-22 21:55:29.735998"
+description: "annotation and sound feature analysis; has been ported directly into Python (see Parselmouth)"
+repo_url: "https://www.fon.hum.uva.nl/praat/"
+title: "Praat"
+paid, free, open: "free"
+code available: "Y"
+licence: "GPL v3"
+taxonomic or sound type specialization, if any: "individual sound analysis; originally intended for human phonetics"
+type: "desktop GUI"
+organization and annotation: "individual sound annotation"
+acoustic parameter measurement: "wide variety of speech analysis tools, e.g. fundamental frequency analysis; spectral, pitch, formant, intensity analysis"
+date: "2022-09-22 22:09:46.407764"
+---

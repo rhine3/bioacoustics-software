@@ -1,0 +1,88 @@
+---
+title: Software Tags
+description: "Software Tag Layout"
+layout: base
+permalink: /tags/
+tipue_search_active: true
+exclude_from_search: true
+---
+
+<style>
+body {
+  text-align: center;
+}
+</style>
+
+{% include scrolltop.html %}
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.min.js"></script>
+
+<svg width="800" height="800"></svg>
+
+<script>
+const svg = d3.select('svg')
+
+const width = +svg.attr('width'),
+  height = +svg.attr('height')
+
+const format = d3.format('.1s')
+
+const color = d3.scaleLinear()
+  .range(["#81d5dd",
+          "#e9b198",
+          "#acd9aa",
+          "#cfb4de",
+          "#d7d09e"])
+  .interpolate(d3.interpolateHcl)
+
+
+d3.json("{{ site.baseurl }}/api/data.json", raw => {
+
+  data = []
+  children = {}
+  $.each(raw, function(i, e) {
+      $.each(e['topics'], function(ii, topic) {
+          if (!(topic in children)) {
+               children[topic] = 0
+          }
+          children[topic] += 1
+      })
+  })
+
+ $.each(children, function(tag, count) {
+    if (count >= {{ site.min_tag_count }}) {
+        data.push({"word": tag, "size": count})
+    }
+  })
+    
+  color.domain(d3.extent(data, d => +d.size))
+
+  const pack = d3.pack()
+  .size([width - 2, height - 2])
+  .padding(3)
+
+  const root = pack(d3.hierarchy({children: data})
+                    .sum(d => d.size))
+
+  const leaf = svg.selectAll("g")
+    .data(root.leaves())
+    .enter().append("g")
+    .attr("transform", d => `translate(${d.x + 1},${d.y + 1})`)
+    .attr("text-anchor", "middle")
+
+  leaf.append("circle")
+    .attr("r", d => d.r)
+    .attr("fill", d => color(d.data.size))
+    .attr("stroke", d => d3.hsl(color(d.data.size)).brighter(.5))
+
+  leaf.append('text')
+    .attr("fill", d => d3.hsl(color(d.data.size)).darker(2.6))
+    .text(d => {return d.data.word})
+    .attr('y', 5)
+
+  leaf.append('title')
+    .text(d => `${d.data.word} ${d.data.size}`)
+ 
+});
+</script>

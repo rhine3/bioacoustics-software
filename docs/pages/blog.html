@@ -1,0 +1,34 @@
+---
+layout: news
+title: News
+permalink: /news/
+---
+
+<div class="container mtb">
+    <div class="row">
+
+        <div class="col-lg-8">
+
+            {% assign posts = site.posts | where: 'draft', 'false' %}
+            {% for post in posts %}
+                <! -- Blog Post -->
+                    {% if post.img %}
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                        <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
+                    {% endif %}
+                </a>
+                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
+                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
+                {{ post.excerpt }}
+                <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
+                <div class="hline"></div>
+
+                <div class="spacing"></div>
+            {% endfor %}
+
+        </div><! --/col-lg-8 -->
+
+        {% include sidebar.html %}
+
+    </div><! --/row -->
+</div><! --/container -->

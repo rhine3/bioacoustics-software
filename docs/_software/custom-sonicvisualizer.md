@@ -1,0 +1,15 @@
+---
+parser: "custom"
+uid: "custom/sonicvisualizer"
+url: "https://www.sonicvisualiser.org/"
+timestamp: "2022-09-22 21:55:30.512746"
+description: "spectrogram visualization"
+repo_url: "https://www.sonicvisualiser.org/"
+title: "SonicVisualizer"
+paid, free, open: "free"
+code available: "Y"
+licence: "GPL v2"
+type: "desktop GUI"
+data exploration: "spectrogram visualization"
+date: "2022-09-22 22:09:46.407156"
+---

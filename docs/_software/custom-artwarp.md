@@ -1,0 +1,17 @@
+---
+parser: "custom"
+uid: "custom/artwarp"
+url: "https://soundanalysis.wp.st-andrews.ac.uk/"
+timestamp: "2022-09-22 21:55:20.068328"
+description: "estimate frequency sweeps and cluster-classify tonal sounds"
+repo_url: "https://soundanalysis.wp.st-andrews.ac.uk/"
+title: "ARTWARP"
+paid, free, open: "free"
+code available: "N"
+licence: "NO LICENCE"
+taxonomic or sound type specialization, if any: "tonal sounds; individual animal recognition"
+type: "MATLAB"
+acoustic parameter measurement: "identify frequncy sweeps"
+classifier features: "create classifier of tonal sounds using ART neural network"
+date: "2022-09-22 22:09:46.409160"
+---
