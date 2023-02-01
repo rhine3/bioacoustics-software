@@ -26,7 +26,7 @@ jobs:
         run: |
           export PATH="/usr/share/miniconda/bin:$PATH"
           source activate rse
-          rse import --type google-sheet --update "https://docs.google.com/spreadsheets/d/e/2PACX-1vQkPsu14BG0bErrY0thXymfS55be0spEVX_WpWm2Yy3We8swMO0sIb3iD4Sg-i1lWnxSsiiN5JmWAD-/pub?gid=0&single=true&output=csv"
+          rse import --type google-sheet --update "https://docs.google.com/spreadsheets/d/1Ba1MY4o5Sm1f08IekJcbxAtSjkDN71Z1RZ42kzrofJ0/pub?gid=0&single=true&output=csv"
 
       - name: Update Web Interface
         run: |
