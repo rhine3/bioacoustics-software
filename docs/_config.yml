@@ -15,7 +15,7 @@ min_tag_count: 1
 tag_threshold: 10
 
 # Customize template
-logo: assets/img/logo/logo-transparent.svg
+logo: assets/img/logo/microphone-logo.png
 url: "https://rhine3.github.io/bioacoustics-software/"
 repo: "https://github.com/rhine3/bioacoustics-software/"
 
