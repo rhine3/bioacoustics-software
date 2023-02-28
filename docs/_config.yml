@@ -16,8 +16,8 @@ tag_threshold: 10
 
 # Customize template
 logo: assets/img/logo/logo-transparent.svg
-url: "https://rseng.github.io/rse"
-repo: "https://github.com/rseng/rse"
+url: "https://rhine3.github.io/bioacoustics-software/"
+repo: "https://github.com/rhine3/bioacoustics-software/"
 
 # Build settings
 markdown: kramdown
