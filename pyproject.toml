@@ -8,6 +8,10 @@ version = "0.1.0"
 description = "Site that lists bioacoustics software"
 authors = [
     {name = "Tessa Rhinehart", email = "tessa.rhinehart@pitt.edu"}
+    {name = "Louis Freeland-Haynes", email = "louis.freelandhaynes@pitt.edu"}
+    {name = "David Nicholson", email = "nicholdav@gmail.com"}
+    {name = "Vanessa Sochat", email = "vsochat@gmail.com"}
+    {name = "Justin Kitzes", email = "justin.kitzes@pitt.edu"}
 ]
 readme = "README.md"
 license = {file = "LICENSE"}
