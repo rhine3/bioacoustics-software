@@ -121,7 +121,7 @@ For a more complete and detailed listing, see the spreadsheet above.
 * [BatExplorer](https://www.batlogger.com/en/products/batexplorer/) (free and paid versions) - bat classification
 * [BatScope](https://www.wsl.ch/en/services-and-products/software-websites-and-apps/batscope-4.html) (free) - classify bat recordings
 * [Banter](https://github.com/EricArcher/banter) (free) - create your own hierarchical acoustic classifiers
-* [BirdNET](https://github.com/kahst/BirdNET) (free) - pre-created neural network classifiers for common birds of North America and Europe
+* [BirdNET](https://github.com/kahst/BirdNET-Analyzer) (free) - pre-created neural network classifiers for common birds of North America and Europe
 * [BirdVoxClassify](https://github.com/BirdVox/birdvoxclassify) (free) - pre-created nocturnal flight call classifiers for a limited number of North American bird species
 * [gibbonR](https://github.com/DenaJGibbon/gibbonR-package) (free) - R package that enables user to train neural networks, GMMs, and others
 * [hybrid-vocal-classifier](https://github.com/vocalpy/hybrid-vocal-classifier) (free) - automated labeling geared towards individual syllable identification
