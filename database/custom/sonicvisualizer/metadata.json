@@ -1,0 +1,26 @@
+{
+    "parser": "custom",
+    "uid": "custom/sonicvisualizer",
+    "url": "https://www.sonicvisualiser.org/",
+    "data": {
+        "title": "SonicVisualizer",
+        "url": "https://www.sonicvisualiser.org/",
+        "description": "spectrogram visualization",
+        "paid, free, open": "free",
+        "code available": "Y",
+        "licence": "GPL v2",
+        "taxonomic or sound type specialization, if any": "",
+        "specific hardware": "",
+        "type": "desktop GUI",
+        "data exploration": "spectrogram visualization",
+        "organization and annotation": "",
+        "sound processing features": "",
+        "acoustic parameter measurement": "",
+        "localization": "",
+        "detector features": "",
+        "classifier features": "",
+        "metadata standard [wip category]": "",
+        "comments": "",
+        "timestamp": "2022-09-22 21:55:30.512746"
+    }
+}

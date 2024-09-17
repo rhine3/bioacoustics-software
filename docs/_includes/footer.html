@@ -1,0 +1,30 @@
+<div id="footerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+            </div>
+            <div class="col-lg-4">
+            </div>
+            <div class="col-lg-4">
+                <p>
+                    {% for network in site.social %}
+                        <a href="{{ network.url }}" class="btn-social btn-outline">
+                          <i class="fa-brands fa-{{ network.title }}" aria-hidden="true"></i>
+                          <span class="sr-only">{{network.title}}</span>
+                        </a>
+                    {% endfor %}
+                         <a href="{{ site.repo }}/issues"  class="btn-social btn-outline" target="_blank">
+                             <i class="fa-solid fa-question"></i>
+                         </a>
+                         <a href="{{ site.repo }}" target="_blank" class="btn-social btn-outline" target="_blank">
+                             <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a class="btn-social btn-outline" href="{{ "/feed.xml" | prepend: site.baseurl }}">
+                        <i class="fa-solid fa-square-rss"
+                           style="color:orange; cursor:pointer; float:right"></i>
+                        </a>
+                </p>
+            </div>
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/footerwrap -->

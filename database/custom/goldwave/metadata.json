@@ -1,0 +1,26 @@
+{
+    "parser": "custom",
+    "uid": "custom/goldwave",
+    "url": "https://www.goldwave.com/",
+    "data": {
+        "title": "GoldWave",
+        "url": "https://www.goldwave.com/",
+        "description": "general-purpose audio software",
+        "paid, free, open": "free",
+        "code available": "N",
+        "licence": "",
+        "taxonomic or sound type specialization, if any": "",
+        "specific hardware": "",
+        "type": "desktop GUI",
+        "data exploration": "view and manipulate audio",
+        "organization and annotation": "",
+        "sound processing features": "",
+        "acoustic parameter measurement": "",
+        "localization": "",
+        "detector features": "",
+        "classifier features": "",
+        "metadata standard [wip category]": "",
+        "comments": "",
+        "timestamp": "2022-09-22 21:55:27.114671"
+    }
+}

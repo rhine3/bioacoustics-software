@@ -1,0 +1,26 @@
+{
+    "parser": "custom",
+    "uid": "custom/arbimon",
+    "url": "https://arbimon.rfcx.org/",
+    "data": {
+        "title": "ARBIMON",
+        "url": "https://arbimon.rfcx.org/",
+        "description": "web-based interface geared toward analyzing autonomous wildlife survey data",
+        "paid, free, open": "free for certain number of recordings",
+        "code available": "N",
+        "licence": "",
+        "taxonomic or sound type specialization, if any": "",
+        "specific hardware": "",
+        "type": "web GUI, phone app",
+        "data exploration": "listening and review interface for autonomous recordings; create listening playlists",
+        "organization and annotation": "web-based annotation GUI; phone app for managing recorder deployment; web uploader that supports many common recorder timestamp formats",
+        "sound processing features": "",
+        "acoustic parameter measurement": "aggregate recordings at different temporal and spatial scales",
+        "localization": "",
+        "detector features": "template-matching detection",
+        "classifier features": "",
+        "metadata standard [wip category]": "",
+        "comments": "free storage",
+        "timestamp": "2022-09-22 21:55:20.065695"
+    }
+}

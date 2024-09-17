@@ -1,0 +1,298 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900);
+
+:root {
+  --color-red: #c0392b;
+  --color-red-dark: #962d22;
+  --color-red-light: #d65548;
+  --color-blue: #2980b9;
+  --color-blue-dark: #20638f;
+  --color-blue-light: #409ad5;
+  --color-yellow: #f1c40f;
+  --color-yellow-dark: #c29d0b;
+  --color-yellow-light: #f4d03f;
+  --color-green: #2ecc71;
+  --color-green-dark: #25a25a;
+  --color-green-light: #54d98c;
+  --color-violet: #9b59b6;
+  --color-violet-dark: #804399;
+  --color-violet-light: #b07cc6;
+  --color-orange: #e67e22;
+  --color-orange-dark: #bf6516;
+  --color-orange-light: #eb9950;
+  --color-asphalt: #34495e;
+  --color-asphalt-dark: #22303d;
+  --color-asphalt-light: #46637f;
+  --scene-background-color: #9c276f;
+  --scene-background-falloff: #6c2458;
+}
+
+.red {
+  background-color: var(--color-red);
+}
+.red:hover {
+  background-color: var(--color-red-dark);
+}
+
+.blue {
+  background-color: var(--color-blue);
+}
+.blue:hover {
+  background-color: var(--color-blue-dark);
+}
+
+.yellow {
+  background-color: var(--color-yellow);
+}
+.yellow:hover {
+  background-color: var(--color-yellow-dark);
+}
+
+.green {
+  background-color: var(--color-green);
+}
+.green:hover {
+  background-color: var(--color-green-dark);
+}
+
+.violet {
+  background-color: var(--color-violet);
+}
+.violet:hover {
+  background-color: var(--color-violet-dark);
+}
+
+.orange {
+  background-color: var(--color-orange);
+}
+.orange:hover {
+  background-color: var(--color-orange-dark);
+}
+
+.asphalt {
+  background-color: var(--color-asphalt);
+}
+.asphalt:hover {
+  background-color: var(--color-asphalt-dark);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 2rem 0;
+  background-image: radial-gradient(ellipse closest-side, var(--scene-background-color) 50%, var(--scene-background-falloff) 125%);
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-top:50px;
+}
+
+a {
+  border-bottom: 1px dotted var(--color-asphalt);
+  text-decoration: none;
+  color: var(--color-asphalt);
+}
+
+body > header {
+  margin: 0 auto 5rem;
+  padding: .75rem;
+  max-width: 1000px;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+body > header h1 {
+  margin: .75rem 0 .75rem;
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: 6rem;
+}
+body > header h2 {
+  margin: 12px 0 12px;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+body > header p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+/* ------------------------------------------
+   navigation
+   ------------------------------------------ */
+body > nav {
+  margin: 0 auto 2rem;
+  padding: .75rem;
+  max-width: 1000px;
+  text-align: center;
+}
+body > nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+body > nav li {
+  padding: 0 5px;
+}
+
+.button {
+  display: inline-block;
+  transition: all .5s;
+  padding: 5px 10px;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+.button.red {
+  background-color: var(--color-red);
+}
+.button.red:hover {
+  background-color: var(--color-red-dark);
+}
+.button.red:active {
+  background-color: var(--color-red-light);
+}
+.button.blue {
+  background-color: var(--color-blue);
+}
+.button.blue:hover {
+  background-color: var(--color-blue-dark);
+}
+.button.blue:active {
+  background-color: var(--color-blue-light);
+}
+.button.yellow {
+  background-color: var(--color-yellow);
+}
+.button.yellow:hover {
+  background-color: var(--color-yellow-dark);
+}
+.button.yellow:active {
+  background-color: var(--color-yellow-light);
+}
+.button.green {
+  background-color: var(--color-green);
+}
+.button.green:hover {
+  background-color: var(--color-green-dark);
+}
+.button.green:active {
+  background-color: var(--color-green-light);
+}
+.button.violet {
+  background-color: var(--color-violet);
+}
+.button.violet:hover {
+  background-color: var(--color-violet-dark);
+}
+.button.violet:active {
+  background-color: var(--color-violet-light);
+}
+.button.orange {
+  background-color: var(--color-orange);
+}
+.button.orange:hover {
+  background-color: var(--color-orange-dark);
+}
+.button.orange:active {
+  background-color: var(--color-orange-light);
+}
+.button.asphalt {
+  background-color: var(--color-asphalt);
+}
+.button.asphalt:hover {
+  background-color: var(--color-asphalt-dark);
+}
+.button.asphalt:active {
+  background-color: var(--color-asphalt-light);
+}
+
+article {
+  display: flex;
+  margin: 0 auto 2rem;
+  padding: 1rem;
+  max-width: 1000px;
+  border-radius: .25rem;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.site-footer {
+   padding: 60px;
+   color: white;
+}
+
+.site-footer a {
+  color: white;
+}
+
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 2000px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: calc(100%) !important;
+  }
+}
+
+.card {
+  overflow: hidden;
+  cursor: pointer;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: .75rem solid white;
+  margin: 10px;
+  padding: 20px;
+  height: 10vh;
+  color: #333;
+  min-height: 150px;
+  width: calc(10%);
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background-color: white;
+}
+
+.searchcard {
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: .75rem solid white;
+  margin: 10px;
+  padding: 10px;
+  color: #333;
+  min-height: 150px;
+  width: calc(20%);
+}
+
+.card.red {
+  background-color: var(--color-red);
+}
+
+.card.blue {
+  background-color: var(--color-blue);
+}
+
+.card.yellow {
+  background-color: var(--color-yellow);
+}
+
+
+tr {
+  background-color: white;
+}
+

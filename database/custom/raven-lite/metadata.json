@@ -1,0 +1,26 @@
+{
+    "parser": "custom",
+    "uid": "custom/raven-lite",
+    "url": "https://ravensoundsoftware.com/software/raven-lite/",
+    "data": {
+        "title": "Raven Lite",
+        "url": "https://ravensoundsoftware.com/software/raven-lite/",
+        "description": "general bioacoustic listening and annotation",
+        "paid, free, open": "free",
+        "code available": "N",
+        "licence": "",
+        "taxonomic or sound type specialization, if any": "",
+        "specific hardware": "",
+        "type": "desktop GUI",
+        "data exploration": "spectrogram visualization and listening",
+        "organization and annotation": "sound annotation (only one notes column available in free version)",
+        "sound processing features": "",
+        "acoustic parameter measurement": "measure power and other basic acoustic features",
+        "localization": "",
+        "detector features": "",
+        "classifier features": "",
+        "metadata standard [wip category]": "",
+        "comments": "very long-lived, continuously maintained software; .selections.txt annotation format able to be ported into many applications",
+        "timestamp": "2022-09-22 21:55:30.112229"
+    }
+}

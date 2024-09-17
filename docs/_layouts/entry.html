@@ -1,0 +1,162 @@
+---
+layout: base
+---
+
+<div class="container mt" style='margin-bottom:200px'>
+    <div class="row">
+
+        {% include appheader.html %}
+
+        <div style="margin-top:25px" class="col-md-9">
+
+            <h5 style='font-weight:600'>{{ page.slug }}</h5>
+            <div class="spacing"></div>
+            
+            <div id="recipe">
+            {{ page.name }}
+            {{ content | safe }}
+            </div>
+
+        </div>
+
+        <div class="col-md-3">
+            <div class="spacing"></div>
+
+            {% if page.image %}
+            <div class="row">
+                <div class="col-md-12">
+                   <img src="{{ site.baseurl }}/assets/img/{{ page.img }}" style="max-height:200px">
+	        </div>
+            </div>
+            {% endif %}
+
+            <div class="row">
+
+                <!-- Copy to clipboard -->
+                <div class="col-md-2">
+                    <button style="margin-top:55px" id="recipe" class="btn btn-theme copyme" data-clipboard-target="#recipe"><i class="fa fa-copy"></i></button>
+	        </div>
+            </div>
+
+            <div style="padding-bottom:20px" class="hline"></div>
+            <p><b>Date: </b> {{ page.date | date: "%b %-d, %Y" }}</p>
+            <p><b>Question: </b>{{ page.name }}</p>
+            {% if page.options %}<p><b>Options: </b>
+                  {% for option in page.options %}<b style="color:{% include darkcolors.html %}; margin-right:5px;"> {{ option }} </b>{% endfor %}</p>
+            {% endif %}
+        </div></p>
+    </div><! --/row -->
+</div><! --/container -->
+	 
+{% include notification.html %}
+
+<script>
+var recipes;
+
+// Generate json on the fly
+var metadata = {"links": { "self": "{{ site.url }}{{ page.path }}?json=1",
+                           "url": "{{ site.url }}{{ page.path }}?json=1",
+                           "next": "{{ site.url }}{{ page.next.path }}?json=1",
+                           "previous": "{{ site.url }}{{ page.previous.path }}?json=1"},
+
+                "data": {  "id": "{{ page.uid }}",
+                           "name": "{{ page.name }}",
+                           {% if page.options %}"options": [{% for option in page.options %}"{{ option }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}],{% endif %}
+                 }
+               }
+
+console.log(metadata)
+
+$(document).ready(function(){
+
+    function $_GET(param) {
+	var vars = {};
+	window.location.href.replace( location.hash, '' ).replace( 
+		/[?&]+([^=&]+)=?([^&]*)?/gi, // regexp
+		function( m, key, value ) { // callback
+			vars[key] = value !== undefined ? value : '';
+		}
+	);
+	if ( param ) {
+		return vars[param] ? vars[param] : null;	
+	}
+	return vars;
+    }
+
+    // If user asking for json, return it
+    if ($_GET('json') == 1){
+       $("code").text(JSON.stringify(metadata, null, '\t'))
+       $("#self").show();
+       $("#json").hide();
+    }
+    
+    // Recipes
+    if (localStorage.getItem("scif-recipes") === null) {  
+        recipes = "{}";
+        localStorage.setItem("scif-recipes", recipes)
+    } else {
+       recipes = JSON.parse(localStorage.getItem('scif-recipes'));
+    }
+
+    // If recipe in box, make filled in star
+    if (Object.prototype.hasOwnProperty.call(recipes, "{{ page.slug }}")) {
+       $("#addapp").hide();
+       $("#removeapp").show();
+    }
+
+})
+
+// Actions to add a recipe
+$("#addapp").click(function(){
+    recipes = JSON.parse(localStorage.getItem('scif-recipes'));
+    if (Object.prototype.hasOwnProperty.call(recipes, "{{ page.slug }}")){
+       toast_message('This recipe is already in your box!','info');
+    } else {
+       recipes["{{ page.slug }}"] = {"text": $("#recipe").text()};
+       {% if page.files %}
+            recipes["{{ page.slug }}"]['files'] = [{% for filey in page.files %}"/apps{{ page.url }}{{ filey }}" {% unless forloop.last %},{% endunless %} {% endfor %}]
+       {% endif %}
+       console.log(recipes)
+       localStorage.setItem("scif-recipes", JSON.stringify(recipes))
+       $("#addapp").hide();
+       $("#removeapp").show();
+       toast_message('Recipe added to box!','info');
+    }
+})
+
+// Actions to remove a recipe
+$("#removeapp").click(function(){
+    recipes = JSON.parse(localStorage.getItem('scif-recipes'));
+    if (Object.prototype.hasOwnProperty.call(recipes, "{{ page.slug }}")){
+       delete recipes["{{ page.slug }}"];
+       localStorage.setItem("scif-recipes", JSON.stringify(recipes))
+       $("#removeapp").hide();
+       toast_message('Recipe removed from box.','info');
+       $("#addapp").show();
+    } else {
+       toast_message('This recipe is not in your box!','info');
+    }
+})
+
+
+// Copy recipe to clipboard
+$('.copyme').click(function(){
+    var content = $("code")
+    var range = document.createRange();  
+    range.selectNode(content[0])  
+    window.getSelection().addRange(range)
+
+  try {  
+        // Now that we've selected the anchor text, execute the copy command  
+        var successful = document.execCommand('copy');  
+        var msg = successful ? 'successful' : 'unsuccessful';  
+        toast_message('Copy ' + msg)
+      }  catch(err) {  
+        toast_message('Oops, unable to copy');  
+      }  
+
+    // removeRange(range) when it is supported  
+    window.getSelection().removeAllRanges();  
+
+});
+</script>

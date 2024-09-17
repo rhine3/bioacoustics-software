@@ -1,0 +1,26 @@
+{
+    "parser": "custom",
+    "uid": "custom/triton",
+    "url": "https://www.cetus.ucsd.edu/technologies_triton.html",
+    "data": {
+        "title": "Triton",
+        "url": "https://www.cetus.ucsd.edu/technologies_triton.html",
+        "description": "view spectrograms and analyze long-duration acoustic recordings",
+        "paid, free, open": "free",
+        "code available": "Y",
+        "licence": "Copyright (Non-commercial permitted)",
+        "taxonomic or sound type specialization, if any": "long duration, continuous and scheduled duty-cycle time series",
+        "specific hardware": "",
+        "type": "MATLAB",
+        "data exploration": "",
+        "organization and annotation": "view spectrograms",
+        "sound processing features": "",
+        "acoustic parameter measurement": "calculate long term spectral averages",
+        "localization": "",
+        "detector features": "",
+        "classifier features": "",
+        "metadata standard [wip category]": "",
+        "comments": "Wiki here: https://github.com/MarineBioAcousticsRC/Triton/wiki - Also available as Windows executable",
+        "timestamp": "2022-09-22 21:55:31.626301"
+    }
+}

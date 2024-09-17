@@ -1,0 +1,58 @@
+name: Update
+on:
+  schedule:
+    # Once a week on Saturday
+    - cron: '0 0 * * 6'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup python environment
+        run: conda create --quiet --name rse
+
+      - name: Install Development RSE
+        run: |
+          export PATH="/usr/share/miniconda/bin:$PATH"
+          source activate rse
+          # Update from master to be safe
+          git clone https://github.com/rseng/rse /tmp/rse
+          cd /tmp/rse
+          pip install -e .[all]
+          cd -
+
+      - name: Update Database via Import
+        run: |
+          export PATH="/usr/share/miniconda/bin:$PATH"
+          source activate rse
+          rse import --type google-sheet --update "https://docs.google.com/spreadsheets/d/1Ba1MY4o5Sm1f08IekJcbxAtSjkDN71Z1RZ42kzrofJ0/pub?gid=0&single=true&output=csv"
+
+      - name: Update Web Interface
+        run: |
+          export PATH="/usr/share/miniconda/bin:$PATH"
+          source activate rse
+          rse export --type jekyll-web docs/
+
+      - name: Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          printf "GitHub Actor: ${GITHUB_ACTOR}\n"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          git fetch
+          git branch
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@users.noreply.github.com"
+          git checkout main
+          git add docs/_software/*
+          git add database/*
+          git status
+          if git diff-index --quiet HEAD --; then
+             printf "No changes\n"
+          else
+             printf "Changes\n"
+             git commit -a -m "Automated deployment to update software and UI $(date '+%Y-%m-%d')"
+             git push origin main
+          fi

@@ -1,0 +1,61 @@
+{
+    "parser": "github",
+    "uid": "github/DrCoffey/DeepSqueak",
+    "url": "https://github.com/DrCoffey/DeepSqueak",
+    "data": {
+        "title": "DeepSqueak",
+        "url": "https://github.com/DrCoffey/DeepSqueak",
+        "description": "DeepSqueak v3: Using Machine Vision to Accelerate Bioacoustics Research",
+        "paid, free, open": "free",
+        "code available": "Y",
+        "licence": "BSD",
+        "taxonomic or sound type specialization, if any": "",
+        "specific hardware": "",
+        "type": "MATLAB",
+        "data exploration": "",
+        "organization and annotation": "",
+        "sound processing features": "",
+        "acoustic parameter measurement": "",
+        "localization": "",
+        "detector features": "",
+        "classifier features": "",
+        "metadata standard [wip category]": "",
+        "comments": "",
+        "name": "DeepSqueak",
+        "full_name": "DrCoffey/DeepSqueak",
+        "html_url": "https://github.com/DrCoffey/DeepSqueak",
+        "created_at": "2018-05-24T22:47:17Z",
+        "updated_at": "2022-09-22T14:29:24Z",
+        "clone_url": "https://github.com/DrCoffey/DeepSqueak.git",
+        "size": 380005,
+        "stargazers_count": 318,
+        "watchers_count": 318,
+        "language": "MATLAB",
+        "open_issues_count": 11,
+        "license": {
+            "key": "bsd-3-clause",
+            "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+            "spdx_id": "BSD-3-Clause",
+            "url": "https://api.github.com/licenses/bsd-3-clause",
+            "node_id": "MDc6TGljZW5zZTU="
+        },
+        "subscribers_count": 35,
+        "owner": {
+            "html_url": "https://github.com/DrCoffey",
+            "avatar_url": "https://avatars.githubusercontent.com/u/39605011?v=4",
+            "login": "DrCoffey",
+            "type": "User"
+        },
+        "topics": [
+            "deep-learning",
+            "mice",
+            "rats",
+            "bioaccoustics",
+            "matlab",
+            "usv",
+            "matlab-gui"
+        ],
+        "timestamp": "2022-09-22 21:55:26.297081",
+        "avatar": "https://avatars.githubusercontent.com/u/39605011?v=4"
+    }
+}

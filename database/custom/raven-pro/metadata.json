@@ -1,0 +1,26 @@
+{
+    "parser": "custom",
+    "uid": "custom/raven-pro",
+    "url": "https://ravensoundsoftware.com/software/raven-pro",
+    "data": {
+        "title": "Raven Pro",
+        "url": "https://ravensoundsoftware.com/software/raven-pro",
+        "description": "general bioacoustic listening and annotation",
+        "paid, free, open": "paid; reduced-price options",
+        "code available": "N",
+        "licence": "",
+        "taxonomic or sound type specialization, if any": "",
+        "specific hardware": "",
+        "type": "desktop GUI",
+        "data exploration": "spectrogram visualization and listening",
+        "organization and annotation": "sound annotation",
+        "sound processing features": "",
+        "acoustic parameter measurement": "measure power and other basic acoustic features",
+        "localization": "",
+        "detector features": "template-matching, band-limited energy detector",
+        "classifier features": "",
+        "metadata standard [wip category]": "",
+        "comments": "",
+        "timestamp": "2022-09-22 21:55:30.114519"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "parser": "github",
+    "uid": "github/kitzeslab/opensoundscape",
+    "url": "https://github.com/kitzeslab/opensoundscape",
+    "data": {
+        "title": "OpenSoundscape",
+        "url": "https://github.com/kitzeslab/opensoundscape",
+        "description": "Open source, scalable software for the analysis of bioacoustic recordings",
+        "paid, free, open": "free",
+        "code available": "Y",
+        "licence": "MIT",
+        "taxonomic or sound type specialization, if any": "any sound; specific tool for classification of repeating sounds (e.g. trills)",
+        "specific hardware": "",
+        "type": "Python",
+        "data exploration": "",
+        "organization and annotation": "process Raven sound software annotation files",
+        "sound processing features": "",
+        "acoustic parameter measurement": "",
+        "localization": "localization features (not fully documented)",
+        "detector features": "",
+        "classifier features": "create deep learning networks for classification of animal sounds; signal processing for repeating sounds; pretrained classifiers available for ~500 bird species",
+        "metadata standard [wip category]": "",
+        "comments": "",
+        "name": "opensoundscape",
+        "full_name": "kitzeslab/opensoundscape",
+        "html_url": "https://github.com/kitzeslab/opensoundscape",
+        "created_at": "2018-09-17T20:14:21Z",
+        "updated_at": "2022-09-17T16:32:02Z",
+        "clone_url": "https://github.com/kitzeslab/opensoundscape.git",
+        "homepage": "http://opensoundscape.org",
+        "size": 208821,
+        "stargazers_count": 47,
+        "watchers_count": 47,
+        "language": "Python",
+        "open_issues_count": 56,
+        "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "subscribers_count": 6,
+        "owner": {
+            "html_url": "https://github.com/kitzeslab",
+            "avatar_url": "https://avatars.githubusercontent.com/u/47861642?v=4",
+            "login": "kitzeslab",
+            "type": "Organization"
+        },
+        "timestamp": "2022-09-22 21:55:29.015827",
+        "avatar": "https://avatars.githubusercontent.com/u/47861642?v=4"
+    }
+}
