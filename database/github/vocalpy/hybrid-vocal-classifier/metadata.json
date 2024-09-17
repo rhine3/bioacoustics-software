@@ -6,14 +6,16 @@
         "title": "hybrid-vocal-classifier",
         "url": "https://github.com/vocalpy/hybrid-vocal-classifier",
         "description": "a Python machine learning library for animal vocalizations and bioacoustics",
-        "paid, free, open": "free",
+        "paid or free": "free",
         "code available": "Y",
         "licence": "BSD",
         "taxonomic or sound type specialization, if any": "vocal learning in captive animals",
+        "ecosystem specialization, if any [wip category]": "captive animals",
         "specific hardware": "",
         "type": "Python",
         "data exploration": "",
-        "organization and annotation": "",
+        "organization": "",
+        "annotation": "",
         "sound processing features": "",
         "acoustic parameter measurement": "",
         "localization": "",
@@ -55,6 +57,7 @@
             "keras",
             "tensorflow"
         ],
+        "paid, free, open": "free",
         "timestamp": "2022-09-22 21:55:27.841894",
         "avatar": "https://avatars.githubusercontent.com/u/99543036?v=4"
     }

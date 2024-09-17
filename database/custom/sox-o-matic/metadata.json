@@ -1,0 +1,28 @@
+{
+    "parser": "custom",
+    "uid": "custom/sox-o-matic",
+    "url": "https://www.birds.cornell.edu/ccb/sox-o-matic",
+    "data": {
+        "title": "Sox-o-matic",
+        "url": "https://www.birds.cornell.edu/ccb/sox-o-matic",
+        "description": "facilitates file management by simplifying the process of compressing, converting, and renaming audio files",
+        "paid or free": "free",
+        "code available": "N",
+        "licence": "Copyright (permissive use)",
+        "taxonomic or sound type specialization, if any": "",
+        "ecosystem specialization, if any [wip category]": "",
+        "specific hardware": "",
+        "type": "desktop GUI",
+        "data exploration": "",
+        "organization": "rename audio files",
+        "annotation": "",
+        "sound processing features": "convert between filetypes, compress audio",
+        "acoustic parameter measurement": "",
+        "localization": "",
+        "detector features": "",
+        "classifier features": "",
+        "metadata standard [wip category]": "",
+        "comments": "",
+        "timestamp": "2024-09-17 13:19:07.541586"
+    }
+}

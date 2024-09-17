@@ -6,14 +6,16 @@
         "title": "CARACAL",
         "url": "https://github.com/OpenWild/caracal",
         "description": "CARACAL: Automated BioAcoustic Processing Pipeline",
-        "paid, free, open": "free",
+        "paid or free": "free",
         "code available": "Y",
         "licence": "MIT",
         "taxonomic or sound type specialization, if any": "geared toward multi-channel CARACAL recorder",
+        "ecosystem specialization, if any [wip category]": "terrestrial",
         "specific hardware": "",
         "type": "Python",
         "data exploration": "",
-        "organization and annotation": "",
+        "organization": "",
+        "annotation": "",
         "sound processing features": "sound source separation for time-synchronized DOA arrays",
         "acoustic parameter measurement": "",
         "localization": "direction of arrival localization",
@@ -45,6 +47,7 @@
             "login": "OpenWild",
             "type": "User"
         },
+        "paid, free, open": "free",
         "timestamp": "2022-09-22 21:55:24.574364",
         "avatar": "https://avatars.githubusercontent.com/u/48096879?v=4"
     }

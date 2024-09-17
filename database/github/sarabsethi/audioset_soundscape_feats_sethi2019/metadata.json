@@ -6,14 +6,16 @@
         "title": "audioset_soundscape_feats_sethi2019",
         "url": "https://github.com/sarabsethi/audioset_soundscape_feats_sethi2019",
         "description": "Reproducability code for \"Characterizing soundscapes across diverse ecosystems using a universal acoustic feature set\" (Sethi et. al. 2020, PNAS)",
-        "paid, free, open": "free",
+        "paid or free": "free",
         "code available": "N",
         "licence": "NO LICENCE",
         "taxonomic or sound type specialization, if any": "",
+        "ecosystem specialization, if any [wip category]": "",
         "specific hardware": "",
         "type": "Python",
         "data exploration": "",
-        "organization and annotation": "",
+        "organization": "",
+        "annotation": "",
         "sound processing features": "",
         "acoustic parameter measurement": "feature extractor based on VGGish CNN",
         "localization": "",
@@ -38,6 +40,7 @@
             "login": "sarabsethi",
             "type": "User"
         },
+        "paid, free, open": "free",
         "timestamp": "2022-09-22 21:55:20.784131",
         "avatar": "https://avatars.githubusercontent.com/u/4243524?v=4"
     }

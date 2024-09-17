@@ -1,0 +1,28 @@
+{
+    "parser": "custom",
+    "uid": "custom/pykanto",
+    "url": "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14155",
+    "data": {
+        "title": "Pykanto",
+        "url": "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14155",
+        "description": "Python library and GUI for exploring and labeling audio for research on bird song units",
+        "paid or free": "free",
+        "code available": "Y",
+        "licence": "MIT",
+        "taxonomic or sound type specialization, if any": "birds",
+        "ecosystem specialization, if any [wip category]": "primarily terrestrial",
+        "specific hardware": "",
+        "type": "Python and GUI",
+        "data exploration": "",
+        "organization": "organizing datasets",
+        "annotation": "automatic segmentation of sound",
+        "sound processing features": "",
+        "acoustic parameter measurement": "extracts common acoustic features, e.g. bandwidth, min/max frequency",
+        "localization": "",
+        "detector features": "automated segmentation",
+        "classifier features": "training convolutional neural network classifier",
+        "metadata standard [wip category]": "",
+        "comments": "",
+        "timestamp": "2024-09-17 13:19:07.228991"
+    }
+}

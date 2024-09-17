@@ -1,0 +1,28 @@
+{
+    "parser": "custom",
+    "uid": "custom/das4whales",
+    "url": "doi.org/10.5281/zenodo.7760186.",
+    "data": {
+        "title": "DAS4Whales",
+        "url": "doi.org/10.5281/zenodo.7760186.",
+        "description": "Python package to analyze Distributed Acoustic Sensing (DAS) data for marine bioacoustics",
+        "paid or free": "free",
+        "code available": "Y",
+        "licence": "CC BY-NC-SA 4.0",
+        "taxonomic or sound type specialization, if any": "whales",
+        "ecosystem specialization, if any [wip category]": "marine",
+        "specific hardware": "",
+        "type": "Python",
+        "data exploration": "read metadata and print information about spatial arrangement of distributed sensing array data",
+        "organization": "",
+        "annotation": "",
+        "sound processing features": "filter (e.g. bandpass, frequency-wavenumber domain)",
+        "acoustic parameter measurement": "",
+        "localization": "",
+        "detector features": "",
+        "classifier features": "",
+        "metadata standard [wip category]": "",
+        "comments": "",
+        "timestamp": "2024-09-17 13:19:01.850813"
+    }
+}

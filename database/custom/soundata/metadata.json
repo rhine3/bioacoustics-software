@@ -6,14 +6,16 @@
         "title": "Soundata",
         "url": "https://soundata.readthedocs.io/en/latest/",
         "description": "load and work with audio data",
-        "paid, free, open": "free",
+        "paid or free": "free",
         "code available": "Y",
         "licence": "BSD",
         "taxonomic or sound type specialization, if any": "",
+        "ecosystem specialization, if any [wip category]": "",
         "specific hardware": "",
         "type": "python",
         "data exploration": "load and work with audio datasets in a standardized way",
-        "organization and annotation": "supports annotations with confidence levels",
+        "organization": "",
+        "annotation": "supports annotations with confidence levels",
         "sound processing features": "",
         "acoustic parameter measurement": "",
         "localization": "",
@@ -21,6 +23,8 @@
         "classifier features": "",
         "metadata standard [wip category]": "",
         "comments": "",
+        "paid, free, open": "free",
+        "organization and annotation": "supports annotations with confidence levels",
         "timestamp": "2022-09-22 21:55:30.516747"
     }
 }

@@ -6,14 +6,16 @@
         "title": "audiomoth-scripts",
         "url": "https://github.com/nwolek/audiomoth-scripts",
         "description": "A small collection of bash scripts for audio collected by the AudioMoth acoustic monitoring device.",
-        "paid, free, open": "free",
+        "paid or free": "free",
         "code available": "Y",
         "licence": "MIT",
         "taxonomic or sound type specialization, if any": "recordings collected from AudioMoth recorders",
+        "ecosystem specialization, if any [wip category]": "",
         "specific hardware": "Y",
         "type": "command line",
         "data exploration": "a variety of spectrogram visualization bash scripts",
-        "organization and annotation": "script to rename AudioMoth hex files to human-readable filenames",
+        "organization": "script to rename AudioMoth hex files to human-readable filenames",
+        "annotation": "",
         "sound processing features": "",
         "acoustic parameter measurement": "",
         "localization": "",
@@ -53,6 +55,8 @@
             "audio-analysis",
             "spectrogram"
         ],
+        "paid, free, open": "free",
+        "organization and annotation": "script to rename AudioMoth hex files to human-readable filenames",
         "timestamp": "2022-09-22 21:55:20.435066",
         "avatar": "https://avatars.githubusercontent.com/u/464655?v=4"
     }

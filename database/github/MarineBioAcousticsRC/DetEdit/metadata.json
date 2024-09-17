@@ -6,14 +6,16 @@
         "title": "DetEdit",
         "url": "https://github.com/MarineBioAcousticsRC/DetEdit",
         "description": "A graphical user interface for annotating and editing events detected in long-term acoustic monitoring data",
-        "paid, free, open": "free",
+        "paid or free": "free",
         "code available": "Y",
         "licence": "Copyright (non-commercial permitted)",
         "taxonomic or sound type specialization, if any": "stereotyped impulsive signals (e.g.  odontocete echolocation, human impulsive noise, fish, crustaceans)",
+        "ecosystem specialization, if any [wip category]": "marine",
         "specific hardware": "",
         "type": "desktop GUI",
         "data exploration": "",
-        "organization and annotation": "visualize and annotate detections",
+        "organization": "",
+        "annotation": "visualize and annotate detections",
         "sound processing features": "",
         "acoustic parameter measurement": "",
         "localization": "",
@@ -57,6 +59,8 @@
             "species-classification",
             "mbarc"
         ],
+        "paid, free, open": "free",
+        "organization and annotation": "visualize and annotate detections",
         "timestamp": "2022-09-22 21:55:25.879689",
         "avatar": "https://avatars.githubusercontent.com/u/17186765?v=4"
     }

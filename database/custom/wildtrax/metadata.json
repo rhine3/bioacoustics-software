@@ -1,0 +1,28 @@
+{
+    "parser": "custom",
+    "uid": "custom/wildtrax",
+    "url": "https://www.wildtrax.ca/home",
+    "data": {
+        "title": "WildTrax",
+        "url": "https://www.wildtrax.ca/home",
+        "description": "online platform for managing, storing, processing, sharing, and discovering biological and environmental sensor data",
+        "paid or free": "free",
+        "code available": "N",
+        "licence": "Terms of Use",
+        "taxonomic or sound type specialization, if any": "environmental sensors (camera traps and passive acoustic monitoring)",
+        "ecosystem specialization, if any [wip category]": "terrestrial",
+        "specific hardware": "",
+        "type": "web GUI",
+        "data exploration": "graphical interface for spectrograms; explore public data; share data",
+        "organization": "organize bioacoustic projects; integrate multiple data types including camera traps and point counts",
+        "annotation": "annotate species",
+        "sound processing features": "",
+        "acoustic parameter measurement": "",
+        "localization": "",
+        "detector features": "",
+        "classifier features": "includes pretrained BirdNET classifier",
+        "metadata standard [wip category]": "",
+        "comments": "Some similarities to ARBIMON",
+        "timestamp": "2024-09-17 13:19:08.170065"
+    }
+}

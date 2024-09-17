@@ -6,14 +6,16 @@
         "title": "Kaleidoscope",
         "url": "https://www.wildlifeacoustics.com/products/kaleidoscope-pro",
         "description": "software for detection via clustering with pretrained bat classifiers",
-        "paid, free, open": "paid, 15-day free trial",
+        "paid or free": "paid, 15-day free trial",
         "code available": "N",
         "licence": "",
         "taxonomic or sound type specialization, if any": "wide range of animals, but pretrained classifiers only available for bats",
+        "ecosystem specialization, if any [wip category]": "",
         "specific hardware": "",
         "type": "desktop GUI",
         "data exploration": "",
-        "organization and annotation": "",
+        "organization": "",
+        "annotation": "",
         "sound processing features": "",
         "acoustic parameter measurement": "",
         "localization": "",
@@ -21,6 +23,7 @@
         "classifier features": "pretrained bat classifier for bats of North America, U.K., Europe, Neotropics and South Africa",
         "metadata standard [wip category]": "",
         "comments": "",
+        "paid, free, open": "paid, 15-day free trial",
         "timestamp": "2022-09-22 21:55:28.210507"
     }
 }

@@ -6,14 +6,16 @@
         "title": "ANIMAL-SPOT",
         "url": "https://github.com/ChristianBergler/ANIMAL-SPOT",
         "description": "An Animal Independent Deep Learning Framework for Bioacoustic Signal Segmentation and Classification Including a Detailed User-Guide",
-        "paid, free, open": "free",
+        "paid or free": "free",
         "code available": "Y",
         "licence": "GPL v3",
         "taxonomic or sound type specialization, if any": "",
+        "ecosystem specialization, if any [wip category]": "",
         "specific hardware": "",
         "type": "Python",
         "data exploration": "",
-        "organization and annotation": "",
+        "organization": "",
+        "annotation": "",
         "sound processing features": "",
         "acoustic parameter measurement": "",
         "localization": "",
@@ -30,6 +32,8 @@
         "size": 23167,
         "stargazers_count": 10,
         "watchers_count": 10,
+        "language": "Python",
+        "open_issues_count": 1,
         "license": {
             "key": "gpl-3.0",
             "name": "GNU General Public License v3.0",
@@ -44,6 +48,7 @@
             "login": "ChristianBergler",
             "type": "User"
         },
+        "paid, free, open": "free",
         "timestamp": "2022-09-22 21:55:20.063151",
         "avatar": "https://avatars.githubusercontent.com/u/58565581?v=4"
     }

@@ -6,14 +6,16 @@
         "title": "Banter",
         "url": "https://github.com/EricArcher/banter",
         "description": "banter is a package for creating hierarchical acoustic event classifiers out of multiple call type detectors.",
-        "paid, free, open": "free",
+        "paid or free": "free",
         "code available": "Y",
         "licence": "GPL v3",
         "taxonomic or sound type specialization, if any": "",
+        "ecosystem specialization, if any [wip category]": "",
         "specific hardware": "",
         "type": "R",
         "data exploration": "",
-        "organization and annotation": "",
+        "organization": "",
+        "annotation": "",
         "sound processing features": "",
         "acoustic parameter measurement": "",
         "localization": "",
@@ -31,6 +33,7 @@
         "stargazers_count": 6,
         "watchers_count": 6,
         "language": "HTML",
+        "open_issues_count": 1,
         "subscribers_count": 5,
         "owner": {
             "html_url": "https://github.com/EricArcher",
@@ -55,6 +58,7 @@
             "supervised-learning",
             "supervised-machine-learning"
         ],
+        "paid, free, open": "free",
         "timestamp": "2022-09-22 21:55:21.996084",
         "avatar": "https://avatars.githubusercontent.com/u/4854603?v=4"
     }

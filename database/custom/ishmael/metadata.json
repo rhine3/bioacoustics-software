@@ -6,14 +6,16 @@
         "title": "Ishmael",
         "url": "http://bioacoustics.us/ishmael.html",
         "description": "marine sound detection and localization",
-        "paid, free, open": "free",
+        "paid or free": "free",
         "code available": "N",
         "licence": "",
         "taxonomic or sound type specialization, if any": "marine wildlife",
+        "ecosystem specialization, if any [wip category]": "marine",
         "specific hardware": "",
         "type": "desktop GUI",
         "data exploration": "real-time recording",
-        "organization and annotation": "annotation",
+        "organization": "",
+        "annotation": "annotation interface",
         "sound processing features": "",
         "acoustic parameter measurement": "",
         "localization": "localization and beamforming",
@@ -21,6 +23,8 @@
         "classifier features": "",
         "metadata standard [wip category]": "",
         "comments": "See documentation: http://bioacoustics.us/docs/Ishmael_3.0_Tutorial.pdf",
+        "paid, free, open": "free",
+        "organization and annotation": "annotation",
         "timestamp": "2022-09-22 21:55:28.208299"
     }
 }

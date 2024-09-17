@@ -6,14 +6,16 @@
         "title": "BirdVoxDetect",
         "url": "https://github.com/BirdVox/birdvoxdetect",
         "description": "A pre-trained deep learning system for detecting bird flight calls in continuous recordings",
-        "paid, free, open": "free",
+        "paid or free": "free",
         "code available": "Y",
         "licence": "MIT",
         "taxonomic or sound type specialization, if any": "North American bird nocturnal flight calls",
+        "ecosystem specialization, if any [wip category]": "terrestrial",
         "specific hardware": "",
         "type": "command line, Python",
         "data exploration": "",
-        "organization and annotation": "",
+        "organization": "",
+        "annotation": "",
         "sound processing features": "",
         "acoustic parameter measurement": "",
         "localization": "",
@@ -46,6 +48,7 @@
             "login": "BirdVox",
             "type": "Organization"
         },
+        "paid, free, open": "free",
         "timestamp": "2022-09-22 21:55:23.959978",
         "avatar": "https://avatars.githubusercontent.com/u/25643193?v=4"
     }

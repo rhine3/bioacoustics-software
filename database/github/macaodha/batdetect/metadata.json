@@ -6,14 +6,16 @@
         "title": "BatDetect",
         "url": "https://github.com/macaodha/batdetect",
         "description": "Python code for bat call detection in full spectrum audio files.",
-        "paid, free, open": "free",
+        "paid or free": "free",
         "code available": "Y",
         "licence": "NO LICENCE",
         "taxonomic or sound type specialization, if any": "bat echolocation calls",
+        "ecosystem specialization, if any [wip category]": "terrestrial",
         "specific hardware": "",
         "type": "Python",
         "data exploration": "",
-        "organization and annotation": "",
+        "organization": "",
+        "annotation": "",
         "sound processing features": "",
         "acoustic parameter measurement": "",
         "localization": "",
@@ -32,6 +34,13 @@
         "watchers_count": 60,
         "language": "Python",
         "open_issues_count": 3,
+        "license": {
+            "key": "cc-by-4.0",
+            "name": "Creative Commons Attribution 4.0 International",
+            "spdx_id": "CC-BY-4.0",
+            "url": "https://api.github.com/licenses/cc-by-4.0",
+            "node_id": "MDc6TGljZW5zZTI1"
+        },
         "subscribers_count": 17,
         "owner": {
             "html_url": "https://github.com/macaodha",
@@ -39,6 +48,7 @@
             "login": "macaodha",
             "type": "User"
         },
+        "paid, free, open": "free",
         "timestamp": "2022-09-22 21:55:22.525137",
         "avatar": "https://avatars.githubusercontent.com/u/6660523?v=4"
     }

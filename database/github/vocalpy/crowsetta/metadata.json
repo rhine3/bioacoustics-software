@@ -6,14 +6,16 @@
         "title": "crowsetta",
         "url": "https://github.com/vocalpy/crowsetta",
         "description": "A tool to work with any format for annotating vocalizations",
-        "paid, free, open": "free",
+        "paid or free": "free",
         "code available": "Y",
         "licence": "BSD",
         "taxonomic or sound type specialization, if any": "",
+        "ecosystem specialization, if any [wip category]": "",
         "specific hardware": "",
         "type": "Python",
         "data exploration": "",
-        "organization and annotation": "port between annotation data types",
+        "organization": "",
+        "annotation": "port between annotation data types",
         "sound processing features": "",
         "acoustic parameter measurement": "",
         "localization": "",
@@ -60,6 +62,8 @@
             "bioacoustics",
             "bioacoustic-analysis"
         ],
+        "paid, free, open": "free",
+        "organization and annotation": "port between annotation data types",
         "timestamp": "2022-09-22 21:55:25.400076",
         "avatar": "https://avatars.githubusercontent.com/u/99543036?v=4"
     }

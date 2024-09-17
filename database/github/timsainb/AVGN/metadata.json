@@ -6,14 +6,16 @@
         "title": "AVGN",
         "url": "https://github.com/timsainb/AVGN",
         "description": "A generative network for animal vocalizations. For dimensionality reduction, sequencing, clustering, corpus-building, and generating novel 'stimulus spaces'. All with notebook examples using freely available datasets. ",
-        "paid, free, open": "free",
+        "paid or free": "free",
         "code available": "Y",
         "licence": "MIT",
         "taxonomic or sound type specialization, if any": "",
+        "ecosystem specialization, if any [wip category]": "",
         "specific hardware": "",
         "type": "Python",
         "data exploration": "",
-        "organization and annotation": "",
+        "organization": "",
+        "annotation": "",
         "sound processing features": "",
         "acoustic parameter measurement": "",
         "localization": "",
@@ -55,6 +57,7 @@
             "vocalization",
             "segmentation"
         ],
+        "paid, free, open": "free",
         "timestamp": "2022-09-22 21:55:21.150613",
         "avatar": "https://avatars.githubusercontent.com/u/1279238?v=4"
     }

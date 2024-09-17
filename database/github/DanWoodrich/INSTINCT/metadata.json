@@ -6,14 +6,16 @@
         "title": "INSTINCT",
         "url": "https://github.com/DanWoodrich/INSTINCT",
         "description": "INSTINCT is a command line application that enables users to create workflows for the purpose of acoustic signal annotation, detection and analysis. ",
-        "paid, free, open": "free",
+        "paid or free": "free",
         "code available": "Y",
         "licence": "MIT",
         "taxonomic or sound type specialization, if any": "",
+        "ecosystem specialization, if any [wip category]": "",
         "specific hardware": "",
         "type": "Python",
         "data exploration": "",
-        "organization and annotation": "bioacoustic pipelining software",
+        "organization": "bioacoustic pipelining software",
+        "annotation": "",
         "sound processing features": "",
         "acoustic parameter measurement": "",
         "localization": "",
@@ -45,6 +47,8 @@
             "login": "DanWoodrich",
             "type": "User"
         },
+        "paid, free, open": "free",
+        "organization and annotation": "bioacoustic pipelining software",
         "timestamp": "2022-09-22 21:55:28.205609",
         "avatar": "https://avatars.githubusercontent.com/u/16928375?v=4"
     }
