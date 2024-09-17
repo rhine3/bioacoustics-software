@@ -17,4 +17,6 @@ This list is not necessarily a recommendation or a guarantee of quality of parti
 You should always judge the performance of an analysis method by its performance on *your* dataset. Analysis methods are often published along with metrics to describe their performance, such as accuracy, precision, and recall. However, different recording conditions or different distributions of sounds present in your dataset can result in starkly different performance of the same method.
 
 ## Citation
-Coming soon
+Please cite as:
+
+> Tessa Rhinehart, David Nicholson, Louis Freeland-Haynes, Sochat, V., & Justin Kitzes. (2024). Bioacoustics Software Database (v0.2). Zenodo. https://doi.org/10.5281/zenodo.7686203
