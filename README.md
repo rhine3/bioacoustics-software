@@ -19,4 +19,4 @@ You should always judge the performance of an analysis method by its performance
 ## Citation
 Please cite as:
 
-> Tessa Rhinehart, David Nicholson, Louis Freeland-Haynes, Sochat, V., & Justin Kitzes. (2024). Bioacoustics Software Database (v0.2). Zenodo. https://doi.org/10.5281/zenodo.7686203
+> Rhinehart, T. A., Nicholson, D., Freeland-Haynes, L., Sochat, V., & Kitzes, J. (2024). Bioacoustics Software Database (v0.2). Zenodo. https://doi.org/10.5281/zenodo.7686203
