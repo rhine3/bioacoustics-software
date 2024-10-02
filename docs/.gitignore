@@ -1,7 +1,0 @@
-.env
-serve
-__pycache__
-_site
-_api
-_dev
-.DS_Store
