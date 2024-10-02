@@ -1,0 +1,23 @@
+{
+    "title": "BioCPPNet",
+    "url": "https://github.com/earthspecies/cocktail-party-problem",
+    "description": "convolutional neural network-based architecture for bioacoustic source separation",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": null,
+    "taxonomicOrSoundTypeSpecializationIfAny": null,
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": null,
+    "dataExploration": null,
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": "train classifier model and train separator model ",
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

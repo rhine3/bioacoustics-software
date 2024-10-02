@@ -1,0 +1,23 @@
+{
+    "title": "audiomoth-scripts",
+    "url": "https://github.com/nwolek/audiomoth-scripts",
+    "description": "spectrogram visualization and AudioMoth-specific tools",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "MIT",
+    "taxonomicOrSoundTypeSpecializationIfAny": "recordings collected from AudioMoth recorders",
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": "Y",
+    "type": "command line",
+    "dataExploration": "a variety of spectrogram visualization bash scripts",
+    "organization": "script to rename AudioMoth hex files to human-readable filenames",
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

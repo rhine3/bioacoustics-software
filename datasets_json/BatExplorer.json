@@ -1,0 +1,23 @@
+{
+    "title": "BatExplorer",
+    "url": "https://www.batlogger.com/en/products/batexplorer",
+    "description": "organize, annotate, detect, and classify bat call recordings",
+    "paidOrFree": "free and paid versions",
+    "codeAvailable": "N",
+    "licenseWipCategory": null,
+    "taxonomicOrSoundTypeSpecializationIfAny": "can process bat logging data from BATLOGGER brand recorders (and others)",
+    "ecosystemSpecializationIfAny": "terrestrial",
+    "specificHardware": null,
+    "type": "desktop GUI",
+    "dataExploration": "summarize data",
+    "organization": "organize bat call projects",
+    "annotation": null,
+    "soundProcessingFeatures": "listen to time-stretched ultrasonic recordings",
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": "automatic detection",
+    "classifierFeatures": "pretrained classifier for UK & European bat species",
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

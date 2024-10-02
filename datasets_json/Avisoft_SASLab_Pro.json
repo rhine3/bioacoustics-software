@@ -1,0 +1,23 @@
+{
+    "title": "Avisoft-SASLab Pro",
+    "url": "http://www.avisoft.com/sound-analysis",
+    "description": "automated detection and cross-correlation classification",
+    "paidOrFree": "paid",
+    "codeAvailable": "N",
+    "licenseWipCategory": null,
+    "taxonomicOrSoundTypeSpecializationIfAny": null,
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "desktop GUI",
+    "dataExploration": null,
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": "sound parameter measurement and noise level measurement",
+    "localization": "finds TDOAs via cross-correlation",
+    "detectorFeatures": "event detection using template cross-correlation",
+    "classifierFeatures": "create classifiers using template cross-correlation",
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

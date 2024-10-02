@@ -1,0 +1,23 @@
+{
+    "title": "PAMpal",
+    "url": "https://github.com/TaikiSan21/PAMpal",
+    "description": "compute acoustic features of PAMguard detections",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "GPL v3",
+    "taxonomicOrSoundTypeSpecializationIfAny": "marine wildlife",
+    "ecosystemSpecializationIfAny": "marine",
+    "specificHardware": null,
+    "type": "R",
+    "dataExploration": null,
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": "compute acoustic features of PAMguard detections",
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": "Formerly known as PAMr"
+}

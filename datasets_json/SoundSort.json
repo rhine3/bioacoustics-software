@@ -1,0 +1,23 @@
+{
+    "title": "SoundSort",
+    "url": "https://github.com/macster110/aipam",
+    "description": "visualize, cluster, and annotate annotations",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "GPL v3",
+    "taxonomicOrSoundTypeSpecializationIfAny": null,
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "desktop GUI",
+    "dataExploration": null,
+    "organization": null,
+    "annotation": "visualize and annotate recordings, then export these annotations",
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": "cluster similar pre-detected clips",
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

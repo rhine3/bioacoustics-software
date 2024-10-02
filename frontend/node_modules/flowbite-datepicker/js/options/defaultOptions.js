@@ -1,0 +1,38 @@
+// config options updatable by setOptions() and their default values
+const defaultOptions = {
+  autohide: false,
+  beforeShowDay: null,
+  beforeShowDecade: null,
+  beforeShowMonth: null,
+  beforeShowYear: null,
+  calendarWeeks: false,
+  clearBtn: false,
+  dateDelimiter: ',',
+  datesDisabled: [],
+  daysOfWeekDisabled: [],
+  daysOfWeekHighlighted: [],
+  defaultViewDate: undefined, // placeholder, defaults to today() by the program
+  disableTouchKeyboard: false,
+  format: 'mm/dd/yyyy',
+  language: 'en',
+  maxDate: null,
+  maxNumberOfDates: 1,
+  maxView: 3,
+  minDate: null,
+  nextArrow: '<svg class="w-4 h-4 rtl:rotate-180 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/></svg>',
+  orientation: 'auto',
+  pickLevel: 0,
+  prevArrow: '<svg class="w-4 h-4 rtl:rotate-180 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5H1m0 0 4 4M1 5l4-4"/></svg>',
+  showDaysOfWeek: true,
+  showOnClick: true,
+  showOnFocus: true,
+  startView: 0,
+  title: '',
+  todayBtn: false,
+  todayBtnMode: 0,
+  todayHighlight: false,
+  updateOnBlur: true,
+  weekStart: 0,
+};
+
+export default defaultOptions;

@@ -1,0 +1,23 @@
+{
+    "title": "Raven Pro",
+    "url": "https://ravensoundsoftware.com/software/raven-pro",
+    "description": "general bioacoustic listening and annotation",
+    "paidOrFree": "paid; reduced-price options",
+    "codeAvailable": "N",
+    "licenseWipCategory": null,
+    "taxonomicOrSoundTypeSpecializationIfAny": null,
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "desktop GUI",
+    "dataExploration": "spectrogram visualization and listening",
+    "organization": null,
+    "annotation": "sound annotation",
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": "measure power and other basic acoustic features",
+    "localization": null,
+    "detectorFeatures": "template-matching, band-limited energy detector",
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

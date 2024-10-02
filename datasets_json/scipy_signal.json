@@ -1,0 +1,23 @@
+{
+    "title": "scipy.signal",
+    "url": "https://docs.scipy.org/doc/scipy/reference/signal.html",
+    "description": "general signal processing algorithms",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "BSD",
+    "taxonomicOrSoundTypeSpecializationIfAny": null,
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "Python",
+    "dataExploration": "spectrogram generation",
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": "estimate time delays using spectrogram cross-correlation (scipy.signal.correlate)",
+    "detectorFeatures": "can be used to implement template-matching using spectrogram cross-correlation",
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

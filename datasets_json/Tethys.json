@@ -1,0 +1,23 @@
+{
+    "title": "Tethys",
+    "url": "https://tethys.sdsu.edu/",
+    "description": "server, database, and data explorer primarily for marine passive acoustic monitoring studies",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": null,
+    "taxonomicOrSoundTypeSpecializationIfAny": "marine mammals",
+    "ecosystemSpecializationIfAny": "marine",
+    "specificHardware": null,
+    "type": "Windows web server/GUI with interfaces to MATLAB, Java, Python, and R",
+    "dataExploration": "point and click GUI for exploring deployments, effort over space and time, and detections",
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": "also includes a popular metadata format"
+}

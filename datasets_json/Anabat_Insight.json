@@ -1,0 +1,23 @@
+{
+    "title": "Anabat Insight",
+    "url": "https://www.titley-scientific.com/support/software/",
+    "description": "recording organization, review, and classification",
+    "paidOrFree": "free and paid versions",
+    "codeAvailable": "N",
+    "licenseWipCategory": null,
+    "taxonomicOrSoundTypeSpecializationIfAny": "bats",
+    "ecosystemSpecializationIfAny": "terrestrial",
+    "specificHardware": null,
+    "type": "desktop GUI",
+    "dataExploration": "browse and view files as spectrograms",
+    "organization": null,
+    "annotation": "view labels on built-in maps",
+    "soundProcessingFeatures": "filter and process files with time expansion, pitch shift, etc.",
+    "acousticParameterMeasurement": "calculate pulse and pass acoustic parameters, e.g. max frequency",
+    "localization": null,
+    "detectorFeatures": "bat call detection and custom filtering in full-spectrum and zero-crossing recordings",
+    "classifierFeatures": "create decision tree classifiers and support third-party ID algorithms",
+    "metadataStandardWipCategory": "GUANO",
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

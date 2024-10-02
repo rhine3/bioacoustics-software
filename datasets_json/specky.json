@@ -1,0 +1,23 @@
+{
+    "title": "specky",
+    "url": "https://github.com/rhine3/specky",
+    "description": "simple GUI for reviewing short audio clips",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "NO LICENCE",
+    "taxonomicOrSoundTypeSpecializationIfAny": null,
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "desktop GUI",
+    "dataExploration": "review short audio clips",
+    "organization": null,
+    "annotation": "basic annotation features for assigning yes/no annotations to short audio clips",
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

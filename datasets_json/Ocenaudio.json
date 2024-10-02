@@ -1,0 +1,23 @@
+{
+    "title": "Ocenaudio",
+    "url": "https://www.ocenaudio.com",
+    "description": "general-purpose audio editing software",
+    "paidOrFree": "free",
+    "codeAvailable": "N",
+    "licenseWipCategory": "NO LICENCE",
+    "taxonomicOrSoundTypeSpecializationIfAny": null,
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "GUI",
+    "dataExploration": "waveform and spectrogram viewing",
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": "adjust sound amplitude, apply effects",
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

@@ -1,0 +1,23 @@
+{
+    "title": "Soundata",
+    "url": "https://soundata.readthedocs.io/en/latest",
+    "description": "load and work with audio data",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "BSD",
+    "taxonomicOrSoundTypeSpecializationIfAny": null,
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "python",
+    "dataExploration": "load and work with audio datasets in a standardized way",
+    "organization": null,
+    "annotation": "supports annotations with confidence levels",
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

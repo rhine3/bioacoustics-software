@@ -1,0 +1,23 @@
+{
+    "title": "Bioacoustics Model Zoo",
+    "url": "https://github.com/kitzeslab/bioacoustics-model-zoo",
+    "description": "collection of pretrained models for bioacoustic classification tasks",
+    "paidOrFree": "free",
+    "codeAvailable": "y",
+    "licenseWipCategory": null,
+    "taxonomicOrSoundTypeSpecializationIfAny": null,
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "Python",
+    "dataExploration": null,
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": "use MixIT Bird sound source separation model to separate audio into channels potentially representing separate sources",
+    "acousticParameterMeasurement": "create embeddings for audio data using 3 common bioacoustic classifiers (Perch, BirdNET, HawkEars)",
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": "run 3 common bird sound classifiers (Perch, BirdNET, HawkEars)",
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

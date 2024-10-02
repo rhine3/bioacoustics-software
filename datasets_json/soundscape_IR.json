@@ -1,0 +1,23 @@
+{
+    "title": "soundscape_IR",
+    "url": "https://github.com/meil-brcas-org/soundscape_IR",
+    "description": "python-based toolbox of soundscape information retrieval",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "MIT",
+    "taxonomicOrSoundTypeSpecializationIfAny": null,
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "Python",
+    "dataExploration": "visualization of soundscape dynamics",
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": "audio source separation",
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

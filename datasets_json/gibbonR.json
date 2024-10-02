@@ -1,0 +1,23 @@
+{
+    "title": "gibbonR",
+    "url": "https://github.com/DenaJGibbon/gibbonR-package",
+    "description": "train neural networks, GMMs, and others",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "NO LICENCE",
+    "taxonomicOrSoundTypeSpecializationIfAny": null,
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "R",
+    "dataExploration": null,
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": "SVM and band-limited energy detector",
+    "classifierFeatures": "create random forest and SVM classifiers using MFCCs",
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

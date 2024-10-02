@@ -1,0 +1,23 @@
+{
+    "title": "GoldWave",
+    "url": "https://www.goldwave.com",
+    "description": "general-purpose audio software",
+    "paidOrFree": "free",
+    "codeAvailable": "N",
+    "licenseWipCategory": null,
+    "taxonomicOrSoundTypeSpecializationIfAny": null,
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "desktop GUI",
+    "dataExploration": "view and manipulate audio",
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

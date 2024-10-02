@@ -1,0 +1,23 @@
+{
+    "title": "Animal Sound Identifier",
+    "url": "https://datadryad.org/stash/dataset/doi:10.5061/dryad.221mq23",
+    "description": "classify animals using training data directly from field recordings, without reference libraries",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "cc0",
+    "taxonomicOrSoundTypeSpecializationIfAny": "birds",
+    "ecosystemSpecializationIfAny": "terrestrial",
+    "specificHardware": null,
+    "type": "MATLAB",
+    "dataExploration": null,
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": "create cross-correlation classifiers; semi-active learning approach to create classifiers with little initial training data",
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": "Related paper - https://onlinelibrary.wiley.com/doi/full/10.1111/ele.13092"
+}

@@ -1,0 +1,23 @@
+{
+    "title": "vak",
+    "url": "https://github.com/vocalpy/vak",
+    "description": "benchmark classifiers of individual birdsong syllables",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "BSD",
+    "taxonomicOrSoundTypeSpecializationIfAny": "primary application: lab animal vocalizations",
+    "ecosystemSpecializationIfAny": "captive animals",
+    "specificHardware": null,
+    "type": "Python",
+    "dataExploration": null,
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": "create and benchmark deep learning models for segmentation of lab animal vocalizations",
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

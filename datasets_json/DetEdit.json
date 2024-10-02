@@ -1,0 +1,23 @@
+{
+    "title": "DetEdit",
+    "url": "https://github.com/MarineBioAcousticsRC/DetEdit",
+    "description": "visualize and annotate detections",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "Copyright (non-commercial permitted)",
+    "taxonomicOrSoundTypeSpecializationIfAny": "stereotyped impulsive signals (e.g.  odontocete echolocation, human impulsive noise, fish, crustaceans)",
+    "ecosystemSpecializationIfAny": "marine",
+    "specificHardware": null,
+    "type": "desktop GUI",
+    "dataExploration": null,
+    "organization": null,
+    "annotation": "visualize and annotate detections",
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

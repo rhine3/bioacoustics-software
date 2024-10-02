@@ -1,0 +1,23 @@
+{
+    "title": "BirdNET",
+    "url": "https://github.com/kahst/BirdNET-Analyzer",
+    "description": "pretrained classifier for birds",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "CC-BY-NC-SA",
+    "taxonomicOrSoundTypeSpecializationIfAny": "6000 bird species and some other species",
+    "ecosystemSpecializationIfAny": "terrestrial",
+    "specificHardware": null,
+    "type": "command line, Windows app",
+    "dataExploration": null,
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": "pretrained convolutional neural network classifier for 3000 bird species",
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}
