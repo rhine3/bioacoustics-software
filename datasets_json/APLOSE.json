@@ -1,0 +1,23 @@
+{
+    "title": "APLOSE",
+    "url": "https://osmose.ifremer.fr/app/",
+    "description": "web-based annotation tool for marine bioacoustics",
+    "paidOrFree": "free",
+    "codeAvailable": "y",
+    "licenseWipCategory": "GPL v3",
+    "taxonomicOrSoundTypeSpecializationIfAny": "marine wildlife",
+    "ecosystemSpecializationIfAny": "marine",
+    "specificHardware": null,
+    "type": "web GUI",
+    "dataExploration": null,
+    "organization": null,
+    "annotation": "graphical interface for sound annotation",
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

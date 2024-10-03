@@ -1,0 +1,9 @@
+@import '/node_modules/flowbite-vue/dist/index.css';
+@tailwind base;
+/* Firefox */
+* {
+scrollbar-width: thin;
+scrollbar-color: var(--secondary) var(--primary);
+}
+@tailwind components;
+@tailwind utilities;

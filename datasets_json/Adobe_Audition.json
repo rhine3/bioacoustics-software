@@ -1,0 +1,23 @@
+{
+    "title": "Adobe Audition",
+    "url": "https://www.adobe.com/products/audition.html",
+    "description": "geared toward sound editing",
+    "paidOrFree": "paid",
+    "codeAvailable": "N",
+    "licenseWipCategory": null,
+    "taxonomicOrSoundTypeSpecializationIfAny": null,
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "desktop GUI",
+    "dataExploration": "general-purpose audio review",
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": "edit audio",
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

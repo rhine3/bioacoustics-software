@@ -1,0 +1,23 @@
+{
+    "title": "SonicVisualizer",
+    "url": "https://www.sonicvisualiser.org",
+    "description": "spectrogram visualization",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "GPL v2",
+    "taxonomicOrSoundTypeSpecializationIfAny": null,
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "desktop GUI",
+    "dataExploration": "spectrogram visualization",
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

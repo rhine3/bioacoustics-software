@@ -1,0 +1,23 @@
+{
+    "title": "Bioacoustics Cookbook",
+    "url": "https://github.com/kitzeslab/bioacoustics-cookbook/tree/main",
+    "description": "examples of common bioacoustic workflows in Python",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": null,
+    "taxonomicOrSoundTypeSpecializationIfAny": null,
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "Python, Jupyter Notebook GUI",
+    "dataExploration": "example of calculating sunrise and sunset times at coordinate locations",
+    "organization": "example of filtering audio files to include only specific date ranges, converting between UTM and lat/long coordinates",
+    "annotation": "examples of reviewing and annotating audio clips based on classifier scores and metadata in Jupyter Notebook",
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": "examples of setting up machine learning training, feature extraction, and shallow classifier training",
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

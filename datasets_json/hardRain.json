@@ -1,0 +1,23 @@
+{
+    "title": "hardRain",
+    "url": "https://github.com/Cdevenish/hardRain",
+    "description": "detect rain sounds",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "GPL v3",
+    "taxonomicOrSoundTypeSpecializationIfAny": "rain",
+    "ecosystemSpecializationIfAny": "terrestrial",
+    "specificHardware": null,
+    "type": "R",
+    "dataExploration": null,
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": "detect rain in audio recordings",
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

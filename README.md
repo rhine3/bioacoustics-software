@@ -2,6 +2,7 @@
 
 The Bioacoustics Software Database is a [website](https://rhine3.github.io/bioacoustics-software/) and associated [spreadsheet](https://docs.google.com/spreadsheets/d/1Ba1MY4o5Sm1f08IekJcbxAtSjkDN71Z1RZ42kzrofJ0/edit#gid=0) that pulls together current software used in bioacoustics.
 
+
 A variety of free and paid software is available for bioacoustic analyses. Software packages vary from complete graphical interfaces, to command-line interfaces, to utility libraries that can be used to create analysis pipelines in Python, R, or other programming languages.
 
 Criteria for inclusion in the list are:

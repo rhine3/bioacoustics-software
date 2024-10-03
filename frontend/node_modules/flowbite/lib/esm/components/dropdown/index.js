@@ -1,0 +1,300 @@
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
+};
+/* eslint-disable @typescript-eslint/no-empty-function */
+import { createPopper } from '@popperjs/core';
+import instances from '../../dom/instances';
+var Default = {
+    placement: 'bottom',
+    triggerType: 'click',
+    offsetSkidding: 0,
+    offsetDistance: 10,
+    delay: 300,
+    ignoreClickOutsideClass: false,
+    onShow: function () { },
+    onHide: function () { },
+    onToggle: function () { },
+};
+var DefaultInstanceOptions = {
+    id: null,
+    override: true,
+};
+var Dropdown = /** @class */ (function () {
+    function Dropdown(targetElement, triggerElement, options, instanceOptions) {
+        if (targetElement === void 0) { targetElement = null; }
+        if (triggerElement === void 0) { triggerElement = null; }
+        if (options === void 0) { options = Default; }
+        if (instanceOptions === void 0) { instanceOptions = DefaultInstanceOptions; }
+        this._instanceId = instanceOptions.id
+            ? instanceOptions.id
+            : targetElement.id;
+        this._targetEl = targetElement;
+        this._triggerEl = triggerElement;
+        this._options = __assign(__assign({}, Default), options);
+        this._popperInstance = null;
+        this._visible = false;
+        this._initialized = false;
+        this.init();
+        instances.addInstance('Dropdown', this, this._instanceId, instanceOptions.override);
+    }
+    Dropdown.prototype.init = function () {
+        if (this._triggerEl && this._targetEl && !this._initialized) {
+            this._popperInstance = this._createPopperInstance();
+            this._setupEventListeners();
+            this._initialized = true;
+        }
+    };
+    Dropdown.prototype.destroy = function () {
+        var _this = this;
+        var triggerEvents = this._getTriggerEvents();
+        // Remove click event listeners for trigger element
+        if (this._options.triggerType === 'click') {
+            triggerEvents.showEvents.forEach(function (ev) {
+                _this._triggerEl.removeEventListener(ev, _this._clickHandler);
+            });
+        }
+        // Remove hover event listeners for trigger and target elements
+        if (this._options.triggerType === 'hover') {
+            triggerEvents.showEvents.forEach(function (ev) {
+                _this._triggerEl.removeEventListener(ev, _this._hoverShowTriggerElHandler);
+                _this._targetEl.removeEventListener(ev, _this._hoverShowTargetElHandler);
+            });
+            triggerEvents.hideEvents.forEach(function (ev) {
+                _this._triggerEl.removeEventListener(ev, _this._hoverHideHandler);
+                _this._targetEl.removeEventListener(ev, _this._hoverHideHandler);
+            });
+        }
+        this._popperInstance.destroy();
+        this._initialized = false;
+    };
+    Dropdown.prototype.removeInstance = function () {
+        instances.removeInstance('Dropdown', this._instanceId);
+    };
+    Dropdown.prototype.destroyAndRemoveInstance = function () {
+        this.destroy();
+        this.removeInstance();
+    };
+    Dropdown.prototype._setupEventListeners = function () {
+        var _this = this;
+        var triggerEvents = this._getTriggerEvents();
+        this._clickHandler = function () {
+            _this.toggle();
+        };
+        // click event handling for trigger element
+        if (this._options.triggerType === 'click') {
+            triggerEvents.showEvents.forEach(function (ev) {
+                _this._triggerEl.addEventListener(ev, _this._clickHandler);
+            });
+        }
+        this._hoverShowTriggerElHandler = function (ev) {
+            if (ev.type === 'click') {
+                _this.toggle();
+            }
+            else {
+                setTimeout(function () {
+                    _this.show();
+                }, _this._options.delay);
+            }
+        };
+        this._hoverShowTargetElHandler = function () {
+            _this.show();
+        };
+        this._hoverHideHandler = function () {
+            setTimeout(function () {
+                if (!_this._targetEl.matches(':hover')) {
+                    _this.hide();
+                }
+            }, _this._options.delay);
+        };
+        // hover event handling for trigger element
+        if (this._options.triggerType === 'hover') {
+            triggerEvents.showEvents.forEach(function (ev) {
+                _this._triggerEl.addEventListener(ev, _this._hoverShowTriggerElHandler);
+                _this._targetEl.addEventListener(ev, _this._hoverShowTargetElHandler);
+            });
+            triggerEvents.hideEvents.forEach(function (ev) {
+                _this._triggerEl.addEventListener(ev, _this._hoverHideHandler);
+                _this._targetEl.addEventListener(ev, _this._hoverHideHandler);
+            });
+        }
+    };
+    Dropdown.prototype._createPopperInstance = function () {
+        return createPopper(this._triggerEl, this._targetEl, {
+            placement: this._options.placement,
+            modifiers: [
+                {
+                    name: 'offset',
+                    options: {
+                        offset: [
+                            this._options.offsetSkidding,
+                            this._options.offsetDistance,
+                        ],
+                    },
+                },
+            ],
+        });
+    };
+    Dropdown.prototype._setupClickOutsideListener = function () {
+        var _this = this;
+        this._clickOutsideEventListener = function (ev) {
+            _this._handleClickOutside(ev, _this._targetEl);
+        };
+        document.body.addEventListener('click', this._clickOutsideEventListener, true);
+    };
+    Dropdown.prototype._removeClickOutsideListener = function () {
+        document.body.removeEventListener('click', this._clickOutsideEventListener, true);
+    };
+    Dropdown.prototype._handleClickOutside = function (ev, targetEl) {
+        var clickedEl = ev.target;
+        // Ignore clicks on the trigger element (ie. a datepicker input)
+        var ignoreClickOutsideClass = this._options.ignoreClickOutsideClass;
+        var isIgnored = false;
+        if (ignoreClickOutsideClass) {
+            var ignoredClickOutsideEls = document.querySelectorAll(".".concat(ignoreClickOutsideClass));
+            ignoredClickOutsideEls.forEach(function (el) {
+                if (el.contains(clickedEl)) {
+                    isIgnored = true;
+                    return;
+                }
+            });
+        }
+        // Ignore clicks on the target element (ie. dropdown itself)
+        if (clickedEl !== targetEl &&
+            !targetEl.contains(clickedEl) &&
+            !this._triggerEl.contains(clickedEl) &&
+            !isIgnored &&
+            this.isVisible()) {
+            this.hide();
+        }
+    };
+    Dropdown.prototype._getTriggerEvents = function () {
+        switch (this._options.triggerType) {
+            case 'hover':
+                return {
+                    showEvents: ['mouseenter', 'click'],
+                    hideEvents: ['mouseleave'],
+                };
+            case 'click':
+                return {
+                    showEvents: ['click'],
+                    hideEvents: [],
+                };
+            case 'none':
+                return {
+                    showEvents: [],
+                    hideEvents: [],
+                };
+            default:
+                return {
+                    showEvents: ['click'],
+                    hideEvents: [],
+                };
+        }
+    };
+    Dropdown.prototype.toggle = function () {
+        if (this.isVisible()) {
+            this.hide();
+        }
+        else {
+            this.show();
+        }
+        this._options.onToggle(this);
+    };
+    Dropdown.prototype.isVisible = function () {
+        return this._visible;
+    };
+    Dropdown.prototype.show = function () {
+        this._targetEl.classList.remove('hidden');
+        this._targetEl.classList.add('block');
+        // Enable the event listeners
+        this._popperInstance.setOptions(function (options) { return (__assign(__assign({}, options), { modifiers: __spreadArray(__spreadArray([], options.modifiers, true), [
+                { name: 'eventListeners', enabled: true },
+            ], false) })); });
+        this._setupClickOutsideListener();
+        // Update its position
+        this._popperInstance.update();
+        this._visible = true;
+        // callback function
+        this._options.onShow(this);
+    };
+    Dropdown.prototype.hide = function () {
+        this._targetEl.classList.remove('block');
+        this._targetEl.classList.add('hidden');
+        // Disable the event listeners
+        this._popperInstance.setOptions(function (options) { return (__assign(__assign({}, options), { modifiers: __spreadArray(__spreadArray([], options.modifiers, true), [
+                { name: 'eventListeners', enabled: false },
+            ], false) })); });
+        this._visible = false;
+        this._removeClickOutsideListener();
+        // callback function
+        this._options.onHide(this);
+    };
+    Dropdown.prototype.updateOnShow = function (callback) {
+        this._options.onShow = callback;
+    };
+    Dropdown.prototype.updateOnHide = function (callback) {
+        this._options.onHide = callback;
+    };
+    Dropdown.prototype.updateOnToggle = function (callback) {
+        this._options.onToggle = callback;
+    };
+    return Dropdown;
+}());
+export function initDropdowns() {
+    document
+        .querySelectorAll('[data-dropdown-toggle]')
+        .forEach(function ($triggerEl) {
+        var dropdownId = $triggerEl.getAttribute('data-dropdown-toggle');
+        var $dropdownEl = document.getElementById(dropdownId);
+        if ($dropdownEl) {
+            var placement = $triggerEl.getAttribute('data-dropdown-placement');
+            var offsetSkidding = $triggerEl.getAttribute('data-dropdown-offset-skidding');
+            var offsetDistance = $triggerEl.getAttribute('data-dropdown-offset-distance');
+            var triggerType = $triggerEl.getAttribute('data-dropdown-trigger');
+            var delay = $triggerEl.getAttribute('data-dropdown-delay');
+            var ignoreClickOutsideClass = $triggerEl.getAttribute('data-dropdown-ignore-click-outside-class');
+            new Dropdown($dropdownEl, $triggerEl, {
+                placement: placement ? placement : Default.placement,
+                triggerType: triggerType
+                    ? triggerType
+                    : Default.triggerType,
+                offsetSkidding: offsetSkidding
+                    ? parseInt(offsetSkidding)
+                    : Default.offsetSkidding,
+                offsetDistance: offsetDistance
+                    ? parseInt(offsetDistance)
+                    : Default.offsetDistance,
+                delay: delay ? parseInt(delay) : Default.delay,
+                ignoreClickOutsideClass: ignoreClickOutsideClass
+                    ? ignoreClickOutsideClass
+                    : Default.ignoreClickOutsideClass,
+            });
+        }
+        else {
+            console.error("The dropdown element with id \"".concat(dropdownId, "\" does not exist. Please check the data-dropdown-toggle attribute."));
+        }
+    });
+}
+if (typeof window !== 'undefined') {
+    window.Dropdown = Dropdown;
+    window.initDropdowns = initDropdowns;
+}
+export default Dropdown;
+//# sourceMappingURL=index.js.map

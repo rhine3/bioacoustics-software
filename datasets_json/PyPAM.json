@@ -1,0 +1,23 @@
+{
+    "title": "PyPAM",
+    "url": "https://github.com/lifewatch/pypam?tab=readme-ov-file",
+    "description": "Python package to analyze underwater sound",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "GPL v3",
+    "taxonomicOrSoundTypeSpecializationIfAny": "marine wildlife",
+    "ecosystemSpecializationIfAny": "marine",
+    "specificHardware": null,
+    "type": "Python",
+    "dataExploration": null,
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": "process audio from multiple deployments and extract features that can be used for ML algorithms",
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": "package under active development"
+}

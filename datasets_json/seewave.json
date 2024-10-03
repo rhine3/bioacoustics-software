@@ -1,0 +1,23 @@
+{
+    "title": "seewave",
+    "url": "https://cran.r-project.org/web/packages/seewave/index.html",
+    "description": "general acoustics toolbox",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "GPL v3",
+    "taxonomicOrSoundTypeSpecializationIfAny": null,
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "R",
+    "dataExploration": "display spectrograms",
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": "compute signal envelopes",
+    "localization": null,
+    "detectorFeatures": "compute cross-correlation",
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

@@ -1,0 +1,23 @@
+{
+    "title": "BatDetect",
+    "url": "https://github.com/macaodha/batdetect",
+    "description": "bat detection in full-spectrum recordings",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "NO LICENCE",
+    "taxonomicOrSoundTypeSpecializationIfAny": "bat echolocation calls",
+    "ecosystemSpecializationIfAny": "terrestrial",
+    "specificHardware": null,
+    "type": "Python",
+    "dataExploration": null,
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": "bat echolocation call detector for full-spectrum (i.e., not zero-crossing) recordings",
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

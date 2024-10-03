@@ -1,0 +1,23 @@
+{
+    "title": "Luscinia",
+    "url": "https://rflachlan.github.io/Luscinia",
+    "description": "bioacoustic archiving, measurement, and analysis",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "NO LICENCE",
+    "taxonomicOrSoundTypeSpecializationIfAny": null,
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "desktop GUI",
+    "dataExploration": null,
+    "organization": "database management and recording archiving",
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": "measures acoustic signals as contours with dynamic time warping algorithm",
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

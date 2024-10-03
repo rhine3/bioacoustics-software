@@ -1,0 +1,23 @@
+{
+    "title": "soundClass",
+    "url": "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13964?af=R",
+    "description": "audio annotation and training and prediction with neural network classifiers in R",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "GPL v3",
+    "taxonomicOrSoundTypeSpecializationIfAny": null,
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "R",
+    "dataExploration": null,
+    "organization": "create SQL database of recordings",
+    "annotation": "graphical user interface for sound annotation",
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": "train and predict with CNNs",
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": "the CNN architecture used is small, in order to make training computationally feasible in R"
+}

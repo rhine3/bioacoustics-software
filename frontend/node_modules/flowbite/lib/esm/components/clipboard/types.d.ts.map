@@ -1,0 +1,1 @@
+{"version":3,"file":"types.d.ts","sourceRoot":"","sources":["../../../../src/components/clipboard/types.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,sBAAsB,EAAE,MAAM,aAAa,CAAC;AAErD,MAAM,CAAC,OAAO,MAAM,oBAAoB,GAAG;IACvC,YAAY,EAAE,OAAO,CAAC;IACtB,WAAW,CAAC,EAAE,MAAM,CAAC;IACrB,MAAM,CAAC,EAAE,CAAC,SAAS,EAAE,sBAAsB,KAAK,IAAI,CAAC;CACxD,CAAC"}

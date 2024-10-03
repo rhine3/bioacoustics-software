@@ -1,0 +1,18 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a.text-href {
+  color: #1E429F !important;
+  text-decoration: none;
+}
+
+a.text-href:hover {
+  color: green;
+  text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+{
+    "title": "BirdVoxDetect",
+    "url": "https://github.com/BirdVox/birdvoxdetect",
+    "description": "machine learning-based detection for nocturnal flight calls",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "MIT",
+    "taxonomicOrSoundTypeSpecializationIfAny": "North American bird nocturnal flight calls",
+    "ecosystemSpecializationIfAny": "terrestrial",
+    "specificHardware": null,
+    "type": "command line, Python",
+    "dataExploration": null,
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": "machine learning-based detection for nocturnal flight calls",
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

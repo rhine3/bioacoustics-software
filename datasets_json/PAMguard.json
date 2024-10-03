@@ -1,0 +1,23 @@
+{
+    "title": "PAMguard",
+    "url": "https://www.pamguard.org",
+    "description": "graphical interface for creating acoustic pipelines for sound analysis, classification, and detection",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "GPL v3",
+    "taxonomicOrSoundTypeSpecializationIfAny": "marine and cetacean; specific tools for some taxa",
+    "ecosystemSpecializationIfAny": "marine",
+    "specificHardware": null,
+    "type": "desktop GUI",
+    "dataExploration": "spectrogram visualization",
+    "organization": "organize array locations",
+    "annotation": null,
+    "soundProcessingFeatures": "wide variety of sound processing application",
+    "acousticParameterMeasurement": "wide variety of plugins for acoustic parameter measurement, e.g. envelope tracing, LTSA",
+    "localization": "extensive variety of localization features",
+    "detectorFeatures": "detectors for variety of marine vocalizations",
+    "classifierFeatures": "plugins for many purposes, e.g. pretrained discriminant analysis, music information retrieval, and random forest classifiers for marine whistles and dolphins",
+    "metadataStandardWipCategory": "Tethys",
+    "toBeRemovedWipCategory": null,
+    "comments": "very long-lived and continuously maintained modular software; for more info on available plugins see here: https://www.pamguard.org/11_PluginModules.html#sound_processing"
+}

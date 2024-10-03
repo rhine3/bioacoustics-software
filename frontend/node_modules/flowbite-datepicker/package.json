@@ -1,0 +1,78 @@
+{
+  "name": "flowbite-datepicker",
+  "version": "1.3.0",
+  "description": "A Tailwind CSS powered datepicker built with vanilla JavaScript and Flowbite",
+  "main": "dist/main.cjs.js",
+  "module": "dist/main.esm.js",
+  "exports": {
+    ".": {
+      "require": "./dist/main.cjs.js",
+      "import": "./dist/main.esm.js"
+    },
+    "./Datepicker": {
+      "require": "./dist/Datepicker.cjs.js",
+      "import": "./dist/Datepicker.esm.js"
+    },
+    "./DateRangePicker": {
+      "require": "./dist/DateRangePicker.cjs.js",
+      "import": "./dist/DateRangePicker.esm.js"
+    },
+    "./locales": {
+      "require": "./dist/locales/index.cjs.js",
+      "import": "./dist/locales/index.esm.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/themesberg/tailwind-datepicker"
+  },
+  "homepage": "https://flowbite.com/docs/plugins/datepicker/",
+  "scripts": {
+    "build:js": "rollup -c",
+    "build:locales": "node scripts/build-locales.js",
+    "build": "npm run build:js && npm run build:locales && npx tailwindcss -o tailwind.css",
+    "minify:js": "node scripts/minify-js.js",
+    "minify": "npm run minify:js",
+    "make:js": "npm run build:js && npm run minify:js",
+    "make": "npm run build && npm run minify",
+    "test:lib": "mocha -r esm test/unit/lib",
+    "test:unit": "mocha -r esm test/unit",
+    "test": "npm run test:lib && npm run test:unit"
+  },
+  "keywords": [
+    "datepicker",
+    "tailwind",
+    "vanilla",
+    "javascript"
+  ],
+  "author": "Flowbite & Hidenao Miyamoto",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "autoprefixer": "^10.4.0",
+    "bootstrap4": "npm:bootstrap@^4.5.3",
+    "bootstrap5": "npm:bootstrap@^5.0.1",
+    "bulma": "^0.9.1",
+    "bulma-tooltip": "^3.0.2",
+    "cssnano": "^4.1.10",
+    "docsify-cli": "^4.4.2",
+    "esm": "^3.2.25",
+    "foundation-sites": "^6.6.3",
+    "jsdom": "^16.4.0",
+    "mocha": "^8.2.1",
+    "postcss": "^8.4.1",
+    "rollup": "^2.35.1",
+    "simulant": "^0.2.2",
+    "sinon": "^9.2.2",
+    "tailwindcss": "^3.3.5",
+    "uglify-es": "^3.3.9",
+    "unexpected": "^12.0.0"
+  },
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "flowbite": "^2.0.0"
+  }
+}

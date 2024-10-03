@@ -1,0 +1,23 @@
+{
+    "title": "audioset_soundscape_feats_sethi2019",
+    "url": "https://github.com/sarabsethi/audioset_soundscape_feats_sethi2019",
+    "description": "GitHub repo for using machine learned features for soundscape analyses",
+    "paidOrFree": "free",
+    "codeAvailable": "N",
+    "licenseWipCategory": "NO LICENCE",
+    "taxonomicOrSoundTypeSpecializationIfAny": null,
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "Python",
+    "dataExploration": null,
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": "feature extractor based on VGGish CNN",
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": null,
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": "Original paper: https://doi.org/10.1073/pnas.2004702117"
+}

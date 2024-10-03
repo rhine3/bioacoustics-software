@@ -1,0 +1,23 @@
+{
+    "title": "DAS",
+    "url": "https://github.com/janclemenslab/das",
+    "description": "method for automatically annotating song from raw audio recordings based on a deep neural network",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "MIT",
+    "taxonomicOrSoundTypeSpecializationIfAny": "geared toward segmenting laboratory animal vocalizations",
+    "ecosystemSpecializationIfAny": "captive animals",
+    "specificHardware": null,
+    "type": "desktop GUI",
+    "dataExploration": null,
+    "organization": null,
+    "annotation": "manually or automatically create and edit annotations",
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": "train neural network to segment audio based on annotated sounds",
+    "classifierFeatures": "unsupervized classification of songs",
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}

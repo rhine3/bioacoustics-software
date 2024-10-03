@@ -1,0 +1,23 @@
+{
+    "title": "Vesper",
+    "url": "https://github.com/HaroldMills/Vesper",
+    "description": "avian nocturnal flight call analysis",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "MIT",
+    "taxonomicOrSoundTypeSpecializationIfAny": "nocturnal flight calls",
+    "ecosystemSpecializationIfAny": "terrestrial",
+    "specificHardware": null,
+    "type": "web GUI",
+    "dataExploration": "graphical interface for viewing nocturnal flight call recordings",
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": null,
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": "implements BirdVoxDetect and BirdVoxClassify",
+    "metadataStandardWipCategory": null,
+    "toBeRemovedWipCategory": null,
+    "comments": null
+}
