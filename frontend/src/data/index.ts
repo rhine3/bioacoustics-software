@@ -19,8 +19,8 @@ interface DataEntry {
     localization: string | null;
     detectorFeatures: string | null;
     classifierFeatures: string | null;
-    metadataStandardWipCategory: string | null;
-    toBeRemovedWipCategory: string | null;  // Added based on the JSON structure
+    // metadataStandardWipCategory: string | null;
+    // toBeRemovedWipCategory: string | null;  // Added based on the JSON structure
     comments: string | null;
 }
 
