@@ -1,0 +1,57 @@
+name: Deploy to Github Pages
+
+on:
+  push:
+    branches: ['main']
+  pull_request:
+    branches: ['main']
+
+jobs:
+  build:
+    name: Build  # Defines the name of the build job.
+    runs-on: ubuntu-latest  # Specifies the operating system for the job.
+    defaults:
+      run:
+        working-directory: frontend # The working directory path
+
+    steps:
+      - name: Checkout Repo  # Checks out the repository.
+        uses: actions/checkout@v4
+
+      - name: Create Node Environment  # Sets up Node.js environment.
+        uses: actions/setup-node@v4
+        with: 
+          node-version: 22.x
+      
+      - name: Install Packages and Build Application  # Installs npm packages and builds the Vue.js application.
+        run: |
+          npm ci
+          npm run build
+
+      - name: Setup Pages  # Configures pages for deployment.
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact  # Uploads the build artifact.
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './frontend/dist'
+  deploy:
+    name: Deploy Application
+    needs: build
+    if: ${{ github.event_name == 'push' }}
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # Grants write permission to deploy to Pages.
+      id-token: write   # Grants write permission to verify the deployment source.
+
+    environment:
+      name: github-pages  # Specifies the environment for deployment.
+      url: ${{ steps.deployment.outputs.page_url }}  # Retrieves the deployment URL from the previous deployment step.
+
+    runs-on: ubuntu-latest  # Specifies the operating system for the deployment job.
+    steps:
+      - name: Deploy to GitHub Pages  # Deploys the application to GitHub Pages.
+        id: deployment
+        uses: actions/deploy-pages@v4  # Specifies the version of the deployment action.
