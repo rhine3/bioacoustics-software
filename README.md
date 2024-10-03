@@ -1,7 +1,6 @@
 # Bioacoustics Software Database
 
-The Bioacoustics Software Database is a [website](https://rhine3.github.io/bioacoustics-software/) and associated [spreadsheet](https://docs.google.com/spreadsheets/d/1Ba1MY4o5Sm1f08IekJcbxAtSjkDN71Z1RZ42kzrofJ0/edit#gid=0) that pulls together current software used in bioacoustics.
-
+The Bioacoustics Software Database is a [website](https://rhine3.github.io/bioacoustics-software/) and associated [spreadsheet](https://docs.google.com/spreadsheets/d/1Ba1MY4o5Sm1f08IekJcbxAtSjkDN71Z1RZ42kzrofJ0/edit#gid=0) listing software currently used in bioacoustics.
 
 A variety of free and paid software is available for bioacoustic analyses. Software packages vary from complete graphical interfaces, to command-line interfaces, to utility libraries that can be used to create analysis pipelines in Python, R, or other programming languages.
 
@@ -20,4 +19,4 @@ You should always judge the performance of an analysis method by its performance
 ## Citation
 Please cite as:
 
-> Rhinehart, T. A., Nicholson, D., Freeland-Haynes, L., Sochat, V., & Kitzes, J. (2024). Bioacoustics Software Database (v0.2). Zenodo. https://doi.org/10.5281/zenodo.7686203
+> Rhinehart, T. A.; Freeland-Haynes, L.; Nossan, H.; Viotti, L.; Angonin, C.; & Kitzes, J. (2024). Bioacoustics Software Database (v1.0). Zenodo. https://doi.org/10.5281/zenodo.7686203
