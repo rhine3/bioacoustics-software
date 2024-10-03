@@ -23,8 +23,8 @@ var nameLookup: { [key: string]: string } = {
     "localization": "Localization",
     "detectorFeatures": "Detector features",
     "classifierFeatures": "Classifier features",
-    "metadataStandardWipCategory": "Metadata standard [WIP category]",
-    "toBeRemovedWipCategory": "To be removed [WIP category]",
+    // "metadataStandardWipCategory": "Metadata standard [WIP category]",
+    // "toBeRemovedWipCategory": "To be removed [WIP category]",
     "comments": "Comments"
 };
 
