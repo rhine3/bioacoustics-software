@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "automated segmentation",
     "classifierFeatures": "training convolutional neural network classifier",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

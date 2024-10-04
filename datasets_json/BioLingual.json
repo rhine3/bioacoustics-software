@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": null,
     "classifierFeatures": "zero-shot bioacoustic classifier using text",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": "Also includes AnimalSpeak dataset"
 }

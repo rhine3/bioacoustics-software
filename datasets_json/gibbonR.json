@@ -4,7 +4,7 @@
     "description": "train neural networks, GMMs, and others",
     "paidOrFree": "free",
     "codeAvailable": "Y",
-    "licenseWipCategory": "NO LICENCE",
+    "licenseWipCategory": null,
     "taxonomicOrSoundTypeSpecializationIfAny": null,
     "ecosystemSpecializationIfAny": null,
     "specificHardware": null,
@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "SVM and band-limited energy detector",
     "classifierFeatures": "create random forest and SVM classifiers using MFCCs",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

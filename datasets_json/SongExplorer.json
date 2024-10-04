@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": null,
     "classifierFeatures": "train deep learning algorithm to segment animal sounds",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

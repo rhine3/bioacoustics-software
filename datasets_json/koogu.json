@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": null,
     "classifierFeatures": "create flexible deep learning models via TensorFlow",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

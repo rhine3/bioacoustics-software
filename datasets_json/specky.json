@@ -4,7 +4,7 @@
     "description": "simple GUI for reviewing short audio clips",
     "paidOrFree": "free",
     "codeAvailable": "Y",
-    "licenseWipCategory": "NO LICENCE",
+    "licenseWipCategory": null,
     "taxonomicOrSoundTypeSpecializationIfAny": null,
     "ecosystemSpecializationIfAny": null,
     "specificHardware": null,
@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": null,
     "classifierFeatures": null,
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "automatic segmentation via algorithm without computer vision",
     "classifierFeatures": null,
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

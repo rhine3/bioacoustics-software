@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": null,
     "classifierFeatures": "train classifier model and train separator model ",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

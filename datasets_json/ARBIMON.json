@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "template-matching detection",
     "classifierFeatures": null,
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": "free storage"
 }

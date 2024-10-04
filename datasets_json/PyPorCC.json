@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "detect clicks in continuous files as an adaptation of the PAMGuard click detector",
     "classifierFeatures": "classify porpoise clicks as high quality, low quality or high-frequency noise",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

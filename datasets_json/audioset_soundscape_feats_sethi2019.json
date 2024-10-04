@@ -4,7 +4,7 @@
     "description": "GitHub repo for using machine learned features for soundscape analyses",
     "paidOrFree": "free",
     "codeAvailable": "N",
-    "licenseWipCategory": "NO LICENCE",
+    "licenseWipCategory": null,
     "taxonomicOrSoundTypeSpecializationIfAny": null,
     "ecosystemSpecializationIfAny": null,
     "specificHardware": null,
@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": null,
     "classifierFeatures": null,
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": "Original paper: https://doi.org/10.1073/pnas.2004702117"
 }

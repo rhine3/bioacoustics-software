@@ -17,7 +17,6 @@
     "localization": "recording synchronization and DOA estimation",
     "detectorFeatures": "several detection algorithms",
     "classifierFeatures": null,
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

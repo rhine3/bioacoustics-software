@@ -17,7 +17,6 @@
     "localization": "position estimation using GPS algorithm that takes pre-calculated TDOAs as inputs",
     "detectorFeatures": null,
     "classifierFeatures": null,
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

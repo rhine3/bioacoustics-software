@@ -17,7 +17,6 @@
     "localization": "localization and beamforming",
     "detectorFeatures": "energy sum detection, spectrogram correlation, repetitive call trains, whistle and moan detections, ROCCA click and whistle ID",
     "classifierFeatures": null,
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": "See documentation: http://bioacoustics.us/docs/Ishmael_3.0_Tutorial.pdf"
 }

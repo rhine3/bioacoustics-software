@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "segmentation based on user-provided frequency and length parameters",
     "classifierFeatures": null,
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

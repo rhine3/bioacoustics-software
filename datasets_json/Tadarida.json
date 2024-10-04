@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "detection",
     "classifierFeatures": "create discriminant analysis classifiers",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": "Three-part software described here: https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13721?campaign=wolearlyview"
 }

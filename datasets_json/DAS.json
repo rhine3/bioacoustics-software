@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "train neural network to segment audio based on annotated sounds",
     "classifierFeatures": "unsupervized classification of songs",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

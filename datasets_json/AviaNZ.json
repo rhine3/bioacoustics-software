@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "wavelet detector",
     "classifierFeatures": "create CNN classifiers to finetune classify wavelet detections; pretrained classifiers for several species",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }
