@@ -4,7 +4,7 @@
     "description": "bat detection in full-spectrum recordings",
     "paidOrFree": "free",
     "codeAvailable": "Y",
-    "licenseWipCategory": "NO LICENCE",
+    "licenseWipCategory": "CC BY 4.0",
     "taxonomicOrSoundTypeSpecializationIfAny": "bat echolocation calls",
     "ecosystemSpecializationIfAny": "terrestrial",
     "specificHardware": null,
@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "bat echolocation call detector for full-spectrum (i.e., not zero-crossing) recordings",
     "classifierFeatures": null,
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

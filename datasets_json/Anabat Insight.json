@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "bat call detection and custom filtering in full-spectrum and zero-crossing recordings",
     "classifierFeatures": "create decision tree classifiers and support third-party ID algorithms",
-    "metadataStandardWipCategory": "GUANO",
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

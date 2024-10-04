@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "offers \"compressed view\" of detections",
     "classifierFeatures": "pretrained classifier for North American bats using extracted acoustic features",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

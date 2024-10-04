@@ -1,8 +1,8 @@
 {
-    "title": "Raven Pro",
-    "url": "https://ravensoundsoftware.com/software/raven-pro",
+    "title": "Raven Lite",
+    "url": "https://ravensoundsoftware.com/software/raven-lite",
     "description": "general bioacoustic listening and annotation",
-    "paidOrFree": "paid; reduced-price options",
+    "paidOrFree": "free",
     "codeAvailable": "N",
     "licenseWipCategory": null,
     "taxonomicOrSoundTypeSpecializationIfAny": null,
@@ -11,13 +11,12 @@
     "type": "desktop GUI",
     "dataExploration": "spectrogram visualization and listening",
     "organization": null,
-    "annotation": "sound annotation",
+    "annotation": "sound annotation (only one notes column available in free version)",
     "soundProcessingFeatures": null,
     "acousticParameterMeasurement": "measure power and other basic acoustic features",
     "localization": null,
-    "detectorFeatures": "template-matching, band-limited energy detector",
+    "detectorFeatures": null,
     "classifierFeatures": null,
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
-    "comments": null
+    "removeThisRowBeforePublicationWipCategory": null,
+    "comments": "very long-lived, continuously maintained software; .selections.txt annotation format able to be ported into many applications"
 }

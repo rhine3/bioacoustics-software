@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "energy- and template-based detection; tools to evaluate detection performance",
     "classifierFeatures": null,
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

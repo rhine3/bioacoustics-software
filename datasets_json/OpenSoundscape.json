@@ -17,7 +17,6 @@
     "localization": "localization from synchronized recording arrays",
     "detectorFeatures": "signal processing for sounds with repeating structure (e.g. trills)",
     "classifierFeatures": "create a wide variety of deep learning networks for classification of animal sounds; parallelize classification over CPUs or GPUs",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

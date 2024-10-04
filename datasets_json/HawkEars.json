@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": null,
     "classifierFeatures": "classify sounds of 314 Canadian bird species and common confusion species (e.g. frog species)",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": "also available in Bioacoustics Model Zoo"
 }

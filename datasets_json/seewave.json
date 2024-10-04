@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "compute cross-correlation",
     "classifierFeatures": null,
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

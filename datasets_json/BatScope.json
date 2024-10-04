@@ -1,6 +1,6 @@
 {
     "title": "BatScope",
-    "url": "https://www.wsl.ch/en/services-and-products/software-websites-and-apps/batscope-4.html",
+    "url": "https://www.wsl.ch/en/services-produkte/batscope/",
     "description": "manage, sort, view, and play databases of recordings",
     "paidOrFree": "free",
     "codeAvailable": "N",
@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": null,
     "classifierFeatures": "pretrained classifiers of multiple types (SVM, neural network, etc.) for Swiss bat species",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

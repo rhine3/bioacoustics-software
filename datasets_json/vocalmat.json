@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "neural networks for object detection/call identification",
     "classifierFeatures": "classifier to classify mouse sounds into 12 labels",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

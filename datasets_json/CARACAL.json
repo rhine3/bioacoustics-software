@@ -17,7 +17,6 @@
     "localization": "direction of arrival localization",
     "detectorFeatures": "sound detection for acoustic localization",
     "classifierFeatures": null,
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": "published alongside CARACAL four-microphone hardware; see here: https://www.tandfonline.com/doi/abs/10.1080/09524622.2019.1685408"
 }

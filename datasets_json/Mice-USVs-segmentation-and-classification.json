@@ -4,7 +4,7 @@
     "description": "MATLAB interface to segment and classify mice ultrasonic vocalizations (USVs)",
     "paidOrFree": "free",
     "codeAvailable": "Y",
-    "licenseWipCategory": "NO LICENCE",
+    "licenseWipCategory": null,
     "taxonomicOrSoundTypeSpecializationIfAny": "mouse ultrasonic vocalizations",
     "ecosystemSpecializationIfAny": "captive animals",
     "specificHardware": null,
@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "segmentation algorithm using spectral entropy analysis",
     "classifierFeatures": "uses classifier with hand-selected features (e.g. time, frequency, contour), unlike deep learning where features are determined automatically",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

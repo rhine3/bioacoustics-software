@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "pretrained audio representation model that can be fine-tuned for bioacoustic detection tasks",
     "classifierFeatures": "pretrained audio representation model that can be fine-tuned for bioacoustic classification tasks",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

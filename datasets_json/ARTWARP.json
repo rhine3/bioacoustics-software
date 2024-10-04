@@ -4,7 +4,7 @@
     "description": "estimate frequency sweeps and cluster-classify tonal sounds",
     "paidOrFree": "free",
     "codeAvailable": "N",
-    "licenseWipCategory": "NO LICENCE",
+    "licenseWipCategory": null,
     "taxonomicOrSoundTypeSpecializationIfAny": "tonal sounds (e.g. bottlenose dolphin whistles and killer whale calls); individual animal recognition",
     "ecosystemSpecializationIfAny": "marine",
     "specificHardware": null,
@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": null,
     "classifierFeatures": "create classifier of tonal sounds using ART neural network",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

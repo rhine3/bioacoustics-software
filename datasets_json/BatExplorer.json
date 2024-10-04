@@ -1,6 +1,6 @@
 {
     "title": "BatExplorer",
-    "url": "https://www.batlogger.com/en/products/batexplorer",
+    "url": "https://www.batlogger.com/en/downloads/batexplorer/",
     "description": "organize, annotate, detect, and classify bat call recordings",
     "paidOrFree": "free and paid versions",
     "codeAvailable": "N",
@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "automatic detection",
     "classifierFeatures": "pretrained classifier for UK & European bat species",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

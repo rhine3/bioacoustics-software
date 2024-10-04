@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "detect signals automatically in frequency and time",
     "classifierFeatures": null,
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": "See also: Ohun https://marce10.github.io/ohun/index.html"
 }

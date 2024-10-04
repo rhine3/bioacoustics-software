@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": "clustering with manual identification",
     "classifierFeatures": "pretrained bat classifier for bats of North America, U.K., Europe, Neotropics and South Africa",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

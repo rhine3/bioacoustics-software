@@ -17,7 +17,6 @@
     "localization": "finds TDOAs via cross-correlation",
     "detectorFeatures": "event detection using template cross-correlation",
     "classifierFeatures": "create classifiers using template cross-correlation",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

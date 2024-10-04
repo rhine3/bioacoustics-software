@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": null,
     "classifierFeatures": "create cross-correlation classifiers; semi-active learning approach to create classifiers with little initial training data",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": "Related paper - https://onlinelibrary.wiley.com/doi/full/10.1111/ele.13092"
 }

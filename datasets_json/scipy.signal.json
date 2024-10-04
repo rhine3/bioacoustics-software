@@ -17,7 +17,6 @@
     "localization": "estimate time delays using spectrogram cross-correlation (scipy.signal.correlate)",
     "detectorFeatures": "can be used to implement template-matching using spectrogram cross-correlation",
     "classifierFeatures": null,
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }

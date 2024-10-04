@@ -17,7 +17,6 @@
     "localization": "extensive variety of localization features",
     "detectorFeatures": "detectors for variety of marine vocalizations",
     "classifierFeatures": "plugins for many purposes, e.g. pretrained discriminant analysis, music information retrieval, and random forest classifiers for marine whistles and dolphins",
-    "metadataStandardWipCategory": "Tethys",
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": "very long-lived and continuously maintained modular software; for more info on available plugins see here: https://www.pamguard.org/11_PluginModules.html#sound_processing"
 }

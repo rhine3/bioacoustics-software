@@ -4,7 +4,7 @@
     "description": "examples of common bioacoustic workflows in Python",
     "paidOrFree": "free",
     "codeAvailable": "Y",
-    "licenseWipCategory": null,
+    "licenseWipCategory": "MIT",
     "taxonomicOrSoundTypeSpecializationIfAny": null,
     "ecosystemSpecializationIfAny": null,
     "specificHardware": null,
@@ -17,7 +17,6 @@
     "localization": null,
     "detectorFeatures": null,
     "classifierFeatures": "examples of setting up machine learning training, feature extraction, and shallow classifier training",
-    "metadataStandardWipCategory": null,
-    "toBeRemovedWipCategory": null,
+    "removeThisRowBeforePublicationWipCategory": null,
     "comments": null
 }
