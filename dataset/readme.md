@@ -1,7 +1,5 @@
 # Update app table
 
-# Update app table
-
 You can directly update the contents of the table in the app with the contents from the [Google Sheets], by running the following script from the root directory of this repository:
 
 
