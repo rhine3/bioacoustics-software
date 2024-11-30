@@ -59,6 +59,10 @@ function sorted(prop: DataEntryKey, ascending: SortDirection) {
     // TODO: explain this
     var mult = ascending === SortDirection.Ascending ? -1 : 1;
     // TODO: sort correctly for all cases (string | number | Date | string[] | undefined) (and not as any)
+    // Case-insensitive comparison for strings
+    if (typeof aVal === "string" && typeof bVal === "string") {
+        return aVal.localeCompare(bVal, undefined, { sensitivity: "base" }) * mult;
+    }
     dataEntries.value.sort(function (a, b) {
         var aVal = a[prop] as any;
         var bVal = b[prop] as any;
