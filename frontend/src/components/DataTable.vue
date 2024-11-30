@@ -79,6 +79,7 @@ function sorted(prop: DataEntryKey, ascending: SortDirection) {
         if (aVal instanceof Date && bVal instanceof Date) {
             return (aVal.getTime() - bVal.getTime()) * mult;
         }
+        // Use type assertion to let TypeScript know that these are arrays of strings
         if (Array.isArray(aVal) && Array.isArray(bVal)) {
             return aVal.join().localeCompare(bVal.join(), undefined, { sensitivity: "base" }) * mult;
         }
@@ -87,8 +88,6 @@ function sorted(prop: DataEntryKey, ascending: SortDirection) {
         return 0;
     });
 }
-
-
     
 
 </script>
