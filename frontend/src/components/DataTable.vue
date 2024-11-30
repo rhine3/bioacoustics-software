@@ -56,22 +56,40 @@ function updateSort(key: string) {
 }
 
 function sorted(prop: DataEntryKey, ascending: SortDirection) {
-    // TODO: explain this
-    var mult = ascending === SortDirection.Ascending ? -1 : 1;
-    // TODO: sort correctly for all cases (string | number | Date | string[] | undefined) (and not as any)
+    // Determine the sorting direction
+    const mult = ascending === SortDirection.Ascending ? -1 : 1;
+
+    // Perform sorting
     dataEntries.value.sort(function (a, b) {
-        var aVal = a[prop] as any;
-        var bVal = b[prop] as any;
-        if (aVal > bVal) {
-            return 1 * mult;
+        const aVal = a[prop];
+        const bVal = b[prop];
+
+        // Handle undefined values gracefully
+        if (aVal === undefined && bVal === undefined) return 0;
+        if (aVal === undefined) return 1 * mult;
+        if (bVal === undefined) return -1 * mult;
+
+        // Handle different types of values
+        if (typeof aVal === "string" && typeof bVal === "string") {
+            return aVal.localeCompare(bVal, undefined, { sensitivity: "base" }) * mult;
         }
-        if (aVal < bVal) {
-            return -1 * mult;
+        if (typeof aVal === "number" && typeof bVal === "number") {
+            return (aVal - bVal) * mult;
         }
+        if (aVal instanceof Date && bVal instanceof Date) {
+            return (aVal.getTime() - bVal.getTime()) * mult;
+        }
+        if (Array.isArray(aVal) && Array.isArray(bVal)) {
+            return aVal.join().localeCompare(bVal.join(), undefined, { sensitivity: "base" }) * mult;
+        }
+
+        // Fallback for unsupported types
         return 0;
     });
 }
 
+
+    
 
 </script>
 
