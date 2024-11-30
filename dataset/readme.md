@@ -4,7 +4,7 @@ You can directly update the contents of the table in the app with the contents f
 
 
 ```
-python dataset/update-from-sheets.py 
+python dataset/update-from-sheets.py #This MUST be run from the root directory of the repository.
 ```
 
 

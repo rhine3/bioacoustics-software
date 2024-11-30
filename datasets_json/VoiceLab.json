@@ -1,0 +1,22 @@
+{
+    "title": "VoiceLab",
+    "url": "https://github.com/Voice-Lab/VoiceLab",
+    "description": "automated human voice analysis",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": "MIT",
+    "taxonomicOrSoundTypeSpecializationIfAny": "adult humans",
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "Python, Desktop GUI",
+    "dataExploration": "view data, spectrograms, and spectra",
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": "normalize amplitude, PSOLA pitch and formant manipulations, truncate sounds, remove silence, reverse sound, invert sound, ",
+    "acousticParameterMeasurement": "calculate acoustic indices",
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": null,
+    "removeThisRowBeforePublicationWipCategory": null,
+    "comments": null
+}
