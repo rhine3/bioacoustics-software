@@ -19,6 +19,6 @@ You should always judge the performance of an analysis method by its performance
 ## Citation
 Please cite as:
 
-> Rhinehart, T. A.; Freeland-Haynes, L.; Nossan, H.; Viotti, L.; Angonin, C.; & Kitzes, J. (2024). Bioacoustics Software Database (v1.0). Zenodo. https://doi.org/10.5281/zenodo.7686203
+> Rhinehart, T. A.; Freeland-Haynes, L.; Nossan, H.; Viotti, L.; Angonin, C.; & Kitzes, J. (2024). Bioacoustics Software Database (v0.3). Zenodo. 10.5281/zenodo.7686202
 
 The Bioacoustics Software Database's website was adapted from Céline Angonin's [bioacoustics datasets website](https://bioacoustic-ai.github.io/bioacoustics-datasets/) with her generous permission.
