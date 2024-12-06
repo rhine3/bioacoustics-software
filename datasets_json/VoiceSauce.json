@@ -1,0 +1,22 @@
+{
+    "title": "VoiceSauce",
+    "url": "https://phonetics.ucla.edu/voicesauce/",
+    "description": "automated human voice measurement",
+    "paidOrFree": "free",
+    "codeAvailable": "Y",
+    "licenseWipCategory": null,
+    "taxonomicOrSoundTypeSpecializationIfAny": "humans",
+    "ecosystemSpecializationIfAny": null,
+    "specificHardware": null,
+    "type": "MATLAB",
+    "dataExploration": null,
+    "organization": null,
+    "annotation": null,
+    "soundProcessingFeatures": null,
+    "acousticParameterMeasurement": "automatically extract common human voice measurements",
+    "localization": null,
+    "detectorFeatures": null,
+    "classifierFeatures": null,
+    "removeThisRowBeforePublicationWipCategory": null,
+    "comments": null
+}
