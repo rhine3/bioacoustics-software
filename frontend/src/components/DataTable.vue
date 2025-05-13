@@ -134,4 +134,11 @@ function sorted(prop: DataEntryKey, ascending: SortDirection) {
     height: 550px;
     overflow-y: scroll;
 }
+
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #f9fafb; /* or white */
+    z-index: 10;
+}
 </style>
