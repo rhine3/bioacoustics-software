@@ -145,9 +145,10 @@ const filteredEntries = computed(() => {
             <tbody>
                 <tr v-for="entry in filteredEntries" v-on:click="openModal(entry, $event)"
                 class="bg-white border-b hover:bg-gray-100 cursor-pointer">
-                    <th v-for="key in visibleKeys" scope="row"
-                        class="px-6 py-4 font-medium max-w-6 text-gray-900 whitespace-nowrap">
-                        <div class="truncate" v-html="getData(entry, key)"></div>
+                    <th v-for="key in visibleKeys"
+                        scope="row"
+                        class="px-6 py-4 font-medium max-w-xs text-gray-900 align-top break-words" >
+                        <div v-html="getData(entry, key)"></div>
                     </th>
                 </tr>
             </tbody>
