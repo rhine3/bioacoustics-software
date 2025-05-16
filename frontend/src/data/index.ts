@@ -26,7 +26,7 @@ interface DataEntry {
 
 export type { DataEntry as DataEntryType };
 
-const files = (import.meta.glob('../../../datasets_json/*.json', { eager: true }) as unknown) as DataEntry[];
+const files = (import.meta.glob('../../../software_json/*.json', { eager: true }) as unknown) as DataEntry[];
 var objects: DataEntry[] = [];
 for (let key in files) {
     objects.push(files[key]);

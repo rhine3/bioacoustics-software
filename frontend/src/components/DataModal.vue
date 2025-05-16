@@ -36,8 +36,9 @@ var nameKeys = Object.keys(nameLookup);
         </template>
         <template #body>
             <div v-for="key in nameKeys" v-if="props.data">
-                <DataGroup v-bind:title="nameLookup[key]" v-bind:content="getData(props.data, key)">
-                </DataGroup>
+                <!-- <DataGroup v-bind:title="nameLookup[key]" v-bind:content="getData(props.data, key)"></DataGroup> -->
+                 <DataGroup :title="nameLookup[key]" :content="getData(props.data, key, true)" />
+
             </div>
 
         </template>

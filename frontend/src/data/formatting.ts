@@ -62,9 +62,13 @@ var functionLookup: { [key: string]: Function } = {
 var functionKeys = Object.keys(functionLookup);
 
 // Actually returns a string!
-function getData(entry: DataEntryType, key: string): any {
+function getData(entry: DataEntryType, key: string, plain = false): any {
     if (!entry) {
         return "";
+    }
+
+    if (plain && key === "title") {
+        return entry["title"];
     }
 
     var propData = entry[key as DataEntryKey];

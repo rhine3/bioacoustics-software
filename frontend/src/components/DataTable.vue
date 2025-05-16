@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import DataModal from "@/components/DataModal.vue";
-import { ref } from "vue";
+import { ref, computed } from "vue";
 import objects, { type DataEntryType } from "../data";
 import { getData, nameLookup } from "../data/formatting";
 type DataEntryKey = keyof DataEntryType;
@@ -78,9 +78,33 @@ function sorted(prop: DataEntryKey, ascending: SortDirection) {
     });
 }
 
+const searchQuery = ref("");
+
+// Computed filtered entries
+const filteredEntries = computed(() => {
+    const query = searchQuery.value.trim().toLowerCase();
+    if (!query) return dataEntries.value;
+
+    return dataEntries.value.filter((entry) => {
+        return visibleKeys.value.some((key) => {
+            const value = getData(entry, key);
+            return String(value).toLowerCase().includes(query);
+        });
+    });
+});
+
 </script>
 
 <template>
+    <div class="sticky top-0 z-10 bg-white mb-4 p-2 shadow-sm">
+            <input
+                v-model="searchQuery"
+                type="text"
+                placeholder="Search..."
+                class="border border-gray-300 rounded px-4 py-2 w-full text-sm"
+            />
+    </div>
+    
     <div class="max-h-32 overflow-y-scroll mb-5">
         <div class="flex flex-wrap place-content-center">
             <div v-for="key in nameKeys.filter(x => !hiddenKeys.includes(x))"
@@ -97,6 +121,7 @@ function sorted(prop: DataEntryKey, ascending: SortDirection) {
     </div>
 
     <div class="data-table overflow-hidden">
+        
         <DataModal ref="modalRef" v-bind:data="currentData"></DataModal>
         <table class="w-full text-sm text-left text-gray-500">
             <thead class="text-xs text-gray-700 uppercase bg-gray-50">
@@ -118,11 +143,12 @@ function sorted(prop: DataEntryKey, ascending: SortDirection) {
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="entry in dataEntries" v-on:click="openModal(entry, $event)"
-                    class="bg-white border-b hover:bg-gray-100 cursor-pointer">
-                    <th v-for="key in visibleKeys" scope="row"
-                        class="px-6 py-4 font-medium max-w-6 text-gray-900 whitespace-nowrap">
-                        <div class="truncate" v-html="getData(entry, key)"></div>
+                <tr v-for="entry in filteredEntries" v-on:click="openModal(entry, $event)"
+                class="bg-white border-b hover:bg-gray-100 cursor-pointer">
+                    <th v-for="key in visibleKeys"
+                        scope="row"
+                        class="px-6 py-4 font-medium max-w-xs text-gray-900 align-top break-words" >
+                        <div v-html="getData(entry, key)"></div>
                     </th>
                 </tr>
             </tbody>
@@ -134,4 +160,13 @@ function sorted(prop: DataEntryKey, ascending: SortDirection) {
     height: 550px;
     overflow-y: scroll;
 }
+
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #f9fafb; /* or white */
+    z-index: 10;
+}
+
+
 </style>
