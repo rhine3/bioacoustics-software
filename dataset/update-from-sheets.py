@@ -53,7 +53,7 @@ def sheet_to_json(google_sheet_url, output_dir, dry_run = False):
 def parse_args():
     parser = argparse.ArgumentParser(description='Convert Google Sheet to JSON files.')
     parser.add_argument('--google_sheet_url', type=str, default= 'https://docs.google.com/spreadsheets/d/1Ba1MY4o5Sm1f08IekJcbxAtSjkDN71Z1RZ42kzrofJ0/edit?gid=0#gid=0', help='URL of the Google Sheet.')
-    parser.add_argument('--output_dir', type=str, default= 'datasets_json', help='Directory to save the JSON files.')
+    parser.add_argument('--output_dir', type=str, default= 'software_json', help='Directory to save the JSON files.')
     parser.add_argument("--dry-run", dest="dry_run", action="store_true", default=False, help = "Don't export outputs.")
     parser.add_argument("--clear-dir", dest="clear_dir", action="store_true", default=False, help = "Delete all JSON files from output_dir")
 
