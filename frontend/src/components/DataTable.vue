@@ -86,7 +86,7 @@ const filteredEntries = computed(() => {
     if (!query) return dataEntries.value;
 
     return dataEntries.value.filter((entry) => {
-        return visibleKeys.value.some((key) => {
+        return nameKeys.some((key) => {
             const value = getData(entry, key);
             return String(value).toLowerCase().includes(query);
         });

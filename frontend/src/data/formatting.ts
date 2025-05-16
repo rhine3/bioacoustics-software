@@ -10,7 +10,7 @@ var nameLookup: { [key: string]: string } = {
     "description": "Description",
     "paidOrFree": "Paid or free",
     "codeAvailable": "Code available",
-    "licenseWipCategory": "Licence [WIP category]",
+    "licenseWipCategory": "Licence",
     "taxonomicOrSoundTypeSpecializationIfAny": "Taxonomic or sound type specialization, if any",
     "ecosystemSpecializationIfAny": "Ecosystem specialization, if any",
     "specificHardware": "Specific Hardware",
