@@ -105,7 +105,7 @@ const filteredEntries = computed(() => {
     />
   </div>
 
-  <div class="max-h-32 overflow-y-scroll mb-5">
+  <div class="mb-5">
     <div class="flex flex-wrap place-content-center">
       <div
         v-for="key in nameKeys.filter(x => !hiddenKeys.includes(x))"
