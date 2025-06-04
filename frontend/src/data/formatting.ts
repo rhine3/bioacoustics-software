@@ -2,9 +2,7 @@ import moment from "moment";
 import { type DataEntryType } from "./index";
 type DataEntryKey = keyof DataEntryType;
 
-
-
-var nameLookup: { [key: string]: string } = {
+const nameLookup: Record<string, string> = {
     "title": "Title",
     "url": "URL",
     "description": "Description",
@@ -23,10 +21,8 @@ var nameLookup: { [key: string]: string } = {
     "localization": "Localization",
     "detectorFeatures": "Detector features",
     "classifierFeatures": "Classifier features",
-    // "metadataStandardWipCategory": "Metadata standard [WIP category]",
-    // "toBeRemovedWipCategory": "To be removed [WIP category]",
     "comments": "Comments"
-};
+} as const;
 
 function formatDate(entry: DataEntryType, key: string) {
     var value = entry[key as DataEntryKey];
@@ -46,36 +42,30 @@ function createLink(href: string | undefined, text: string | undefined) {
 
 // In some cases, we might need to process the data before showing it. (i.e. parse dates)
 // In these cases, define the function here, by keying it with the prop name.
-var functionLookup: { [key: string]: Function } = {
-    // "creators": (entry: DataEntryType, key: string) => {
-    //     var data = entry[key as DataEntryKey] as string[];
-    //     return data ? (data as string[]).join("; ") : "";
-    // },
+const functionLookup: Record<string, (entry: DataEntryType, key: string) => string> = {
     "datePublished": formatDate,
     "title": (entry: DataEntryType, key: string) => {
-        return createLink(entry["url" as DataEntryKey]?.toString(), entry["title" as DataEntryKey]?.toString())
-    },
-    // "paperLink": (entry: DataEntryType, key: string) => { return entry["paperLink"] == null ? "" : createLink(entry["paperLink" as DataEntryKey]?.toString(), "paper link"); }
+        return createLink(entry["url"]?.toString(), entry["title"]?.toString())
+    }
 };
 
-
-var functionKeys = Object.keys(functionLookup);
+const functionKeys = Object.keys(functionLookup);
 
 // Actually returns a string!
-function getData(entry: DataEntryType, key: string, plain = false): any {
+function getData(entry: DataEntryType, key: string, plain = false): string | undefined {
     if (!entry) {
         return "";
     }
 
     if (plain && key === "title") {
-        return entry["title"];
+        return entry["title"]?.toString();
     }
 
-    var propData = entry[key as DataEntryKey];
+    let propData = entry[key as DataEntryKey];
     if (functionKeys.includes(key)) {
         propData = functionLookup[key](entry, key);
     }
-    return propData;
+    return propData?.toString();
 }
 
 export { functionKeys, functionLookup, getData, nameLookup };

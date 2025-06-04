@@ -14,7 +14,9 @@ function showModal() {
     isShowModal.value = true
 }
 
-function hasContent(data: DataEntryType | undefined, key: keyof DataEntryType): boolean {
+type NameLookupKey = keyof typeof nameLookup;
+
+function hasContent(data: DataEntryType | undefined, key: string): boolean {
     if (!data) return false;
     const value = getData(data, key, true);
     console.log(`Key: ${key}, Value:`, value, `Type: ${typeof value}`);
@@ -22,13 +24,13 @@ function hasContent(data: DataEntryType | undefined, key: keyof DataEntryType): 
     if (typeof value === 'string') {
         return value.trim() !== '';
     }
-    // Check if it's an array
-    if (Array.isArray(value)) {
-        return value.length > 0;
-    }
     // Check for null/undefined
     if (value === null || value === undefined) {
         return false;
+    }
+    // Check if it's an array
+    if (Array.isArray(value)) {
+        return (value as unknown[]).length > 0;
     }
     // For other types (numbers, booleans, objects)
     return true;
