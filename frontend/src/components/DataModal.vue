@@ -5,8 +5,6 @@ import { type DataEntryType } from "../data";
 import { getData, nameLookup } from "../data/formatting";
 import DataGroup from "./DataGroup.vue";
 
-
-
 const isShowModal = ref(false);
 
 function closeModal() {
@@ -16,15 +14,34 @@ function showModal() {
     isShowModal.value = true
 }
 
-var props = defineProps({
-    data: Object as PropType<DataEntryType>
+function hasContent(data: DataEntryType | undefined, key: keyof DataEntryType): boolean {
+    if (!data) return false;
+    const value = getData(data, key, true);
+    console.log(`Key: ${key}, Value:`, value, `Type: ${typeof value}`);
+    // Check if it's a non-empty string
+    if (typeof value === 'string') {
+        return value.trim() !== '';
+    }
+    // Check if it's an array
+    if (Array.isArray(value)) {
+        return value.length > 0;
+    }
+    // Check for null/undefined
+    if (value === null || value === undefined) {
+        return false;
+    }
+    // For other types (numbers, booleans, objects)
+    return true;
+}
+
+const props = defineProps({
+    data: {
+        type: Object as PropType<DataEntryType>,
+        required: false
+    }
 })
 
-
 defineExpose({ showModal });
-
-var nameKeys = Object.keys(nameLookup);
-
 </script>
 
 <template>
@@ -35,12 +52,11 @@ var nameKeys = Object.keys(nameLookup);
             </div>
         </template>
         <template #body>
-            <div v-for="key in nameKeys" v-if="props.data">
-                <!-- <DataGroup v-bind:title="nameLookup[key]" v-bind:content="getData(props.data, key)"></DataGroup> -->
-                 <DataGroup :title="nameLookup[key]" :content="getData(props.data, key, true)" />
-
-            </div>
-
+            <template v-for="(value, key) in nameLookup" :key="key">
+                <div v-if="props.data && hasContent(props.data, key)">
+                    <DataGroup :title="value" :content="getData(props.data, key, true)" />
+                </div>
+            </template>
         </template>
         <template #footer>
             <div class="flex justify-between">

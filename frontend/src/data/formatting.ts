@@ -6,14 +6,14 @@ type DataEntryKey = keyof DataEntryType;
 
 var nameLookup: { [key: string]: string } = {
     "title": "Title",
-    "url": "Url",
+    "url": "URL",
     "description": "Description",
     "paidOrFree": "Paid or free",
     "codeAvailable": "Code available",
-    "licenseWipCategory": "Licence [WIP category]",
+    "licenseWipCategory": "Licence",
     "taxonomicOrSoundTypeSpecializationIfAny": "Taxonomic or sound type specialization, if any",
     "ecosystemSpecializationIfAny": "Ecosystem specialization, if any",
-    "specificHardware": "Specific Hardware",
+    "specificHardware": "Specific hardware",
     "type": "Type",
     "dataExploration": "Data exploration",
     "organization": "Organization",
