@@ -1,10 +1,11 @@
 {
   "title": "",
   "url": "",
+  "publicationUrl": "",
   "description": "",
   "paidOrFree": "",
   "codeAvailable": "",
-  "licenseWipCategory": "",
+  "license": "",
   "taxonomicOrSoundTypeSpecializationIfAny": "",
   "ecosystemSpecializationIfAny": "",
   "specificHardware": "",
@@ -13,11 +14,10 @@
   "organization": "",
   "annotation": "",
   "soundProcessingFeatures": "",
-  "acousticParameterMeasurement": "",
+  "acousticIndexMeasurement": "",
+  "acousticFeatureMeasurement": "",
   "localization": "",
   "detectorFeatures": "",
   "classifierFeatures": "",
-  "metadataStandardWipCategory": "",
-  "toBeRemovedWipCategory": "",
   "comments": ""
 }
